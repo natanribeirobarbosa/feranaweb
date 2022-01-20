@@ -70,13 +70,13 @@ header{
     
     text-transform: uppercase;
     list-style-type: none;
-    width: 40%;
+    
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
     display: none;
     animation: animate2 0.1s ease-in-out;
-  padding: 10px;
+  padding: 25px;
     
    
     
@@ -198,7 +198,7 @@ header{
         left: 0;
     }
     .lista1{
-        width: 80%;
+       
         
     }
     
