@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+/*Fundamentais*/
 *{
     margin: 0px;
     padding: 0px;
@@ -12,7 +13,6 @@ body{
    
    
 }
-/*links*/
 a{
     
     text-decoration: none;
@@ -23,8 +23,6 @@ a{
     
 
 }
-
-/*cabeçalho 1*/
 header{
     z-index: 1;
     background-color: #030500;
@@ -36,6 +34,14 @@ header{
     
 }
 
+.container{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: left;
+}
+
+
 
 
 /*navegação 1=Hamburguer e intens*/
@@ -43,13 +49,13 @@ header{
     display: flex;
   
    flex-direction: column;
-    width: 100%;
+   
     max-width: 950px;
-    align-items: end;
+   justify-self: left;
     
     
 }
-/*Lista 1=clicada no menu hamburguer*/
+/*Lista 1= DENTRO do menu hamburguer*/
 .corpo{
     display: flex;
     justify-content: center;
@@ -63,10 +69,10 @@ header{
     display: flex;
     justify-content: start;
 }
-.lista1{
+.lista1,.lista2{
     
     box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.61);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 235, 235);
     
     text-transform: uppercase;
     list-style-type: none;
@@ -74,13 +80,20 @@ header{
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
-    display: none;
+    
     animation: animate2 0.3s linear;
   padding: 25px;
     
    
     
 }
+.lista2{
+    background-color: rgba(235, 235, 235, 0.938);
+    position: absolute;
+    top: 160px;
+    left: 45px;
+}
+
 .lista1 li{
     letter-spacing: 5px;
     /*align-self: center;*/
@@ -92,7 +105,7 @@ header{
    
     
     
-    padding: 5px;
+    padding: 2px;
     /*width: 70%;*/
     
 }
@@ -106,7 +119,8 @@ header{
 }
 
 
-/*logo------------------------------------------------------------*/
+
+/*logo FERA NA WEB------------------------------------------------------------*/
 .logo{
     text-transform: uppercase;
     font-size: 1.4em;
@@ -116,7 +130,7 @@ header{
    font-family: 'Gruppo', cursive;
    font-weight: 900;
    
-   animation: animate 4s linear infinite;
+   animation: animate 3s linear infinite;
    
    letter-spacing: 5px;
    display: flex;
@@ -135,6 +149,7 @@ header{
     background-position: right;
     filter: blur(0%);
     padding-right: 18px;*/
+    text-align: center;
 }
 
 .img1{
@@ -149,69 +164,78 @@ header{
     cursor: pointer;
     
     margin: 1em;
-    align-items: right;
+    
     
     padding: 5px;
 }
-
 .menu-mobile div{
     width: 30px;
     height: 3px;
-    background-color: ghostwhite;
+    background-color: rgb(255, 255, 255);
     margin: 7px;
     border-radius: 10px;
+    
 }
+/*.seta{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  
+    margin-left: -5px;
+    padding: 0px;
+}
+
+
+
+.seta section{
+    display: flex;
+    align-content: center;
+}
+.seta div{
+    width: 10px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    border-radius: 10px;
+    
+}
+.seta1{
+    transform: rotate(40deg);
+}
+.seta2{
+    transform: rotate(-40deg);
+    margin-left: -10px;
+}*/
 
     
    
 /*cabeçalho2*/
-.container{
-    display: flex;
-    justify-content: right;
-}
-.header2{
-    z-index: 0;
-    background-color: #030500;
-    justify-content: center;
-    /*transform: translateY(-200px);*/
-   display: none;
-    animation: animate2 0.3s ;
-    transition: 500ms;
-    
-    
-    
-}
+
 
 @media(max-width:1320px){
-    
     header{
-        justify-content: center;
+        justify-content: left;
     }
+    
     .logo::after{
-        content: "";
-        color: rgba(0, 0, 0, 0);
+        
+        max-width: 120px;
         background-size: contain;
         padding: 0;
-        font-size: 1.9em;
+        font-size: 1em;
     }
     .img1{
         left: 0;
     }
-    .lista1{
-       
+    .nav1{
         
     }
     
-    ul li{
+    .nav1 li{
         letter-spacing: 1px;
         
     }
-    @keyframes animate2{
-        0%{
-            transform: translateY(-25px);
-        }
-        
-    }
+   
 }
 
 
@@ -219,12 +243,15 @@ header{
 @keyframes animate{
     0%,100%{
         filter:hue-rotate(0deg);
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);
        
         
     }
+   
+    
     50%{
         filter:hue-rotate(360deg);
-       
+        text-shadow: 0px 0px 6px rgb(255, 255, 255);
       
     }
 }
