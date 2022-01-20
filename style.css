@@ -9,6 +9,8 @@
 body{
    background-color: rgb(223, 173, 173); 
    
+   
+   
 }
 /*links*/
 a{
@@ -35,11 +37,8 @@ header{
 }
 
 
-/*cabeçalho2*/
-.header2{
-    justify-content: left;
-}
-/*navegação 1*/
+
+/*navegação 1=Hamburguer e intens*/
 .nav1{
     display: flex;
   
@@ -50,20 +49,34 @@ header{
     
     
 }
+/*Lista 1=clicada no menu hamburguer*/
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+.listas{
+    width: 100%;
+    max-width: 1303.91px;
+    padding: 15px;
+}
+.cont_list1{
+    display: flex;
+    justify-content: end;
+}
 .lista1{
     
-    
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.61);
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    
     text-transform: uppercase;
     list-style-type: none;
-    
+    width: 40%;
     flex-direction: column;
     justify-content: center;
-    
+    border-radius: 20px;
     display: none;
     animation: animate2 0.1s ease-in-out;
-  
+  padding: 10px;
     
    
     
@@ -71,15 +84,15 @@ header{
 .lista1 li{
     letter-spacing: 5px;
     /*align-self: center;*/
-    border-top:1px solid black;
+    
     display: flex;
-    justify-content: center;
+    justify-content: end;
     font-size: 1.1em;
     cursor: pointer;
    
     
-    justify-content: center;
-    padding: 10px;
+    
+    padding: 5px;
     /*width: 70%;*/
     
 }
@@ -184,10 +197,20 @@ header{
     .img1{
         left: 0;
     }
-  
+    .lista1{
+        width: 80%;
+        
+    }
     
     ul li{
         letter-spacing: 1px;
+        
+    }
+    @keyframes animate2{
+        0%{
+            transform: translateY(-25px);
+        }
+        
     }
 }
 
@@ -201,12 +224,13 @@ header{
     }
     50%{
         filter:hue-rotate(360deg);
+       
       
     }
 }
 @keyframes animate2{
     0%{
-        transform: translateY(-25px);
+        opacity: 50%;
     }
     
 }
