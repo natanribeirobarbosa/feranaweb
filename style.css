@@ -7,41 +7,122 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+    --degrade2:rgba(255, 0, 0, 0.616);
+
+    --degrade4:rgba(255, 0, 255, 0.781);
+    --degrade1:rgba(0, 255, 255, 0.76);
+    --degrade3:rgba(0, 255, 85, 0.603);
+
+    
+}
 body{
-   background-color: rgb(223, 173, 173); 
+ 
+  /* background-image: url(https://safesea.com.br/wp-content/uploads/2021/02/Ataques-de-%C3%A1gua-viva-scaled.jpg);
    
-   
+   background-repeat: no-repeat;*/
+   background-color: white;
    
 }
 a{
     
     text-decoration: none;
     padding: 0.4em;
-    
-    color:rgb(0, 255, 255);
+   
+    color:rgb(0, 0, 0)
    
     
 
 }
+a:hover{
+    text-decoration: underline;
+    transition: 200ms;
+}
+li{
+    list-style-type: none;
+}
 header{
-    z-index: 1;
-    background-color: #030500;
+    
+    background-color: rgb(238, 238, 238);
     width: 100%;
     display: flex;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    
     align-items: center;
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.322);
     
 }
 
+/*conteiner que hospeda od itens do cabeçalho*/
 .container{
     width: 100%;
-    max-width: 1250px;
+  max-width: 1250px;
     display: flex;
     justify-content: left;
+    
+}
+
+footer{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.322);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    z-index: -1;
+}
+
+/*conteiner que hospeda o conteiner que hospeda os articles*/
+#menu{
+    display: flex;
+    justify-content: center;
 }
 
 
+
+
+
+
+
+
+
+
+
+/*conteúdos do site
+---------------------------------------------------------------------------------------------------------------
+*/
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.container2 div{
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    
+}
+.container2 div article{
+   border-radius: 20px;
+   background-color: rgb(253, 253, 253);
+   box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.226);
+   height: 450px;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   padding: 25px;
+   
+}
+.container2 div article .img{
+    
+    background-image: url(1fab805dc3dd2aab386b855e4ef9748c.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 50%;
+}
 
 
 /*navegação 1=Hamburguer e intens*/
@@ -55,82 +136,150 @@ header{
     
     
 }
+
 /*Lista 1= DENTRO do menu hamburguer*/
 .corpo{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    width: 100%;
+    max-width: 1250px;
+    
+    position: relative;
 }
 .listas{
     width: 100%;
-    max-width: 1303.91px;
-    padding: 15px;
-}
-.cont_list1{
-    display: flex;
-    justify-content: start;
-}
-.lista1,.lista2{
+   max-width: 610px;;
     
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.61);
-    background-color: rgb(235, 235, 235);
-    
-    text-transform: uppercase;
-    list-style-type: none;
-    
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 20px;
-    
-    animation: animate2 0.3s linear;
-  padding: 25px;
-    
-   
-    
-}
-.lista2{
-    background-color: rgba(235, 235, 235, 0.938);
     position: absolute;
-    top: 160px;
-    left: 45px;
+   
+}
+#cont_list1{
+   padding: 10px;
 }
 
-.lista1 li{
-    letter-spacing: 5px;
-    /*align-self: center;*/
-    
+
+#lista0,#lista1,#lista2,#lista3,#listaa,#listab,#listac,#listad,#listae{
     display: flex;
-    justify-content: end;
-    font-size: 1.1em;
-    cursor: pointer;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(236, 236, 236, 0.349);
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.575);
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    border-top: 40px solid rgba(0, 0, 0, 0.582);
+    columns: 0;
+    animation: animate 0.150s ease-in;
+    margin: 10px;
+}
+#lista0{
+    background-image:var(--degrade3);
+    grid-column: 1;
+    grid-row: 1;
+    
+    }
+#lista1{
+background-image: var(--degrade2);
+grid-column: 1;
+    grid-row: 2;
+}
+
+#lista2{
+    background-image:var(--degrade2);
+    grid-column: 1;
+    grid-row: 3;
+    }
+#lista3{
+    background-image:var(--degrade3);
+    grid-column: 1;
+    grid-row: 4;
+    }
+#lista{
+    grid-column: 2;
+    grid-row: 1;
+    opacity: 0%;
+    }
+    #listaa{
+        background-image: var(--degrade2);
+    }
+    #listab{
+        background-image: var(--degrade2);
+    }
+    #listac{
+        background-image: var(--degrade1);
+    }
+
+
+
+#lista0 li,#lista1 li,#lista2 li,#lista3 li{
+    display: flex;
+    
+    justify-content: right;
+}
+
+
+.itensdomenu/*(links)*/{
+    
+    
+   margin: 3px;
+    justify-content: right;
+   position: relative;
+   display: flex;
+   font-size: 1.1em;
+   align-items: center;
+   transition: 200ms;
    
+}
+#link1,#link2,#link3{
+    color: rgb(0, 0, 0);
+   background-color: none;
+    border-radius: 10px;
+}
+.x{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    top: -30px;
+    left: 15px;
+    cursor:pointer;
+
+}
+.x:hover{
+    opacity: 0.7;
+    transition: 200ms;
+}
+
+
+/*#x1,#x2,#x3{
+    position: absolute;
+    right: -10px;
+    top:10px;
+    opacity: 0%;
+    background-color: rgb(243, 18, 18);
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    margin: 5px;
     
     
-    padding: 2px;
-    /*width: 70%;*/
-    
-}
-.lista1 li:nth-of-type(1){
-    border-top: none;
-}
-.lista1 li a{
-   
-    color: black;
-    font-weight: 500;
-}
+}*/
 
 
 
 /*logo FERA NA WEB------------------------------------------------------------*/
 .logo{
     text-transform: uppercase;
+    
+    border-radius: 30px;
     font-size: 1.4em;
-    color:rgb(51 216 221);
   align-items: center;
    margin: 10px;
    font-family: 'Gruppo', cursive;
    font-weight: 900;
    
-   animation: animate 3s linear infinite;
+   
    
    letter-spacing: 5px;
    display: flex;
@@ -140,8 +289,8 @@ header{
 .logo::after{
    padding: 0;
     content: 'FERA NA WEB';
-    font-size: 1.5em;
-    color: snow;
+    
+    color: rgb(0, 0, 0);
    /* background-image: url(internet1.png);
     background-position: center;
     background-size: contain;
@@ -150,30 +299,33 @@ header{
     filter: blur(0%);
     padding-right: 18px;*/
     text-align: center;
+    
 }
 
 .img1{
-   
+    
     position: relative;
-    left: 306px;
+    right: 0px;
 }
 
 
-/*MENU MOBILE*/
-.menu-mobile{
+/*MENU MOBILE "hamburguer"*/
+#menu-mobile{
     cursor: pointer;
     
+    border-radius: 100%;
     margin: 1em;
     
     
-    padding: 5px;
+    padding: 7px;
 }
-.menu-mobile div{
-    width: 30px;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
+#menu-mobile div{
+    width: 27px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
     margin: 7px;
-    border-radius: 10px;
+    border-radius:100px;
+    
     
 }
 /*.seta{
@@ -227,9 +379,7 @@ header{
     .img1{
         left: 0;
     }
-    .nav1{
-        
-    }
+  
     
     .nav1 li{
         letter-spacing: 1px;
@@ -241,24 +391,12 @@ header{
 
 /*animações*/
 @keyframes animate{
-    0%,100%{
-        filter:hue-rotate(0deg);
-        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0);
+    0%{
+        transform: scale(0%);
+        opacity: 0%;
+        
        
         
     }
-   
-    
-    50%{
-        filter:hue-rotate(360deg);
-        text-shadow: 0px 0px 6px rgb(255, 255, 255);
-      
-    }
-}
-@keyframes animate2{
-    0%{
-       opacity: 0%;
-    }
-   
-    
+
 }
