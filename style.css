@@ -8,11 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --degrade2:rgba(255, 0, 0, 0.616);
+    --degrade2:rgba(255, 0, 0, 0.85);
 
     --degrade4:rgba(255, 0, 255, 0.781);
-    --degrade1:rgba(0, 255, 255, 0.76);
-    --degrade3:rgba(0, 255, 85, 0.603);
+    --degrade1:rgba(0, 255, 255, 0.95);
+    --degrade3:rgba(0, 255, 85, 0.85);
+
+    
 
     
 }
@@ -21,7 +23,10 @@ body{
   /* background-image: url(https://safesea.com.br/wp-content/uploads/2021/02/Ataques-de-%C3%A1gua-viva-scaled.jpg);
    
    background-repeat: no-repeat;*/
-   background-color: white;
+  
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   display: flex;
+   justify-content: center;
    
 }
 a{
@@ -35,180 +40,382 @@ a{
 
 }
 a:hover{
-    text-decoration: underline;
+    
     transition: 200ms;
 }
 li{
     list-style-type: none;
 }
-header{
+
+#corpo{
+    border-radius:  3em 3em 0em 0em;
+   
+    position: relative;
     
-    background-color: rgb(238, 238, 238);
+}
+footer{
+    background-image: linear-gradient(to top,rgb(138, 138, 138), white);
+    width: 100%;
+    box-shadow: 0px 0px 15px 01.5px rgba(0, 0, 0, 0.336);
+    border-radius: -1em 1em 0em 0em;
+    bottom: 0;
+    height: 100px;
+   
+}
+
+    
+                                /*CABEÇALHO*/
+
+
+header{
+    border-radius: 1em;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
     
+    
     align-items: center;
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.322);
+    
     
 }
 
-/*conteiner que hospeda od itens do cabeçalho*/
-.container{
+/*conteiner que hospeda o container(.container1-2) que hospeda os itens do cabeçalho*/ 
+.container1{
     width: 100%;
-  max-width: 1250px;
+    max-width: 1500px;
     display: flex;
     justify-content: left;
+    border-radius: 1em;
+}
+
+
+
+
+.container1-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1500px;
+    justify-content: space-between;
+    background-image: linear-gradient(to top,silver, white);
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.774);
+    border-radius:  1em 1em 1em 1em;
+}
+
+/*logo FERA NA WEB*/
+.logo{
+    text-transform: none;
+    display: inline;
+    border-radius: 30px;
+    font-size: 1.5em;
+  align-items: center;
+   margin: 10px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+   
+  
+   display: flex;
+   
+}
+.logo::after{
+    content: 'Web Manual';
+    color: rgb(39, 39, 39);
+   /* background-image: url(internet1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    filter: blur(0%);
+    padding-right: 18px;*/
+    
+    
+    
+}
+.logo:hover{
+    text-decoration: underline;
+    color: rgb(39, 39, 39);
+   
+}
+.img1{
+    margin: 10px;
+    position: relative;
+    right: 0px;
+}
+
+
+
+/*menu hamburguer*/
+#menu-mobile{
+    align-self: center;
+    cursor: pointer;
+    justify-self: right;
+    border-radius: 100%;
+    margin: 1em;
+    height: 10px;
+    display: flex;
+    align-items: center;
+  
+    padding: 1em;
+}
+#menu-mobile section div{
+    width: 1.5em;
+    height: 4px;
+    background-color: rgb(54, 54, 54);
+    margin: 3px;
+    border-radius:100px;
+}
+#menu-mobile:hover{
+    opacity: 70%;
+    transition: 400ms;
+}
+
+
+
+                                /*ARTIGOS*/
+/*conteiner que hospeda o conteiner que hospeda os articles principais*/
+.cont-artigos1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     
 }
 
-footer{
-    background-color: rgb(238, 238, 238);
+/*container que hospeda os articles PRINCIPAIS*/
+#artigos-p{
     width: 100%;
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.322);
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    z-index: -1;
+    max-width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows:  minmax(275px, auto);
+    padding: 1.5em;
+    
+    
 }
 
-/*conteiner que hospeda o conteiner que hospeda os articles*/
+/*Artigos principais*/
+#artigos-p article{
+    margin: 0.4em;
+   border-radius: 05px;
+   background-color: rgb(253, 253, 253);
+   box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.404);
+   background-image: linear-gradient(to top, rgb(0, 0, 0) , transparent 50%),url(https://cloud.estacaonerd.com/wp-content/uploads/2020/04/24145617/TINTIM.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 1.5em;
+ 
+}
+#artigos-p article:hover{
+    
+   text-decoration: underline;
+   color: white;
+  
+}
+#artigos-p article h1{
+    color: white;
+    width: 100%;
+    
+    
+}
+
+/*Uma thumb-nail um pouco maior que as outras dos artigos principais*/
+#artigos-p article:nth-of-type(1){
+    grid-column: 1/1;
+    grid-row: 1/3;
+}
+
+#artigos-p article:nth-of-type(1) h1{
+    font-size: 2.2em;
+}
+
+/*Container que hospeda o container que hospeda os containers COMUNS*//*
+#cont-artigos2{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 24px;
+} */
+
+/*Container que hospeda os artigos comuns*/
+#artigos-c{
+    width:80%;
+    max-width: 1200px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    
+    
+}
+#artigos-c article{
+    justify-self: center;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    
+    margin: auto;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.404);
+    min-height: 250px;
+    border-radius: 5.5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+ 
+    
+    
+}
+#artigos-c article .img{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://cloud.estacaonerd.com/wp-content/uploads/2020/04/24145617/TINTIM.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 5.5px;
+}
+
+#artigos-c article .titulos{
+    
+    padding: 20px;
+display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    flex-wrap: wrap;
+    
+}
+#artigos-c article .titulos h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#artigos-c article .titulos h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+                                            /*ANUNCIOS*/
+.anunciosl{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 34);
+    left: 0;
+    margin:15px;
+    height: 50%;
+    width: 15%;
+}
+.anunciosr{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    right: 0;
+    margin:15px;
+    height: 50%;
+    width: 15%;
+}
+
+
+
+
+
+
+/*Lista 1= DENTRO do menu hamburguer*/
+/*
 #menu{
     display: flex;
     justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*conteúdos do site
----------------------------------------------------------------------------------------------------------------
-*/
-.container2{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
-
-}
-.container2 div{
-    width: 1250px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-    
-}
-.container2 div article{
-   border-radius: 20px;
-   background-color: rgb(253, 253, 253);
-   box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.226);
-   height: 450px;
-   margin: 10px;
-   display: flex;
-   justify-content: center;
-   padding: 25px;
-   
-}
-.container2 div article .img{
-    
-    background-image: url(1fab805dc3dd2aab386b855e4ef9748c.jpg);
-    background-size: contain;
-    width: 100%;
-    height: 50%;
-}
-
-
-/*navegação 1=Hamburguer e intens*/
-.nav1{
-    display: flex;
-  
-   flex-direction: column;
-   
-    max-width: 950px;
-   justify-self: left;
-    
-    
-}
-
-/*Lista 1= DENTRO do menu hamburguer*/
-.corpo{
-    display: flex;
-    justify-content: left;
-    width: 100%;
-    max-width: 1250px;
+    max-width: 1300px;
     
     position: relative;
 }
 .listas{
     width: 100%;
-   max-width: 610px;;
-    
+   max-width:  1300px;
+    background-color: yellowgreen;
     position: absolute;
-   
+   right: 0;
 }
 #cont_list1{
    padding: 10px;
+   position: absolute;
+   
+}*/
+#menu{
+    margin: 0;
+    position: absolute;
+    right: 0;
 }
-
-
-#lista0,#lista1,#lista2,#lista3,#listaa,#listab,#listac,#listad,#listae{
+.contcontlist{
+    background-color: none;
+  position: absolute;
+    
+    width: 100%;
+ 
+    
+}
+.listas{
+    display: flex;
+    justify-content: end;
+   
+    position: relative;
+    right: 0;
+    padding: 1em;
+    
+    
+}
+#lista0,#lista1,#lista1-2,#lista3{
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: rgba(236, 236, 236, 0.349);
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.575);
+    background-color: rgb(223, 223, 223);
+    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.767);
     padding: 20px;
     border-radius: 20px;
-    width: 250px;
-    border-top: 40px solid rgba(0, 0, 0, 0.582);
+   
+    max-width: 450px;
+    border-top: 40px solid rgba(0, 0, 0, 0.781);
     columns: 0;
     animation: animate 0.150s ease-in;
     margin: 10px;
 }
 #lista0{
-    background-image:var(--degrade3);
+   /* background:var(--degrade1);*//*
     grid-column: 1;
-    grid-row: 1;
-    
+    grid-row: 1;*/
+    box-shadow: 0px 0px 45px 10.5px rgba(0, 0, 0, 0.726);
+  
+    background-color: whitesmoke;
+  
     }
 #lista1{
-background-image: var(--degrade2);
+/*background: var(--degrade2);*//*
 grid-column: 1;
-    grid-row: 2;
+    grid-row: 2;*/
+    background-image: radial-gradient(circle at bottom,rgb(180, 180, 180), white);
+    
 }
 
-#lista2{
-    background-image:var(--degrade2);
+#lista1-2{
+   /* background:var(--degrade3);*//*
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 3;*/
+    background-image: radial-gradient(circle at bottom,rgb(180, 180, 180), white);
+    
     }
 #lista3{
-    background-image:var(--degrade3);
+   /* background-image:var(--degrade4);*//*
     grid-column: 1;
-    grid-row: 4;
-    }
-#lista{
-    grid-column: 2;
-    grid-row: 1;
-    opacity: 0%;
-    }
-    #listaa{
-        background-image: var(--degrade2);
-    }
-    #listab{
-        background-image: var(--degrade2);
-    }
-    #listac{
-        background-image: var(--degrade1);
-    }
-
+    grid-row: 4;*/
+  background-image: radial-gradient(circle at bottom,rgb(180, 180, 180), white);}
 
 
 #lista0 li,#lista1 li,#lista2 li,#lista3 li{
@@ -252,6 +459,7 @@ grid-column: 1;
 }
 
 
+
 /*#x1,#x2,#x3{
     position: absolute;
     right: -10px;
@@ -268,66 +476,10 @@ grid-column: 1;
 
 
 
-/*logo FERA NA WEB------------------------------------------------------------*/
-.logo{
-    text-transform: uppercase;
-    
-    border-radius: 30px;
-    font-size: 1.4em;
-  align-items: center;
-   margin: 10px;
-   font-family: 'Gruppo', cursive;
-   font-weight: 900;
-   
-   
-   
-   letter-spacing: 5px;
-   display: flex;
-   
-}
-
-.logo::after{
-   padding: 0;
-    content: 'FERA NA WEB';
-    
-    color: rgb(0, 0, 0);
-   /* background-image: url(internet1.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    filter: blur(0%);
-    padding-right: 18px;*/
-    text-align: center;
-    
-}
-
-.img1{
-    
-    position: relative;
-    right: 0px;
-}
 
 
 /*MENU MOBILE "hamburguer"*/
-#menu-mobile{
-    cursor: pointer;
-    
-    border-radius: 100%;
-    margin: 1em;
-    
-    
-    padding: 7px;
-}
-#menu-mobile div{
-    width: 27px;
-    height: 4px;
-    background-color: rgb(0, 0, 0);
-    margin: 7px;
-    border-radius:100px;
-    
-    
-}
+
 /*.seta{
     cursor: pointer;
     display: flex;
@@ -371,7 +523,7 @@ grid-column: 1;
     
     .logo::after{
         
-        max-width: 120px;
+        
         background-size: contain;
         padding: 0;
         font-size: 1em;
