@@ -188,7 +188,7 @@ header{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows:  minmax(275px, auto);
+    grid-auto-rows:  minmax(375px, auto);
     padding: 1.5em;
     
     
@@ -200,20 +200,22 @@ header{
    border-radius: 05px;
    background-color: rgb(253, 253, 253);
    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.404);
-   background-image: linear-gradient(to top, rgb(0, 0, 0) , transparent 50%),url(https://cloud.estacaonerd.com/wp-content/uploads/2020/04/24145617/TINTIM.jpg);
+   background-image: linear-gradient(to top, rgb(0, 0, 0) , transparent 50%),url(https://besthqwallpapers.com/Uploads/12-1-2021/151318/thumb2-whatsapp-green-logo-4k-green-brickwall-whatsapp-logo-social-networks.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   
+   background-position: center;
+   transition: 300ms;
    display: flex;
    justify-content: center;
    align-items: flex-end;
    padding: 1.5em;
+   
  
 }
 #artigos-p article:hover{
     
-   text-decoration: underline;
-   color: white;
+  text-decoration: underline;
+  color: white;
   
 }
 #artigos-p article h1{
@@ -224,14 +226,6 @@ header{
 }
 
 /*Uma thumb-nail um pouco maior que as outras dos artigos principais*/
-#artigos-p article:nth-of-type(1){
-    grid-column: 1/1;
-    grid-row: 1/3;
-}
-
-#artigos-p article:nth-of-type(1) h1{
-    font-size: 2.2em;
-}
 
 /*Container que hospeda o container que hospeda os containers COMUNS*//*
 #cont-artigos2{
@@ -276,7 +270,8 @@ header{
 #artigos-c article .img{
     height: 100%;
     width: 45%;
-    background-image: url(https://cloud.estacaonerd.com/wp-content/uploads/2020/04/24145617/TINTIM.jpg);
+    height: 70%;
+    background-image: url(https://besthqwallpapers.com/Uploads/12-1-2021/151318/thumb2-whatsapp-green-logo-4k-green-brickwall-whatsapp-logo-social-networks.jpg);
     background-repeat: no-repeat;
     background-size:  cover;
     border-radius: 5.5px;
@@ -294,23 +289,27 @@ display: flex;
     
 }
 @media (max-width:900px){
-   #artigos-c article{
+    #artigos-c article{
         flex-direction: column;
         min-height: 500px;
+        
     }
     #artigos-c article .img{
         width: 100%;
+        height: 100%;
     }
     #artigos-c article .titulos{
         display: block;
+        width: 90%;
         
     }
     .anunciosl,.anunciosr{
         display: none;
     }
-    #artigos-p{
-        display: flex;
+    #artigos-p {
+        display: none;
     }
+  
 
 }
 #artigos-c article .titulos h1{
@@ -536,18 +535,3 @@ grid-column: 1;
 /*cabeçalho2*/
 
 
-@media(max-width:1320px){
-
-}
-
-/*animações*/
-@keyframes animate{
-    0%{
-        transform: scale(0%);
-        opacity: 0%;
-        
-       
-        
-    }
-
-}
