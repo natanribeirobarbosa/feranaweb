@@ -1,214 +1,133 @@
-/*contadores*//*
-var c0=0
-var c1=0
-var c2=0
-var c3=0
-var a=0
-var b=0
-var c=0
-window.document.getElementById('cont_list1').style.display="none"
-window.document.getElementById('lista0').style.display="none"
-window.document.getElementById('lista1').style.display="none"
-window.document.getElementById('lista2').style.display="none"
-window.document.getElementById('lista3').style.display="none"
+/*contadores*/
+window.document.getElementById('lista0').style.transform="translateY(-150%)"
 
-window.document.getElementById('listaa').style.display="none"
-window.document.getElementById('listab').style.display="none"
-window.document.getElementById('listac').style.display="none"
-window.document.getElementById('menu-mobile').addEventListener("click", caixa1,false)
+function artigoselecionado(art) {
+    console.log(art)
+            
+             
+                    if (art==1) {
+                        window.document.getElementById('i31').style.fontWeight="600"
+                        apagar('i31') 
+                            
+                        
+                    }
+                    if (art==2) {
+                        console.log('2')
+                        window.document.getElementById('i32').style.fontWeight="600"
+                        apagar('i32') 
+                    }
+                
+                function apagar(a) {
 
-function caixa1(params) {
+                    window.document.getElementById('i31').style.fontWeight="normal"
+                    window.document.getElementById('i32').style.fontWeight="normal"
+
+                    window.document.getElementById(a).style.fontWeight="600"
+
+                }
+                }
+
+function lista0animacao(a) {
     
-    
-    if (c0==0) {
-        c0++
-        window.document.getElementById('cont_list1').style.display="grid"
-        window.document.getElementById('lista0').style.display="flex"
-    } else {
+    if (window.document.getElementById('lista0').style.transform=="translateY(-150%)") 
+    {
+        if (a!='artigo') {
+            window.document.getElementById('lista1').style.display="none"
+window.document.getElementById('lista2-1').style.display="none"
+        }
+        else{
+            window.document.getElementById('lista1').style.display="flex"
+        window.document.getElementById('lista2-1').style.display="flex"
+        }
         
-        window.document.getElementById('cont_list1').style.display="none"
-window.document.getElementById('lista0').style.display="none"
-c0--
+       
+    
+        window.document.getElementById('lista0').style.transform="translateY(0%)"
+        console.log('abriu!')
+        window.document.getElementById('l1').style.transform="rotate(45deg) translateY(10px) "
+        window.document.getElementById('l3').style.transform="rotate(-45deg) translateY(-10px)"
+        window.document.getElementById('l2').style.opacity="0%"
     }
+    else{
+        console.log('fechou!')
+        window.document.getElementById('lista0').style.transform="translateY(-150%)"
+        window.document.getElementById('l1').style.transform="rotate(0deg) translateY(0px)"
+        window.document.getElementById('l3').style.transform="rotate(0deg) translateY(0px)"
+        window.document.getElementById('l2').style.opacity="100%"
 
-}
-function caixa1_1(params) {
+    }
     
-    if (c1==0) {
-        c1++
-        c2=0
-        c3=0
-        
-        window.document.getElementById('link2').style.color="black"
-        window.document.getElementById('link1').style.color="red"
-
-        window.document.getElementById('lista2').style.display="none"
-        window.document.getElementById('lista3').style.display="none"
+}
+function lista1() {
+    if (window.document.getElementById('lista1').style.display=="none") {
+        console.log('lista1 abriu')
         window.document.getElementById('lista1').style.display="flex"
-
-
-        if (b!=0) {
-            window.document.getElementById('listab').style.display="flex"
-        } else {
-            window.document.getElementById('listab').style.display="none"
-        }
-        window.document.getElementById('listac').style.display="none"
-
-
-        if (a!=0) {
-            window.document.getElementById('listaa').style.display="flex"
-        } else {
-            window.document.getElementById('listaa').style.display="none"
-        }
-
-
-        if (c!=0) {
-            window.document.getElementById('listac').style.display="flex"
-        } else {
-            window.document.getElementById('listac').style.display="none"
-        }
-        
-
-
-
-        
-        
-       
-    } else {
-        
-        window.document.getElementById('link1').style.color="black"
-window.document.getElementById('lista1').style.display="none"
-c1--
-
-
-
-
-
-
-window.document.getElementById('listac').style.display="none"
-window.document.getElementById('listab').style.display="none"
-window.document.getElementById('listaa').style.display="none"
-
+        window.document.getElementById('i1').style.fontWeight="600"
     }
+    else{
+        console.log('lista1 fechou')
+        window.document.getElementById('lista1').style.display="none"
+        window.document.getElementById('lista2-1').style.display="none"
+        window.document.getElementById('i1').style.fontWeight="normal"
+        window.document.getElementById('i21').style.fontWeight="normal"
+        
+    }
+ 
 }
-function caixa1_2(params) {
-    
+
+/*function lista12() {
     if (c2==0) {
-      
+        window.document.getElementById('lista1-2').style.display="flex"
+        window.document.getElementById('item2').style.opacity="80%"
         c2++
-        c1=0
-        c3=0
-       
-        window.document.getElementById('link1').style.color="black"
-        window.document.getElementById('link2').style.color="red"
-
-        window.document.getElementById('lista1').style.display="none"
-        window.document.getElementById('lista3').style.display="none"
-        window.document.getElementById('lista2').style.display="flex"
-
-        window.document.getElementById('listac').style.display="none"
-        window.document.getElementById('listab').style.display="none"
-        window.document.getElementById('listaa').style.display="none"
-        
-
     } else {
-        
-        window.document.getElementById('link2').style.color="black"
-window.document.getElementById('lista2').style.display="none"
-c2--
+        window.document.getElementById('lista1-2').style.display="none"
+        window.document.getElementById('item2').style.opacity="100%"
+        c2--
     }
 }
-function caixa1_3(params) {
-    
+
+function lista13() {
     if (c3==0) {
-        
+        window.document.getElementById('lista1-3').style.display="flex"
+        window.document.getElementById('item3').style.opacity="80%"
         c3++
-        c1=0
-        c2=0
-        window.document.getElementById('link2').style.color="black"
-        window.document.getElementById('link1').style.color="black"
-        
-
-        window.document.getElementById('lista1').style.display="none"
-        window.document.getElementById('lista2').style.display="none"
-        window.document.getElementById('lista3').style.display="flex"
-
-        window.document.getElementById('listac').style.display="none"
-        window.document.getElementById('listab').style.display="none"
-        window.document.getElementById('listaa').style.display="none"
-
     } else {
-        
-        window.document.getElementById('link3').style.textDecoration="none"
-window.document.getElementById('lista3').style.display="none"
-c3--
+        window.document.getElementById('lista1-3').style.display="none"
+        window.document.getElementById('item3').style.opacity="100%"
+        c3--
     }
 }
-function caixa1a() {
-  
-    if (a==0) {
-     
-        a++
-        b=0
-        c=0
-        window.document.getElementById('link5').style.color="black"
-        window.document.getElementById('link6').style.color="black"
-        window.document.getElementById('link4').style.color="red"
-        window.document.getElementById('listac').style.display="none"
-        window.document.getElementById('listab').style.display="none"
-        window.document.getElementById('listaa').style.display="flex"
-
-    } else {
-        
-        window.document.getElementById('link4').style.color="black"
-window.document.getElementById('listaa').style.display="none"
-a--
-    }
-}
-function caixa1b(params) {
-    if (b==0) {
-     
-        b++
-        a=0
-        c=0
-        
-        window.document.getElementById('link6').style.color="black"
-        window.document.getElementById('link4').style.color="black"
-        window.document.getElementById('link5').style.color="red"
-        window.document.getElementById('listac').style.display="none"
-        window.document.getElementById('listaa').style.display="none"
-        window.document.getElementById('listab').style.display="flex"
-
-    } else {
-        
-        window.document.getElementById('link5').style.color="black"
-window.document.getElementById('listab').style.display="none"
-b--
-    }
-}
-
-
-function caixa1c(params) {
-    if (c==0) {
-     
-        b=0
-        a=0
-        c++
-        
-        window.document.getElementById('link6').style.color="red"
-        window.document.getElementById('link4').style.color="black"
-        window.document.getElementById('link5').style.color="black"
-        
-        window.document.getElementById('listaa').style.display="none"
-        window.document.getElementById('listab').style.display="none"
-        window.document.getElementById('listac').style.display="flex"
-
-    } else {
-        
-        window.document.getElementById('link6').style.color="black"
-window.document.getElementById('listab').style.display="none"
-c--
-    }
-}
-
 */
+function lista21() {
+    if (window.document.getElementById('lista2-1').style.display=="none") {
+        window.document.getElementById('lista2-1').style.display="flex"
+        window.document.getElementById('i21').style.fontWeight="600"
+    }
+    else{
+        window.document.getElementById('lista2-1').style.display="none"
+        window.document.getElementById('i21').style.fontWeight="normal"
+    }
+}
+
+
+
+/*fechar as listas abertas*/
+/*
+
+
+ function fechar() {
+     console.log('nou')
+    window.document.getElementById('lista1').style.display="none"
+    window.document.getElementById('item1').style.opacity="100%"
+    c1=0
+    window.document.getElementById('lista1-2').style.display="none"
+    window.document.getElementById('item2').style.opacity="100%"
+    c2=0
+    window.document.getElementById('lista1-2').style.display="none"
+    window.document.getElementById('item3').style.opacity="100%"
+    c3=0
+    
+     
+ }
+setInterval(fechar(), 5000)*/

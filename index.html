@@ -7,9 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="anunciosl">PROPAGANDA</div>
-    <div class="anunciosr">PROPAGANDA</div>
+<body >
+    
     
     
     
@@ -17,21 +16,21 @@
     
     
     <div id="corpo">
-    <header>
-        <div class="container1">
+    
+        <div class="containerdocabeçalho1">
 
-            <nav class="container1-2">
+            <nav class="containerdocabeçalho2">
 
-                <a href="#" class="logo">
+                <a href="index.html" class="logo">
                     <img src="internet1.png" alt="" height="40px" class="img1">
                 </a>
 
-                <div id="menu-mobile" >
+                <div id="menu-mobile" onclick="lista0animacao('index')">
 
                     <section>
-                        <div class="l1"></div>
-                        <div class="l2"></div>
-                        <div class="l3"></div>
+                        <div id="l1"></div>
+                        <div id="l2"></div>
+                        <div id="l3"></div>
                     </section>
                     
                 </div>
@@ -42,93 +41,54 @@
             
         </div>
 
-    </header>
+  
     
   
     
-       <!-- <div class="contcontlist">
-            
-
-
-
-            <section class="listas">
-                <div id="cont_list1">
         
             
-                <ul id="lista0">
-                    <div class="x" onclick="caixa1()"></div>
-                    <li onclick="caixa1_1()"><a class="itensdomenu" id="link1" href="#">Artigos
+
+
+            <!--Container do container das listas-->
+            <section class="contlist">
+
+                <!--Container das listas-->
+                <div id="list">
         
-                    </a></li>
-
-
-                    <div id="lista1">
-                        <ul >
-                            
-                            <li><a href="#"  class="itensdomenu" id="link4" onclick="caixa1a()">Lorem 1 </a></li>
-                            <li><a href="#" class="itensdomenu" id="link5" onclick="caixa1b()">Facebook</a></li>
-                            <li><a href="#" class="itensdomenu" id="link6"onclick="caixa1c()">Instagram</a></li>
                 
-                        </ul>
-                    </div>
+            <ul id="lista0">    
+                <!--item 1-->
+                <li id="item1"><a class="itensdomenu" id="i1" href="#" onclick="lista1()">WhatsApp</a></li>
 
+                <!--Lista item 1-->
+                    <ul id="lista1">
+                        <li ><a href="#" class="itensdomenu" id="i21" onclick="lista21()">Tutoriais WhatsApp</a></li>
 
+                        
+                    </ul>
+                    <ul id="lista2-1">
+                        <li><a href="artigo.html" class="itensdomenu"
+                            onclick="artigoselecionado(1)"  >
+                            Como instalar o WhatsApp</a>
+                        </li>
+                        <li><a href="#" class="itensdomenu" 
+                            onclick="artigoselecionado(2)">
+                            Como instalar o WhatsApp</a>
+                        </li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
+                        <li><a href="#" class="itensdomenu">Como instalar o WhatsApp</a></li>
 
-                    <li onclick="caixa1_2()"><a class="itensdomenu" id="link2" href="#">Tutoriais para redes sociais
-        
-                    </a></li>
-                    <div  id="lista1-2">
-                        <ul>
-                            
-                            <li><a href="#" class="itensdomenu" id="link4">Lorem 2</a>
-                            </li>
-
-                            <div  id="lista3">
-                                <ul>
-                                    
-                                    <li><a href="#" class="itensdomenu">Lorem 3</a></li>
-                                    <li><a href="#" class="itensdomenu">Facebook</a></li>
-                                    <li><a href="#" class="itensdomenu">Instagram</a></li>
-                                </ul>
-                            </div>
-                            
-                            <li><a href="#" class="itensdomenu" id="link4">Facebook2</a></li>
-                            <li><a href="#" class="itensdomenu" id="link4">Instagram2</a></li>
-                        </ul>
-                    </div>
-        
-                </ul>
-            
-        
-        
-           
-        
-        
-            
-            
-            <div  id="lista">
-                <ul>
-        
-        
-                </ul>
-            </div>
-           
-            
-            
-
-
-        
-                    </div>
-                        </ul>
-        
-                </div>
-        
-
-
+                    </ul>
     
            
         </section>
-        -->
+        
         
         <div class="cont-artigos1">
             <div id="artigos-p">
@@ -165,7 +125,7 @@
                     <div class="img"></div>
                     <div class="titulos">
                         <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h1>
-                        <h2>Subtítulo Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas </h2>
+                        <h2>Subtítulo </h2>
                     </div>
                 </article>
                 
@@ -173,7 +133,7 @@
                     <div class="img"></div>
                     <div class="titulos">
                         <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h1>
-                        <h2>Subtítulo Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas </h2>
+                        <h2>Subtítulo Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     </div>
                 </article>
                 
@@ -181,7 +141,7 @@
                     <div class="img"></div>
                     <div class="titulos">
                         <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit</h1>
-                        <h2>Subtítulo Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas </h2>
+                        <h2>Subtítulo Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     </div>
                 </article>
        
