@@ -1,0 +1,119 @@
+
+
+_________________________________________________________________________
+Sobre o registro e a confirmação em duas etapas
+
+Quando você cria uma conta no WhatsApp, você verá duas telas diferentes:
+
+Registro: essa tela aparece quando você cria uma conta do WhatsApp ou registra uma conta existente novamente. Para confirmar que o número de telefone que você está usando no registro é seu, você precisará inserir um código de confirmação de 6 dígitos que será enviado para você por SMS ou ligação telefônica. A única forma de ativar sua conta do WhatsApp é confirmando seu número de telefone com um código de confirmação. Para isso, você precisa receber o código em seu número de telefone.
+Confirmação em duas etapas: essa tela aparece após você registrar seu número de telefone no WhatsApp com sucesso. A confirmação em duas etapas é um recurso opcional que adiciona uma camada extra de segurança à sua conta do WhatsApp. Ao ativar esse recurso, você precisa criar e confirmar um PIN único que será solicitado quando você acessar sua conta. O PIN da confirmação em duas etapas é diferente do código de 6 dígitos que você recebe por SMS ou chamada telefônica. Saiba mais sobre a confirmação em duas etapas neste artigo.
+Se você não ativou a confirmação em duas etapas, mas recebeu uma solicitação para inserir um PIN, pode ser que o dono anterior do seu número de telefone tenha ativado o recurso antes de você começar a usar esse número. Nesse caso, você precisará aguardar 7 dias para redefinir o PIN de acesso à sua conta.
+
+Se você confirmou seu número de telefone no WhatsApp mas esqueceu seu PIN, toque em Esqueceu o PIN? > Desativar para acessar sua conta.
+
+Observação: o WhatsApp pode ser utilizado somente com um número de telefone em um aparelho por vez. Assim que você confirma seu número de telefone no WhatsApp, qualquer pessoa que estava usando sua conta é automaticamente desconectada e sua conta estará protegida.
+
+_________________________________________________________________________
+Sobre a confirmação em duas etapas
+
+A confirmação em duas etapas é um recurso opcional que adiciona uma camada extra de segurança à sua conta do WhatsApp. A tela de confirmação em duas etapas será exibida após você confirmar seu número de telefone no Whatspp. Saiba como ativar a confirmação em duas etapas neste artigo.
+
+Após ativar a confirmação em duas etapas, você poderá adicionar seu endereço de e-mail para o qual o WhatsApp poderá enviar um link de redefinição caso você se esqueça do seu PIN, ajudando a manter sua conta segura.
+
+Para ajudar você a se lembrar do seu PIN da confirmação em duas etapas, o WhatsApp solicitará que você o insira periodicamente. Não é possível desativar essa solicitação sem que confirmação em duas etapas também seja desativada. Saiba mais sobre as configurações da confirmação em duas etapas neste artigo.
+
+Observação: o PIN da confirmação em duas etapas é diferente do código de seis dígitos que você recebe por SMS ou ligação telefônica quando confirma seu número de telefone no WhatsApp. Saiba mais sobre como confirmar seu número de telefone no WhatsApp neste artigo.
+
+_________________________________________________________________________
+Como redefinir seu PIN da confirmação em duas etapas
+
+Você pode redefinir seu PIN da confirmação em duas etapas de diferentes maneiras.
+
+Redefinir seu PIN com um endereço de e-mail
+Se você forneceu um endereço de e-mail ao configurar a confirmação em duas etapas, poderá solicitar um link para redefinir seu PIN imediatamente.
+
+Para redefinir seu PIN:
+Abra o WhatsApp, toque em Esqueceu o PIN? > Enviar e-mail. Enviaremos um link para redefinir seu PIN ao endereço de e-mail que você inseriu.
+Abra o link e toque em CONFIRMAR.
+Abra o WhatsApp, toque em Esqueceu o PIN? e, em seguida, em Redefinir.
+Lembre-se de que se você desinstalar ou apagar o WhatsApp, o PIN da confirmação em duas etapas não será redefinido ou desativado.
+
+Redefinir seu PIN sem um endereço de e-mail
+Você precisará esperar 7 dias para redefinir seu PIN se:
+Você não forneceu um endereço de e-mail para redefinir o PIN.
+Você esqueceu do endereço de e-mail que forneceu para redefinir o PIN.
+Outra pessoa configurou o PIN de confirmação em duas etapas antes de você começar a usar este número de telefone.
+Após o período de 7 dias, abra o WhatsApp e toque em Esqueceu o PIN? > Redefinir.
+
+Observação: por motivos de segurança, não é possível acelerar o processo de 7 dias nem desativar sua conta após ativar a confirmação em duas etapas. O PIN da confirmação em duas etapas é diferente do código de confirmação de 6 dígitos que você recebe por SMS ou chamada telefônica quando registra seu número de telefone no WhatsApp.
+
+_________________________________________________________________________
+Como gerenciar as configurações da confirmação em duas etapas
+
+Você pode gerenciar as configurações da confirmação em duas etapas no WhatsApp. Você pode ativar ou desativar o recurso, mudar seu PIN e atualizar o endereço de e-mail associado com a confirmação em duas etapas.
+
+Ativar a confirmação em duas etapas
+Abra o WhatsApp e toque em Configurações.
+Toque em Conta > Confirmação em duas etapas > Ativar.
+Insira um PIN de 6 dígitos e, em seguida, confirme-o.
+Insira um endereço de e-mail ao qual você tem acesso ou toque em Pular se não quiser adicionar um endereço de e-mail. Recomendamos que você adicione um endereço de e-mail para que você possa redefinir a confirmação em duas etapas e manter sua conta segura.
+Toque em Avançar.
+Confirme o endereço de e-mail e toque em Salvar ou OK.
+Se você não adicionar um endereço de e-mail e esquecer seu PIN, precisará aguardar 7 dias para poder redefinir seu PIN. Como não verificamos o endereço de e-mail para confirmar que ele está correto, certifique-se de que você digitou o endereço de e-mail correto e de que é possível acessá-lo.
+
+Desativar a confirmação em duas etapas
+Abra o WhatsApp e toque em Configurações.
+Toque em Configurações > Conta > Confirmação em duas etapas >Desativar > Desativar.
+Mudar seu PIN da confirmação em duas etapas
+Abra o WhatsApp e toque em Configurações.
+Toque em Conta > Confirmação em duas etapas > Mudar PIN.
+Adicionar um endereço de e-mail
+Abra o WhatsApp e toque em Configurações.
+Toque em Conta > Confirmação em duas etapas > Adicionar endereço de e-mail.
+Mudar um endereço de e-mail
+Abra o WhatsApp e toque em Configurações.
+Toque em Conta > Confirmação em duas etapas > Mudar endereço de e-mail.
+
+_________________________________________________________________________
+Sobre usar uma conta do WhatsApp em vários celulares ou com vários números de telefone
+
+Sua conta do WhatsApp só pode ser confirmada com um número de telefone e em um aparelho. Se seu aparelho tem espaço para dois chips, você precisa escolher um de seus números de telefone para confirmar sua conta do WhatsApp. Não é possível ter uma conta do WhatsApp com dois números de telefone.
+
+Se você mudar sua conta do WhatsApp entre diferentes aparelhos muitas vezes, seu número de telefone pode ser bloqueado e você não poderá confirmar sua conta novamente. Recomendamos que você não alterne entre diferentes aparelhos e números com frequência.
+
+_________________________________________________________________________
+Como confirmar seu número no WhatsApp Business
+
+Requisitos
+Você só pode confirmar um número de telefone que pertence a você, usando um número de celular ou uma linha fixa.
+O número a ser confirmado deve estar apto a receber ligações telefônicas ou mensagens SMS.
+Você deve desabilitar todos os aplicativos, configurações ou gerenciadores de tarefas que bloqueiam ligações telefônicas.
+Para confirmar um número de celular, você precisará de uma conexão à internet via Wi-Fi ou dados móveis. Se você estiver fora da área de cobertura (em roaming) ou se o sinal da conexão estiver fraco, o processo de confirmação poderá falhar. Tente abrir https://www.whatsapp.com/business/ no navegador de internet do seu celular para confirmar que você se conectou à internet.
+Se você deseja confirmar um número de telefone fixo, toque em Me ligue para solicitar uma ligação telefônica para receber seu código de confirmação.
+Como confirmar seu número
+Insira seu número de telefone:
+Selecione seu país na lista. O campo destinado ao código do país será preenchido automaticamente.
+Insira o número de telefone na caixa à direita. Não insira o número 0 antes do seu número de telefone.
+Toque em Avançar para receber um código de confirmação. Caso solicitado, toque na opção Me ligue para receber o código por ligação telefônica.
+Insira o código de seis dígitos que você recebeu por SMS ou ligação telefônica.
+
+Observação: se as chaves do iCloud estiverem ativadas, e você já tiver confirmado esse número antes, a confirmação poderá acontecer automaticamente, sem o envio de um novo código por SMS.
+Usar ramais de uma linha fixa
+
+Não é possível usar ramais de números de telefone fixo no processo de confirmação. Use um número de telefone que não seja um ramal para confirmar seu número. Por motivos de segurança, o código de confirmação de seis dígitos só pode ser enviado ao número de telefone fixo que será usado em sua conta comercial.
+
+Caso você não receba o código de seis dígitos por SMS
+
+Aguarde até que a barra de progresso esteja completa para tentar novamente. Esse processo pode levar até 10 minutos.
+Não tente adivinhar o código. Essa ação pode impedir o acesso à sua conta temporariamente.
+Caso o tempo termine antes de você receber o código de confirmação, uma opção aparecerá para que você solicite uma ligação telefônica. Escolha a opção Me ligue para solicitar a ligação telefônica. Quando você atender, uma gravação informará o código de confirmação de seis dígitos. Insira esse código no app WhatsApp Business.
+Observação: dependendo da sua operadora, as mensagens SMS e as ligações telefônicas poderão estar sujeitas a cobranças.
+Solução de problemas
+Se você estiver com dificuldades para confirmar seu número, tente fazer o seguinte:
+
+Desligue seu celular, aguarde 30 segundos e ligue-o novamente.
+Apague o WhatsApp Business e, em seguida, instale a versão mais recente disponível em nosso site.
+Verifique o sinal do seu celular, enviando uma mensagem SMS de qualquer celular para o número que você está tentando confirmar. Insira o número de celular no mesmo formato que você inseriu no app WhatsApp Business, incluindo o código de país.
+
+Observação: por questões de segurança, não podemos enviar seu código de confirmação por outros métodos.
+

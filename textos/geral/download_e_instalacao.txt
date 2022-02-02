@@ -1,0 +1,174 @@
+__________________________________________________________________________
+Sobre contas temporariamente banidas
+
+Se você recebeu o aviso “Temporariamente banido” no WhatsApp, é provável que você esteja usando uma versão não compatível do app, ao invés da versão oficial, ou que exista uma suspeita de que você está coletando dados de usuários de maneira não permitida, prática também conhecida como extração. Caso você não mude para a versão oficial do app após ser temporariamente banido, sua conta pode ser banida permanentemente do WhatsApp.
+
+A extração é a prática de coletar de dados, em pequena ou grande escala, usando uma ferramenta manual ou automatizada, para qualquer fim proibido. Essas práticas de coleta de dados de usuários, incluindo número de telefone, foto do perfil e recado do WhatsApp, configuram uma violação dos nossos Termos de Serviço.
+
+Os aplicativos não compatíveis (como o WhatsApp Plus, GB WhatsApp e outros apps que dizem transferir suas conversas entre aparelhos diferentes) são versões modificadas do WhatsApp. Eles foram desenvolvidos por terceiros e violam nossos Termos de Serviço. O WhatsApp não é compatível com esses aplicativos porque não podemos validar as medidas de segurança implementadas por eles.
+
+Como mudar para o app oficial do WhatsApp
+Pode ser necessário fazer backup do seu histórico de conversas antes de mudar para o app oficial do WhatsApp e, dependendo do aplicativo não oficial utilizado, pode ser necessário transferir seu histórico manualmente. Para encontrar o nome do app, toque em Mais opções > Configurações > Ajuda > Dados do aplicativo. Siga os passos correspondentes ao nome do app (WhatsApp Plus ou GB WhatsApp).
+
+No Android, se você usa um app como o WhatsApp Plus ou GB WhatsApp, recomendamos salvar seu histórico de conversas antes de baixar o app oficial do WhatsApp.
+
+GB WhatsApp
+Recomendamos que você siga os passos abaixo para baixar e transferir seu histórico de conversas. Caso contrário, você poderá perdê-lo. Não podemos garantir que a transferência do histórico de conversas será concluída corretamente porque o WhatsApp não é compatível com aplicativos não oficiais.
+
+Espere seu banimento temporário acabar. O cronômetro mostrará o tempo de espera necessário.
+No GB WhatsApp, toque em Mais opções > Conversas > Backup de conversas.
+No seu celular, toque em Configurações > Armazenamento > Arquivos.
+Encontre a pasta do GB WhatsApp, pressione e segure para selecioná-la.
+No canto superior direito, toque em Mais > Renomear e renomeie a pasta como “WhatsApp”.
+Em seguida, abra a Play Store e baixe o app oficial do WhatsApp. Caso não consiga acessar a Play Store, baixe o app neste link.
+Abra o WhatsApp e confirme seu número de telefone. Saiba como confirmar seu número de telefone neste artigo.
+Na tela que mostra o backup encontrado, toque em Restaurar > Próximo.
+O WhatsApp carregará as conversas existentes.
+WhatsApp Plus
+Caso seu histórico de conversas tenha sido salvo anteriormente, ele será transferido automaticamente para o app oficial do WhatsApp. Saiba como salvar seu histórico de conversas neste artigo.
+
+Abra a Play Store e baixe o app oficial do WhatsApp. Caso não consiga acessar a Play Store, baixe o app neste link.
+Confirme seu número de telefone. Saiba como confirmar seu número de telefone neste artigo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________________________
+DOWNLOAD E INSTALAÇÃO
+
+Sobre os sistemas operacionais compatíveis
+Atualmente, nós oferecemos suporte e recomendamos o uso dos seguintes aparelhos:
+
+Aparelhos com sistema operacional Android 4.1 e versões posteriores
+iPhones com iOS 10 e versões posteriores
+Aparelhos com KaiOS 2.5.0 e versões posteriores, incluindo JioPhone e JioPhone 2
+Se você tem um desses aparelhos, instale o WhatsApp e confirme seu número de telefone.
+
+Observações:
+O WhatsApp pode ser utilizado apenas com um número de telefone em um celular por vez.
+Seu celular deve estar habilitado para receber SMS ou chamadas durante o processo de confirmação. Não é possível criar uma nova conta usando aparelhos que operam somente em rede Wi-Fi.
+Como determinamos quais sistemas operacionais e aparelhos são compatíveis com o WhatsApp
+Aparelhos e softwares estão sempre mudando. Por esse motivo, verificamos regularmente quais sistemas operacionais são compatíveis com o WhatsApp e fazemos as devidas atualizações.
+
+Assim como outras empresas de tecnologia, todos os anos, analisamos quais são os aparelhos e softwares mais antigos e com o menor número de usuários para definir aqueles que deixarão de ser compatíveis com o WhatsApp. É possível que esses aparelhos não abranjam as atualizações de segurança mais recentes ou não incluam funcionalidades necessárias para operar o WhatsApp.
+
+O que acontecerá se o sistema operacional que você usa deixar de ser compatível com o WhatsApp?
+Antes de deixar de oferecer suporte para um sistema operacional, exibiremos uma notificação diretamente no aplicativo do WhatsApp. Também exibiremos alguns lembretes solicitando que você atualize o sistema.
+
+Atualizaremos esta página regularmente para garantir que a lista inclua os sistemas operacionais compatíveis mais recentes.
+
+
+
+_______________________________________________________________________
+COMO ATUALIZAR
+
+Como atualizar o WhatsApp
+Você pode atualizar o WhatsApp facilmente pela loja de aplicativos do seu aparelho. Lembre-se de que, se você receber uma mensagem incompatível com sua versão do WhatsApp, você precisará atualizar o WhatsApp para visualizá-la. Recomendamos que você sempre use a versão mais recente do WhatsApp para ter acesso a novos recursos e a correções de erros.
+
+Android
+Encontre o WhatsApp Messenger na Google Play Store e, em seguida, toque em Atualizar.
+
+iPhone
+Encontre o WhatsApp Messenger na App Store da Apple e, em seguida, toque em ATUALIZAR.
+
+KaiOS
+Pressione JioStore ou Store no menu de aplicativos. Deslize a tela para o lado para selecionar Social. Em seguida, selecione WhatsApp. Pressione OK ou SELECIONAR > ATUALIZAR.
+
+Artigos relacionados
+Sobre os sistemas operacionais compatíveis
+
+
+
+
+
+_________________________________________________________________________
+Como transferir sua conta do WhatsApp Messenger para o WhatsApp Business
+
+O WhatsApp Business é um aplicativo gratuito para download e desenvolvido para pequenas empresas. Recursos ligados às empresas, como o perfil comercial e as mensagens automáticas, facilitam o engajamento com clientes e a divulgação da sua empresa. Além disso, o aplicativo se parece com o WhatsApp Messenger e funciona da mesma forma.
+
+Empresas que usam o WhatsApp Messenger precisam seguir somente alguns passos para transferir suas contas para o WhatsApp Business. Depois de confirmar seu número no WhatsApp Business, você pode transferir facilmente todos os seus arquivos de mídia (por exemplo, figurinhas favoritas e papéis de parede), suas configurações de conversas (por exemplo, conversas silenciadas e toques personalizados) e seu histórico de conversas do WhatsApp Messenger para o WhatsApp Business.
+
+Observação: no momento, ainda não é possível transferir todas as suas informações do WhatsApp Business de volta para o WhatsApp Messenger. Se decidir voltar a usar o WhatsApp Messenger, você perderá os recursos da conta comercial, além das suas conversas e dos arquivos de mídia criados durante o uso do WhatsApp Business.
+
+
+_________________________________________________________________________
+Como atualizar o aplicativo WhatsApp Business
+
+Você pode atualizar o aplicativo WhatsApp Business na loja de aplicativos do seu aparelho. Recomendamos que você sempre use a versão mais recente do WhatsApp para ter acesso a novos recursos e a correções de erros.
+
+Android
+Encontre o aplicativo WhatsApp Business na Google Play Store e toque em Atualizar.
+
+iPhone
+Encontre o aplicativo WhatsApp Business na App Store da Apple e toque em ATUALIZAR.
+
+_________________________________________________________________________
+Não é possível desconectar do WhatsApp
+
+Ao usar o WhatsApp Web, WhatsApp para computador ou Portal, você pode desconectar do WhatsApp. Contudo, não é possível desconectar do WhatsApp ao usar o Android, iPhone ou KaiOS. O WhatsApp entra em modo de espera automaticamente quando você sai do app ou apaga a tela do seu celular. Ainda assim, você continua recebendo mensagens e chamadas.
+
+Sabemos que isso pode gerar preocupações sobre a duração da bateria e o uso de dados móveis do seu aparelho, mas o WhatsApp se empenha o máximo possível para conservar a bateria e não aumentar seu uso de dados.
+
+
+_________________________________________________________________________
+Sobre a versão beta para múltiplos aparelhos
+Você pode escolher participar da versão beta para múltiplos aparelhos para ter acesso antecipado e testar uma nova versão do WhatsApp Web, do WhatsApp para computador e do WhatsApp para o Portal. Ao participar da versão beta para múltiplos aparelhos, você poderá conectar aparelhos adicionais sem a necessidade de manter seu celular conectado à internet. Suas mensagens pessoais, arquivos de mídia e chamadas continuam protegidos com a criptografia de ponta a ponta. Saiba mais sobre a criptografia de ponta a ponta neste artigo. Para saber mais sobre como coletamos, tratamos e compartilhamos seus dados, inclusive para disponibilizar o recurso de múltiplos aparelhos, consulte a Política de Privacidade do WhatsApp.
+
+Observações:
+
+Você pode usar o WhatsApp em até quatro aparelhos adicionais de uma só vez, porém só é possível conectar um celular à sua conta do WhatsApp.
+Você ainda precisará usar um celular para confirmar seu número de telefone no WhatsApp e conectar novos aparelhos.
+Seus aparelhos adicionais serão desconectados caso você não use o WhatsApp no seu celular por mais de 14 dias.
+Disponibilidade
+No momento, a versão beta para múltiplos aparelhos está disponível para pessoas que usam a versão mais recente do WhatsApp ou do WhatsApp Business no Android e no iPhone.
+
+Saiba como entrar na versão beta para múltiplos aparelhos neste artigo.
+
+Recursos não compatíveis
+No momento, os seguintes recursos não são compatíveis com a versão beta:
+
+Limpar ou apagar conversas em aparelhos adicionais, caso seu aparelho principal seja um iPhone.
+Enviar mensagens ou fazer chamadas para contatos que usam versões muitos antigas do WhatsApp.
+Usar o WhatsApp em tablets.
+Ver localização em tempo real em aparelhos adicionais.
+Criar e visualizar listas de transmissão em aparelhos adicionais.
+Artigos relacionados
+Como entrar ou sair da versão beta para múltiplos aparelhos
+Sobre o histórico de mensagens em aparelhos adicionais
+Como conectar ou desconectar um aparelho
+
+
+_________________________________________________________________________
+Sobre aparelhos conectados
+
+Use seu celular para conectar sua conta do WhatsApp ao WhatsApp Web, WhatsApp para computador ou em outros aparelhos. Você pode usar sua conta em até quatro aparelhos conectados e um celular ao mesmo tempo.
+
+Suas mensagens pessoais, arquivos de mídia e chamadas são protegidos com a criptografia de ponta a ponta. Saiba mais sobre a criptografia de ponta a ponta neste artigo. Para saber mais sobre como coletamos, tratamos e compartilhamos seus dados, consulte a Política de Privacidade do WhatsApp.
+
+Observações:
+
+Seu celular não precisa estar conectado à internet para você usar o WhatsApp nos aparelhos conectados. Porém, se você não usar o app no seu celular por mais de 14 dias, o WhatsApp será desconectado dos outros aparelhos.
+Você ainda precisará usar um celular para confirmar seu número de telefone no WhatsApp e conectar novos aparelhos.
+Saiba como conectar um aparelho neste artigo.
+
+Recursos não compatíveis
+No momento, os seguintes recursos não são compatíveis:
+
+Limpar ou apagar conversas em aparelhos conectados, caso seu aparelho principal seja um iPhone.
+Enviar mensagens ou fazer chamadas para contatos que usam versões muitos antigas do WhatsApp.
+Usar o WhatsApp em tablets.
+Ver localização em tempo real em aparelhos conectados.
+Criar e visualizar listas de transmissão em aparelhos conectados.
+Artigos relacionados
+Como conectar um aparelho
+Sobre o histórico de mensagens em aparelhos conectados
+Como conectar ou desconectar um aparelho

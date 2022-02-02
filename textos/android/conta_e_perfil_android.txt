@@ -1,0 +1,286 @@
+__________________________________________________________________________
+Como apagar sua conta
+
+Você pode apagar sua conta pelo próprio WhatsApp. Essa ação é irreversível. Nós não poderemos restaurar a conta, mesmo que você a apague por acidente.
+
+Para apagar sua conta:
+Abra o WhatsApp.
+Toque em Mais opções > Configurações > Conta > Apagar minha conta.
+Insira seu número de telefone em formato internacional completo e, em seguida, toque em APAGAR MINHA CONTA.
+Selecione o motivo pelo qual você está apagando sua conta.
+Toque em APAGAR MINHA CONTA.
+Apagar sua conta vai:
+Apagar sua conta do WhatsApp.
+Apagar seu histórico de mensagens.
+Remover você de todos os grupos do WhatsApp.
+Apagar seu backup do Google Drive.
+Se você apagar sua conta:
+Você não poderá recuperar o acesso a ela.
+O processo para apagar seus dados do WhatsApp poderá levar até 90 dias para ser concluído. Após esse período, as cópias dos seus dados ainda poderão continuar no armazenamento de backup que usamos para recuperar dados em casos de desastres, erros de software ou outros eventos de perda de dados. Não será possível acessar seus dados no WhatsApp durante esse período.
+As informações e os dados dos grupos que você criou ou que outros usuários têm em relação a você, como as mensagens que você enviou para eles, não serão afetadas.
+Poderemos manter alguns dados de registro em nossos bancos de dados mesmo depois de você apagar a conta. Contudo, esses dados não estarão associados a nenhuma informação de identificação e, assim, não poderão mais ser relacionados à sua conta. Para desassociar esses dados da sua conta, nós apagamos periodicamente determinadas informações de identificação e substituímos qualquer instância do ID da sua conta por um identificador que não pode ser vinculado à conta apagada.
+Poderemos manter seus dados para questões legais, violação de termos ou esforços de prevenção contra danos.
+Consulte a seção Proteção jurídica da nossa Política de Privacidade para mais informações.
+Seus dados que foram compartilhados com outras Empresas do Facebook também serão apagados.
+
+__________________________________________________________________________
+Como editar seu perfil
+Você pode editar sua foto de perfil, seu nome e recado nas configurações do WhatsApp.
+
+Editar sua foto de perfil
+Abra o WhatsApp e toque em Mais opções > Configurações.
+Toque na sua foto de perfil.
+Toque em Galeria para escolher uma foto, ou em Câmera para tirar uma foto nova.
+Se você já tem uma foto de perfil definida, você pode tocar em Remover foto para removê-la.
+Editar seu nome de perfil
+Abra o WhatsApp e toque em Mais opções > Configurações.
+Toque na sua foto de perfil.
+No campo Nome, toque em Editar.
+Insira seu nome atualizado.
+O nome pode ter até 25 caracteres.
+Para adicionar emojis, toque em Emoji.
+Toque em SALVAR.
+Seu nome de perfil poderá ser visualizado por participantes de grupos que não têm seus dados salvos na agenda de contatos deles.
+
+Editar seu recado
+Abra o WhatsApp e toque em Mais opções > Configurações.
+Toque na sua foto de perfil.
+No campo Recado, toque em Editar.
+Você poderá:
+Selecionar uma opção predefinida.
+Tocar em Editar, próximo a Definido como para editar seu recado. O recado pode ter até 139 caracteres.
+Seu recado não pode ficar em branco.
+
+Observações:
+Você pode mudar as configurações de privacidade para definir quem pode visualizar sua foto de perfil e seu recado.
+Você pode mudar as configurações de privacidade para determinar quem pode adicionar você a grupos.
+Se você bloquear um contato, essa pessoa não verá suas atualizações de foto de perfil nem de recado.
+
+__________________________________________________________________________
+Como compartilhar produtos ou serviços de um catálogo
+Você pode compartilhar facilmente produtos ou serviços de uma empresa com seus amigos.
+
+Compartilhe um produto ou serviço de uma conversa individual ou em grupo
+Toque no ícone de Encaminhar próximo à imagem do produto ou serviço.
+Busque ou selecione os grupos ou as conversas individuais com as quais você deseja compartilhar o produto ou serviço.
+Toque no ícone de Enviar.
+Compartilhe um produto ou serviço de um catálogo
+Abra o perfil da empresa no WhatsApp.
+Toque em VER TUDO próximo a Catálogo.
+Toque no produto ou serviço para visualizar os Detalhes.
+Toque no ícone de Encaminhar.
+Busque ou selecione os grupos ou as conversas individuais com as quais você deseja compartilhar o produto ou serviço.
+Toque no ícone de Enviar.
+Compartilhe um produto ou serviço de um catálogo no WhatsApp Web ou Desktop
+Abra o perfil da empresa no WhatsApp.
+Toque em VER TUDO próximo a Catálogo.
+Toque no produto ou serviço para visualizar os Detalhes.
+Toque no ícone do menu suspenso na parte superior.
+Toque em Enviar produto
+Busque ou selecione os grupos ou as conversas individuais com as quais quer compartilhar o produto ou serviço.
+Toque no ícone de Enviar.
+
+__________________________________________________________________________
+Como fazer um pedido usando o carrinho
+Ao visualizar o catálogo de uma empresa no WhatsApp, toque em CONVERSAR COM A EMPRESA para enviar uma mensagem ou em ADICIONAR AO CARRINHO para incluir um produto no carrinho que você enviará à empresa.
+
+Adicionar produtos ao carrinho
+Abra o WhatsApp.
+Abra a conversa ou o perfil comercial da empresa na qual você deseja fazer um pedido.
+Toque no botão comprar exibido ao lado do nome da empresa para acessar o catálogo.
+Explore os produtos no catálogo.
+Toque no produto que você deseja comprar.
+Toque em ADICIONAR AO CARRINHO.
+Se preferir, você pode tocar em CONVERSAR COM A EMPRESA para fazer uma pergunta específica sobre o produto.
+Editar seu carrinho
+Toque em VER CARRINHO para ver todos os produtos adicionados ao seu carrinho.
+Toque em CONTINUAR COMPRANDO para voltar ao catálogo e adicionar mais produtos ao seu carrinho.
+Você também pode editar a quantidade de cada produto adicionado ao carrinho.
+Fazer um pedido
+Após atualizar seu carrinho, você pode enviá-lo à empresa em uma mensagem do WhatsApp.
+Em seguida, você pode tocar no botão VER CARRINHO ENVIADO na conversa com a empresa para ver os detalhes do seu pedido.
+Observação: é possível editar a mensagem antes de enviar o carrinho ao vendedor.
+Para perguntar sobre vários itens do catálogo de uma empresa, adicione-os ao seu carrinho e envie sua consulta em uma única mensagem. Seu pedido só será finalizado quando a empresa confirmar o pagamento.
+
+Para mais informações sobre como adicionar itens ao seu carrinho, baixe este infográfico.
+
+__________________________________________________________________________
+Como usar o modo escuro
+O modo escuro permite que você troque a cor do seu WhatsApp ao selecionar o tema claro ou escuro.
+
+https://www.youtube.com/watch?v=59XEIYSqFkA
+
+
+Usar o modo escuro
+Abra o WhatsApp e toque em Mais opções > Configurações > Conversas > Tema.
+Selecione uma das opções a seguir:
+Escuro: ativa o modo escuro.
+Claro: desativa o modo escuro.
+Automático (sistema): selecione essa opção para que o WhatsApp siga a configuração do seu celular. Abra as Configurações do seu celular e toque em Tela. Em seguida, ative ou desative o Tema escuro.
+
+__________________________________________________________________________
+Como mudar seu número de telefone
+
+https://www.youtube.com/watch?v=FjekU-DE_p0
+
+Com o recurso mudar número, você pode mudar o número de telefone associado com sua conta do WhatsApp no mesmo aparelho ou em um aparelho novo. Antes de mudar seu número, certifique-se de que:
+
+Seu número de telefone novo pode receber SMS ou chamadas, e que seu aparelho tem uma conexão de dados móveis ativa.
+Seu número de telefone antigo foi confirmado no WhatsApp. Para ver o número que foi confirmado no WhatsApp, abra o WhatsApp e toque em Mais opções > Configurações. Em seguida, toque na sua foto de perfil.
+Mudar seu número de telefone no mesmo aparelho
+Para mudar de número de telefone, mas continuar usando o mesmo aparelho, primeiro insira o cartão SIM com o novo número de telefone no seu aparelho. Em seguida:
+
+Abra o WhatsApp.
+Toque em Mais opções > Configurações > Conta > Mudar número > AVANÇAR.
+Insira seu número de telefone antigo no primeiro campo e seu número de telefone novo no segundo campo, ambos em formato internacional completo.
+Toque em AVANÇAR.
+Se ativar a opção Notificar contatos, você poderá escolher entre notificar Todos, Com quem tenho conversas ou Personalizado.... Ao selecionar a opção Personalizado..., você precisará pesquisar ou selecionar os contatos que deseja notificar. Em seguida, toque no ícone de tique verde.
+Seus grupos serão notificados quando você mudar de número de telefone, mesmo se você não ativar a opção para notificar seus contatos.
+Toque em CONCLUÍDO.
+Em seguida, você precisará confirmar seu número de telefone. Saiba mais neste artigo.
+Mudar seu número de telefone em um novo aparelho
+Se desejar transferir seu histórico de conversas, você precisará criar um backup do Google Drive no seu aparelho antigo. Saiba como neste artigo. Se você não criou um backup usando o Google Drive, você precisará transferir seu backup manualmente. Saiba como neste artigo.
+
+Após mudar seu número de telefone em seu aparelho antigo:
+
+Instale o WhatsApp em seu novo aparelho.
+Confirme seu novo número de telefone.
+Restaure seu backup.
+
+__________________________________________________________________________
+Sobre os recursos de acessibilidade no WhatsApp
+Você pode ativar os recursos de acessibilidade no WhatsApp nas configurações do seu aparelho. No Android, você pode:
+
+Ativar o TalkBack (assistente de voz) para interagir com seu dispositivo usando o retorno por toque e voz. Se quiser utilizar o retorno de voz apenas em alguns momentos, ative o recurso Selecionar para ouvir.
+Ajustar o tamanho da exibição e do texto, ampliar a tela temporariamente, e ajustar o contraste e as cores.
+Usar o BrailleBack para conectar uma linha braile atualizável ao seu aparelho via Bluetooth.
+Ativar diversas configurações de áudio e texto na tela como legendas, legendas em tempo real, transcrição instantânea, amplificador de som, compatibilidade com aparelhos auditivos e mensagem de texto em tempo real (RTT).
+Para mais detalhes e instruções sobre os recursos de acessibilidade disponíveis no seu aparelho, acesse a página de Ajuda do Google.
+
+Se desejar, envie sugestões ou problemas relacionados à acessibilidade para nosso e-mail accessibility@support.whatsapp.com.
+
+__________________________________________________________________________
+Como liberar espaço de armazenamento no WhatsApp
+Você pode conferir quanto espaço o WhatsApp está usando no seu aparelho e apagar itens para liberar espaço de armazenamento.
+
+Visualizar o armazenamento
+Na aba CONVERSAS, toque em Mais opções > Configurações.
+Toque em Armazenamento e dados e, em seguida, em Gerenciar armazenamento.
+No topo da tela, você verá o espaço usado no seu aparelho por Arquivos de mídia do WhatsApp e Apps e outros itens.
+
+Analisar e apagar itens
+Você pode apagar itens grandes ou que foram encaminhados muitas vezes para liberar espaço de armazenamento. Além disso, você pode apagar itens de conversas específicas.
+
+Analisar itens
+Na aba CONVERSAS, toque em Mais opções > Configurações.
+Toque em Armazenamento e dados e, em seguida, em Gerenciar armazenamento.
+Toque em Encaminhados muitas vezes, Maior do que 5 MB ou selecione uma conversa específica.
+Toque no ícone no canto superior direito para ordenar os itens por Mais recente, Mais antigo ou Maior.
+O tamanho do item é exibido no canto superior esquerdo de cada item.
+Toque em um item para analisá-lo. Você também pode:
+Ver em qual conversa e data o item foi enviado: toque em Mais opções > Mostrar na conversa.
+Favoritar ou desfavoritar um item: toque em Favoritar ou Desfavoritar.
+Apagar itens
+Se você apagar um item, ele será apagado dos seus arquivos de mídia do WhatsApp. Itens apagados ainda podem estar salvos no seu aparelho. Se você tem várias cópias de um item, é necessário apagar todas as cópias para liberar espaço.
+
+Na aba CONVERSAS, toque em Mais opções > Configurações.
+Toque em Armazenamento e dados e, em seguida, em Gerenciar armazenamento.
+Toque em Encaminhados muitas vezes, Maior do que 5 MB ou selecione uma conversa específica.
+Nessa tela, você poderá:
+Apagar todos os itens: toque em Selecionar todos se quiser apagar todos os itens de uma vez.
+Apagar um item por vez: toque e segure no item que você deseja apagar e, se desejar, selecione mais itens para apagá-los também.
+Toque em Apagar.
+Selecione Apagar itens favoritos para apagar itens marcados como favoritos.
+Selecione Apagar cópias para apagar todas as cópias de um item.
+Toque em APAGAR.
+Pesquisar e apagar itens
+Você também pode apagar itens específicos usando o recurso de pesquisa.
+
+Na aba CONVERSAS, toque em Pesquisar.
+Toque em Fotos, Vídeos ou Documentos.
+Toque no item que você deseja apagar.
+Toque em Mais opções > Apagar.
+Se preferir, toque em Apagar os arquivos de mídia desta conversa.
+Toque em APAGAR.
+Avisos de pouco espaço de armazenamento
+O WhatsApp pode não funcionar corretamente caso o espaço disponível no armazenamento do seu aparelho estiver muito baixo. Se isso acontecer, o WhatsApp pode exibir um aviso para que você libere espaço para continuar usando o app.
+
+Você também pode apagar apps que você não usa, vídeos, fotos e arquivos salvos no seu celular para liberar mais espaço. Para mais informações sobre como liberar espaço de armazenamento diretamente no seu aparelho, entre em contato com o fabricante.
+
+__________________________________________________________________________
+Sobre o envio de mensagens no WhatsApp
+O WhatsApp usa a conexão de dados móveis ou à rede Wi-Fi do seu celular para enviar e receber mensagens e chamadas de seus familiares e amigos. Se você não excedeu o limite do seu pacote de dados ou está conectado à uma rede Wi-Fi gratuita, sua operadora não cobrará a mais pelas mensagens e chamadas no WhatsApp. Se seu celular estiver em roaming, sua operadora poderá cobrar pelo uso de dados.
+
+__________________________________________________________________________
+Sobre banimento de contas
+
+
+
+Você verá a seguinte mensagem quando tentar acessar o WhatsApp caso sua conta esteja banida: "Seu número de telefone foi banido do WhatsApp. Fale conosco para obter ajuda."
+
+Podemos banir contas se acreditamos que as atividades delas violam nossos Termos de Serviço.
+
+Recomendamos que você leia atentamente a seção "Uso aceitável de nossos Serviços” dos nossos Termos de Serviço para saber mais sobre o uso adequado do WhatsApp e sobre as atividades que violam nossos Termos de Serviço. Para saber como usar o WhatsApp de forma responsável, leia este artigo.
+
+Lembre-se de que podemos banir contas sem aviso prévio. Se você acha que sua conta foi banida por engano, envie um e-mail para nós, e analisaremos seu caso.
+
+__________________________________________________________________________
+Porque seu número de telefone já está no WhatsApp
+Todas as contas do WhatsApp são associadas a um número de telefone. Como é comum que operadoras de celular reutilizem os números de telefone, é possível que a pessoa a quem seu número pertencia anteriormente já tenha usado o WhatsApp.
+
+Se essa pessoa não apagou a conta do WhatsApp, pode ser que você e seus contatos vejam seu número de telefone no WhatsApp antes de você ativar uma conta nova. Você também poderá ver os dados do perfil, como o Recado e a foto do perfil de outra pessoa associados ao seu número de telefone.
+
+Não se preocupe. Isso só significa que a conta anterior não foi apagada e nosso sistema ainda contém informações antigas. A pessoa a quem o número de telefone pertencia não tem acesso à conta do WhatsApp que você confirmou com esse número. Suas conversas e outros dados do WhatsApp estão seguros.
+
+Para evitar confusões com números de telefone reutilizados, nós monitoramos a inatividade das contas. Se uma conta fica sem uso por 45 dias e, em seguida, é confirmada em um aparelho diferente, entendemos isso como um sinal de que o número foi reutilizado. Nesse caso, removeremos os dados da conta antiga associados ao número de telefone, como a foto do perfil e o Recado.
+
+__________________________________________________________________________
+Aparelhos perdidos e roubados
+Em caso de perda ou roubo de um aparelho, podemos ajudar a garantir que ninguém use sua conta do WhatsApp.
+
+O que fazer?
+Bloqueie seu chip. Entre em contato com sua operadora de celular imediatamente para solicitar o bloqueio do seu chip. Enquanto seu chip estiver bloqueado, não será possível confirmar seu número de telefone novamente, já que é preciso receber SMS ou ligações telefônicas para confirmar a conta.
+
+Nesse momento, você tem duas opções:
+
+Você pode usar um novo chip com o mesmo número para ativar o WhatsApp no seu novo celular. Essa é a forma mais rápida de desativar sua conta em um aparelho roubado ou perdido. O WhatsApp pode ser utilizado apenas com um número de telefone em um celular por vez.
+Envie um e-mail com a frase "Perdido/roubado: desative a minha conta" no corpo do e-mail e inclua seu número de telefone no formato internacional completo, conforme descrito aqui.
+Observações:
+
+Caso você não entre em contato conosco e peça para desativar a conta, o WhatsApp ainda poderá ser usado no Wi-Fi, mesmo com o bloqueio do chip e a suspensão dos serviços da operadora.
+Não podemos ajudar a localizar seu aparelho. Não é possível desativar o WhatsApp remotamente através de outro aparelho.
+Se você criou um backup no Google Drive, iCloud ou OneDrive antes da perda ou do roubo do aparelho, talvez você possa restaurar seu histórico de conversas. Saiba como restaurar mensagens no Android e iPhone.
+O que acontece quando uma conta é desativada
+A conta não é excluída totalmente.
+Seus contatos ainda podem ver seu perfil.
+As mensagens enviadas pelos seus contatos à sua conta permanecerão pendentes por até 30 dias.
+Caso reative sua conta antes da exclusão, você receberá as mensagens pendentes no seu novo celular e ainda fará parte das suas conversas em grupo.
+Se você não ativar sua conta em até 30 dias, ela será totalmente excluída.
+
+__________________________________________________________________________
+Criação de nomes comerciais
+O nome comercial deve representar o nome da sua empresa ou organização.
+
+Regras para a criação de um nome comercial
+Para que sua conta possa tornar-se uma conta comercial oficial, certifique-se de que seu nome comercial não apresenta nenhuma destas condições:
+
+Todas as letras maiúsculas, exceto em siglas. Apenas a primeira letra de cada palavra pode ser maiúscula, e conjunções devem ser escritas em letras minúsculas. Por exemplo:
+Correto: Padaria Central ou Pastéis e Empadas da Vânia
+Incorreto: PADARIA CENTRAL ou Pastéis E Empadas da Vânia
+Espaçamento extra entre as palavras. Nomes comerciais devem usar apenas um espaço entre as palavras.
+Pontuação desnecessária
+Emojis
+Símbolos (por exemplo: ®)
+Caracteres não alfanuméricos consecutivos (caracteres que não são números nem letras)
+Os seguintes caracteres especiais: ~!@#$%^&*()_+:;"'{}[]\|<>,/?
+Observação: essas instruções de formatação não se aplicam a nomes comerciais que já utilizam o formato oficialmente. Nesse caso, o nome comercial usado no app WhatsApp Business pode incluir a pontuação, letras maiúsculas e os outros caracteres já utilizados pela empresa.
+
+Além disso, nomes comerciais não podem ser:
+
+O nome completo de uma pessoa
+Um termo genérico (por exemplo: Moda)
+Uma localização geográfica (por exemplo: São Paulo)
+Inferiores a três caracteres
+Nomes comerciais também não podem incluir qualquer variação da palavra WhatsApp. Saiba mais acessando nossas Diretrizes de Marca (Brand Guidelines).
+
+Observação: se sua conta comercial for uma conta comercial oficial, mudar seu nome comercial pode resultar na perda do status de conta comercial oficial.

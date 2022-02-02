@@ -1,0 +1,679 @@
+_________________________________________________________________________
+Sobre o envio de mensagens no WhatsApp
+
+O WhatsApp usa a conexão de dados móveis ou à rede Wi-Fi do seu celular para enviar e receber mensagens e chamadas de seus familiares e amigos. Se você não excedeu o limite do seu pacote de dados ou está conectado à uma rede Wi-Fi gratuita, sua operadora não cobrará a mais pelas mensagens e chamadas no WhatsApp. Se seu celular estiver em roaming, sua operadora poderá cobrar pelo uso de dados.
+
+_________________________________________________________________________
+Sobre banimento de contas
+
+Você verá a seguinte mensagem quando tentar acessar o WhatsApp caso sua conta esteja banida: "Seu número de telefone foi banido do WhatsApp. Fale conosco para obter ajuda."
+
+Podemos banir contas se acreditamos que as atividades delas violam nossos Termos de Serviço.
+
+Recomendamos que você leia atentamente a seção "Uso aceitável de nossos Serviços” dos nossos Termos de Serviço para saber mais sobre o uso adequado do WhatsApp e sobre as atividades que violam nossos Termos de Serviço. Para saber como usar o WhatsApp de forma responsável, leia este artigo.
+
+Lembre-se de que podemos banir contas sem aviso prévio. Se você acha que sua conta foi banida por engano, envie um e-mail para nós, e analisaremos seu caso.
+
+_________________________________________________________________________
+Porque seu número de telefone já está no WhatsApp
+
+Todas as contas do WhatsApp são associadas a um número de telefone. Como é comum que operadoras de celular reutilizem os números de telefone, é possível que a pessoa a quem seu número pertencia anteriormente já tenha usado o WhatsApp.
+
+Se essa pessoa não apagou a conta do WhatsApp, pode ser que você e seus contatos vejam seu número de telefone no WhatsApp antes de você ativar uma conta nova. Você também poderá ver os dados do perfil, como o Recado e a foto do perfil de outra pessoa associados ao seu número de telefone.
+
+Não se preocupe. Isso só significa que a conta anterior não foi apagada e nosso sistema ainda contém informações antigas. A pessoa a quem o número de telefone pertencia não tem acesso à conta do WhatsApp que você confirmou com esse número. Suas conversas e outros dados do WhatsApp estão seguros.
+
+Para evitar confusões com números de telefone reutilizados, nós monitoramos a inatividade das contas. Se uma conta fica sem uso por 45 dias e, em seguida, é confirmada em um aparelho diferente, entendemos isso como um sinal de que o número foi reutilizado. Nesse caso, removeremos os dados da conta antiga associados ao número de telefone, como a foto do perfil e o Recado.
+
+_________________________________________________________________________
+Aparelhos perdidos e roubados
+
+Em caso de perda ou roubo de um aparelho, podemos ajudar a garantir que ninguém use sua conta do WhatsApp.
+
+O que fazer?
+Bloqueie seu chip. Entre em contato com sua operadora de celular imediatamente para solicitar o bloqueio do seu chip. Enquanto seu chip estiver bloqueado, não será possível confirmar seu número de telefone novamente, já que é preciso receber SMS ou ligações telefônicas para confirmar a conta.
+
+Nesse momento, você tem duas opções:
+
+Você pode usar um novo chip com o mesmo número para ativar o WhatsApp no seu novo celular. Essa é a forma mais rápida de desativar sua conta em um aparelho roubado ou perdido. O WhatsApp pode ser utilizado apenas com um número de telefone em um celular por vez.
+Envie um e-mail com a frase "Perdido/roubado: desative a minha conta" no corpo do e-mail e inclua seu número de telefone no formato internacional completo, conforme descrito aqui.
+Observações:
+
+Caso você não entre em contato conosco e peça para desativar a conta, o WhatsApp ainda poderá ser usado no Wi-Fi, mesmo com o bloqueio do chip e a suspensão dos serviços da operadora.
+Não podemos ajudar a localizar seu aparelho. Não é possível desativar o WhatsApp remotamente através de outro aparelho.
+Se você criou um backup no Google Drive, iCloud ou OneDrive antes da perda ou do roubo do aparelho, talvez você possa restaurar seu histórico de conversas. Saiba como restaurar mensagens no Android e iPhone.
+O que acontece quando uma conta é desativada
+A conta não é excluída totalmente.
+Seus contatos ainda podem ver seu perfil.
+As mensagens enviadas pelos seus contatos à sua conta permanecerão pendentes por até 30 dias.
+Caso reative sua conta antes da exclusão, você receberá as mensagens pendentes no seu novo celular e ainda fará parte das suas conversas em grupo.
+Se você não ativar sua conta em até 30 dias, ela será totalmente excluída.
+
+_________________________________________________________________________
+Criação de nomes comerciais
+
+O nome comercial deve representar o nome da sua empresa ou organização.
+
+Regras para a criação de um nome comercial
+Para que sua conta possa tornar-se uma conta comercial oficial, certifique-se de que seu nome comercial não apresenta nenhuma destas condições:
+
+Todas as letras maiúsculas, exceto em siglas. Apenas a primeira letra de cada palavra pode ser maiúscula, e conjunções devem ser escritas em letras minúsculas. Por exemplo:
+Correto: Padaria Central ou Pastéis e Empadas da Vânia
+Incorreto: PADARIA CENTRAL ou Pastéis E Empadas da Vânia
+Espaçamento extra entre as palavras. Nomes comerciais devem usar apenas um espaço entre as palavras.
+Pontuação desnecessária
+Emojis
+Símbolos (por exemplo: ®)
+Caracteres não alfanuméricos consecutivos (caracteres que não são números nem letras)
+Os seguintes caracteres especiais: ~!@#$%^&*()_+:;"'{}[]\|<>,/?
+Observação: essas instruções de formatação não se aplicam a nomes comerciais que já utilizam o formato oficialmente. Nesse caso, o nome comercial usado no app WhatsApp Business pode incluir a pontuação, letras maiúsculas e os outros caracteres já utilizados pela empresa.
+
+Além disso, nomes comerciais não podem ser:
+
+O nome completo de uma pessoa
+Um termo genérico (por exemplo: Moda)
+Uma localização geográfica (por exemplo: São Paulo)
+Inferiores a três caracteres
+Nomes comerciais também não podem incluir qualquer variação da palavra WhatsApp. Saiba mais acessando nossas Diretrizes de Marca (Brand Guidelines).
+
+Observação: se sua conta comercial for uma conta comercial oficial, mudar seu nome comercial pode resultar na perda do status de conta comercial oficial.
+
+_________________________________________________________________________
+O que é o WhatsApp Business?
+O WhatsApp Business é um app gratuito que foi desenvolvido para atender às necessidades das pequenas empresas e está disponível para Android e iPhone. O WhatsApp Business facilita a interação com os clientes e oferece ferramentas para automatizar, classificar e responder rapidamente a mensagens. O app também tem os mesmos recursos e o mesmo visual do WhatsApp Messenger que você já conhece e confia. Você pode usá-lo para fazer tudo o que já está acostumado a fazer, desde trocar mensagens até enviar fotos e vídeos.
+
+Alguns dos recursos disponíveis no app atualmente são:
+
+Perfil comercial para exibir informações importantes, como o endereço, o e-mail e o site da empresa.
+Etiquetas para organizar e encontrar facilmente suas conversas e mensagens.
+Ferramentas de mensagem para responder rapidamente às mensagens de clientes.
+Saiba como baixar o WhatsApp Business na Google Play Store e na App Store.
+
+Se você não tem uma empresa, não há necessidade de baixar o WhatsApp Business. Você pode continuar usando sua conta do WhatsApp Messenger gratuitamente para conversar com amigos, familiares e empresas.
+
+_________________________________________________________________________
+Por que não consigo conectar o WhatsApp a uma loja do Facebook?
+Observação: esse recurso pode não estar disponível para você no momento.
+
+Em caso de problemas para conectar ou desconectar sua conta do WhatsApp Business de uma loja do Facebook, certifique-se de que:
+
+Você está usando o número de telefone associado à sua conta do WhatsApp Business. Não é possível conectar contas do app WhatsApp Messenger a uma loja do Facebook.
+Você é admin na sua conta do Gerenciador de Negócios do Facebook.
+Sua Página do Facebook e seu catálogo no WhatsApp estão conectados à mesma conta do Gerenciador de Negócios.
+Você tem permissão para gerenciar a Página do Facebook e o catálogo no WhatsApp no Gerenciador de Negócios.
+Você inseriu o código correto ao tentar registrar o número de telefone associado à sua conta do WhatsApp Business.
+Artigos relacionados
+Sobre a integração das Lojas do Facebook com o app WhatsApp Business
+Como conectar sua conta do WhatsApp Business a uma Loja do Facebook
+Como compartilhar o link da sua Loja do Facebook no WhatsApp
+
+_________________________________________________________________________
+Por que não consigo acessar o catálogo do WhatsApp ao me conectar à loja do Facebook?
+Observação: esse recurso pode não estar disponível para você no momento.
+
+Para vender produtos ou serviços da sua loja do Facebook no WhatsApp, você deve estar em acordo com a Política Comercial do Facebook. Saiba mais sobre os Termos de Serviço e os outros requisitos de qualificação para vender produtos e serviços da sua loja neste artigo.
+
+Saiba como entrar em contato com o Suporte do Concierge do Facebook neste artigo.
+
+_________________________________________________________________________
+Como solicitar os dados da sua conta
+Com o recurso de solicitar dados da conta, você pode solicitar e exportar um relatório com as configurações e os dados da sua conta do WhatsApp. Esse relatório não inclui suas mensagens. Para ter acesso às suas mensagens fora do app, você pode exportar seu histórico de conversas.
+
+Lembre-se de que esse recurso não está disponível no WhatsApp Web/Computador.
+
+Solicitar relatório
+Abra o WhatsApp e toque em Configurações > Conta > Solicitar dados da conta.
+Toque em Solicitar relatório. A tela atualizará, mostrando o status Solicitação enviada.
+Geralmente, o relatório fica disponível três dias após a data da solicitação. Você poderá consultar a data de disponibilização em Pronto até o dia enquanto aguarda seu relatório.
+
+Observações:
+Depois de solicitar o relatório, você não poderá desfazer nem cancelar a solicitação pendente.
+Se você mudar de número de telefone ou apagar sua conta, sua solicitação pendente será anulada e você precisará solicitar outro relatório para ter acesso aos dados da sua conta.
+Baixar e exportar o relatório
+Quando o relatório estiver disponível para download, você receberá a seguinte notificação do WhatsApp no seu aparelho: “O relatório de dados da sua conta está disponível”. A tela Solicitar dados da conta no WhatsApp informa quanto tempo o relatório permanecerá disponível para download antes de ser apagado dos nossos servidores. Como o relatório contém informações pessoais, tenha cuidado ao armazenar, enviar ou carregá-lo em outros serviços.
+
+Abra o WhatsApp e toque em Configurações > Conta > Solicitar dados da conta.
+Toque em Baixar relatório. Um arquivo ZIP com arquivos HTML e JSON será baixado em seu celular.
+Após o download, toque em Exportar relatório > EXPORTAR ou Exportar relatório. Você não poderá visualizar o relatório baixado no WhatsApp.
+Ao visualizar a área de compartilhamento, toque no aplicativo para o qual você deseja exportar o relatório. Por exemplo, você pode enviar uma cópia do relatório para você mesmo por e-mail.
+Após o download do relatório, você poderá apagar permanentemente a cópia baixada em seu aparelho. Para isso, toque em Apagar relatório > APAGAR ou Apagar relatório na tela Solicitar dados da conta. Apagar o relatório não apaga os dados da sua conta do WhatsApp.
+
+Artigos relacionados
+Como solicitar os dados da sua conta em aparelhos KaiOS
+Como exportar seu histórico de conversas no: Android | iPhone
+
+_________________________________________________________________________
+Contas roubadas
+Sobre contas roubadas
+Nunca compartilhe seu código de confirmação do WhatsApp recebido por SMS com outras pessoas, nem mesmo com amigos ou familiares. Caso você tenha compartilhado seu código e perdeu o acesso à sua conta do WhatsApp, siga as instruções abaixo para recuperá-la.
+
+Se você suspeita que outra pessoa está utilizando sua conta do WhatsApp, notifique seus familiares e amigos, pois essa pessoa pode tentar se passar por você em conversas individuais e em grupos. Lembre-se de que o WhatsApp é protegido com a criptografia de ponta a ponta e suas mensagens são armazenadas em seu aparelho. Se alguma pessoa acessar sua conta de outro dispositivo, ela não poderá ler suas conversas.
+
+
+
+Como recuperar sua conta
+Entre no WhatsApp com seu número de telefone e confirme-o com o código de seis dígitos que você receberá por SMS. Saiba como confirmar seu número no Android ou iPhone.
+
+Assim que você inserir o código de seis dígitos recebido por SMS, a pessoa que estiver usando sua conta será desconectada automaticamente.
+
+Também pode ser necessário informar um código de confirmação em duas etapas. Se você não souber esse código, é possível que a pessoa que está usando sua conta tenha ativado a confirmação em duas etapas. Se isso acontecer, você precisará aguardar sete dias para poder acessar sua conta sem o código de confirmação em duas etapas. Mesmo que você não saiba o código de confirmação em duas etapas, a pessoa que estava usando sua conta será desconectada quando você inserir o código de seis dígitos recebido por SMS. Saiba mais sobre a confirmação em duas etapas neste artigo.
+
+Observações:
+Se você tem acesso à sua conta e acredita que alguém está utilizando sua conta no WhatsApp Web/Computador, recomendamos que você use o WhatsApp no seu celular para se desconectar de todos os aparelhos.
+Para proteger sua conta, o WhatsApp notificará você caso outra pessoa tente registrar uma conta do WhatsApp com seu número de telefone. Saiba mais neste artigo.
+Artigos relacionados
+Para mais dicas de segurança, leia este artigo.
+Caso seu aparelho tenha sido perdido ou roubado, leia este artigo.
+Se você recebeu um código de registro sem solicitá-lo, leia este artigo.
+imagens:
+https://scontent.whatsapp.net/v/t39.8562-34/p1080x2048/150564551_146310114029380_2890980142788647198_n.jpg.webp?ccb=1-5&_nc_sid=8a74b9&_nc_ohc=saxg3kik7PAAX9LlR1E&_nc_ht=scontent.whatsapp.net&oh=01_AVzCryhyBar-s2g2aGkP-wbCW9lEXGF654hh1v_jvr2X2w&oe=61FDF6EF
+
+
+
+_________________________________________________________________________
+Por que estou vendo a mensagem "Seu número de telefone foi banido do WhatsApp. Fale conosco para obter ajuda."?
+
+
+
+Caso seu número de telefone seja banido do WhatsApp Business, você verá a seguinte mensagem no aplicativo:
+
+Seu número de telefone foi banido do WhatsApp. Fale conosco para obter ajuda.
+
+Lembre-se de que podemos banir contas se acreditarmos que elas violam nossos Termos de Serviço. Leia atentamente a seção “Uso aceitável de nossos Serviços” dos nossos Termos de Serviço para saber mais sobre o uso adequado do WhatsApp Business e sobre as atividades que violam nossos Termos de Serviço.
+
+Podemos banir contas sem aviso prévio. Caso acredite que sua conta foi banida por engano, envie um e-mail para nós e analisaremos seu caso.
+https://www.youtube.com/watch?v=-a4um6gYPKY&feature=emb_imp_woyt
+
+______________________________________________________________________________________________
+Sobre o catálogo
+Ao criar um catálogo, as empresas que usam o WhatsApp Business podem facilmente exibir e compartilhar produtos e serviços com seus clientes. O catálogo será exibido no perfil comercial da empresa.
+
+
+
+Todos os produtos e serviços no catálogo têm um título exclusivo e campos opcionais de preço, descrição, link e código do produto. Com essas informações, os clientes podem identificar rapidamente os itens no catálogo, que pode ter até 500 produtos ou serviços listados.
+
+Um catálogo atualizado permite que os clientes (regulares e potenciais) possam conferir os produtos ou serviços disponíveis e facilmente interagir com as empresas. Os clientes também podem escolher e fazer perguntas sobre um produto ou serviço e até compartilhá-lo com amigos.
+
+Compartilhar o catálogo permite que pequenas empresas promovam seus produtos e serviços para mais clientes em potencial. As empresas que usam o WhatsApp Business podem enviar o catálogo completo para os clientes com os quais elas já estão conectadas e compartilhar o link do catálogo em qualquer lugar, como nas redes sociais ou em outras plataformas, permitindo que mais pessoas descubram seus produtos e serviços e entrem em contato por mensagens.
+
+______________________________________________________________________________________________
+Como acessar um catálogo
+Com o catálogo, você pode ver facilmente os produtos ou os serviços de uma empresa. Quando uma empresa cria um catálogo, ele é exibido no perfil comercial da empresa.
+
+Visualizar o catálogo de uma empresa
+Abra a conversa com a empresa.
+Toque no nome da empresa para ver o perfil comercial no WhatsApp.
+Toque em VER TUDO ao lado de CATÁLOGO.
+Além disso, se a empresa tem um catálogo ativo, você pode tocar no botão comprar ( no Android ou  no iPhone) na sua conversa com a empresa para acessar o catálogo.
+
+Você também pode ver o catálogo inteiro ou um item específico de uma empresa e compartilhá-lo com seus amigos e familiares usando uma das opções abaixo:
+
+Enviar link pelo WhatsApp: para compartilhar um item ou o catálogo com outras pessoas no WhatsApp.
+Copiar link: para copiar o link.
+Compartilhar link: para compartilhar o link de um item ou do catálogo por e-mail ou em outros aplicativos de mensagens.
+
+______________________________________________________________________________________________
+Como criar e gerenciar coleções no seu catálogo
+Com as coleções de itens no catálogo, os clientes podem encontrar os produtos e serviços que estão procurando mais facilmente.
+
+Criar uma coleção
+Antes de criar uma coleção, você precisa adicionar itens ao seu catálogo. Depois de adicionar os itens, você pode criar coleções para organizá-los.
+
+Abra o app WhatsApp Business.
+Clique em Mais opções| na parte superior da sua lista de conversas e, em seguida, clique em Catálogo > Adicionar coleção.
+Insira um nome para a coleção.
+Selecione os itens do catálogo que você deseja adicionar à coleção.
+Clique em OK.
+Gerenciar uma coleção
+Você pode editar as informações da sua coleção no menu Coleções para garantir que ela esteja sempre atualizada.
+
+Adicionar ou remover itens de uma coleção
+Clique em Mais opções| > Coleções.
+Clique em Mais opções| e, em seguida, na coleção que você deseja atualizar.
+Selecione ou desmarque os itens do catálogo que você deseja adicionar ou remover da coleção.
+Clique em OK.
+Renomear uma coleção
+Clique em Mais opções| > Coleções.
+Clique em Mais opções| e, em seguida, na coleção que você deseja renomear.
+Insira um novo nome para a coleção.
+Clique em OK.
+Apagar uma coleção
+Clique em Mais opções| > Coleções.
+Clique em Mais opções| e, em seguida, na coleção que você deseja apagar.
+Clique em Apagar > OK.
+Observação: coleções novas ou atualizadas serão analisadas pelo WhatsApp antes de serem exibidas aos seus clientes.
+
+______________________________________________________________________________________________
+Como cumprir as leis para vender online na Índia
+Observação : este artigo é destinado a todas as empresas que realizam comércio no aplicativo WhatsApp Business na Índia (“Negócios”).
+
+Se você possui uma empresa que realiza comércio no WhatsApp na Índia, as leis da Índia exigem que você forneça informações adicionais aos clientes em seu perfil comercial e catálogo .
+
+As informações adicionais ajudam a mostrar seus produtos e serviços e fornecer credibilidade para os clientes que interagem com sua empresa.
+
+Forneça as informações da sua empresa no perfil da sua empresa
+Abra o aplicativo WhatsApp Business.
+No Android, toque em Mais opções . No iPhone, toque em Configurações .
+Em seguida, toque em Ferramentas comerciais > Perfil comercial .
+Na seção Detalhes da empresa , toque em Editar.
+Toque em Editar para adicionar informações comerciais para as seguintes seções:
+Razão Social da Empresa : Insira a razão social completa da sua Empresa.
+Tipo de negócio : selecione o tipo de negócio. As opções incluem:
+Sociedade de responsabilidade limitada
+Empresa individual
+Parceria
+Companhia pública
+Empresa privada
+De outros
+Observação : Se você selecionar 'Parceria' ou 'Outro' como seu tipo de empresa, será perguntado se sua empresa está registrada de acordo com as leis aplicáveis ​​(Sim ou Não). Assumimos que sua Empresa está registrada de acordo com a lei aplicável para todas as outras opções.
+
+Endereço Comercial : Insira o endereço do seu Negócio. Este deve ser o mesmo endereço compartilhado em seu perfil comercial.
+Informações de atendimento ao cliente : Insira as informações de contato do indivíduo que responderá e resolverá as dúvidas de seus clientes, como devoluções ou reembolsos. É necessário fornecer um endereço de e-mail e pelo menos um número de telefone fixo ou celular.
+Informações do Oficial de Reclamações : Insira as informações de contato do indivíduo que responderá e resolverá quaisquer reclamações de seus clientes. É necessário fornecer o nome do oficial de reclamações e pelo menos um método de contato, como e-mail, número de telefone fixo ou número de celular.
+Use a caixa de texto livre na seção Descrição da empresa do perfil para inserir qualquer outra informação que você precise fornecer de acordo com a(s) lei(s) aplicável(eis).
+Forneça suas informações comerciais para um catálogo
+Os detalhes comerciais são necessários ao criar um catálogo pela primeira vez.
+
+Abra o aplicativo WhatsApp Business.
+No Android, toque em Mais opções . No iPhone, toque em Configurações .
+Em seguida, toque em Ferramentas de negócios > Catálogo .
+Toque em Adicionar item .
+Adicione informações comerciais para as seguintes seções:
+Razão Social da Empresa : Insira a razão social completa da sua Empresa.
+Tipo de negócio : selecione o tipo de negócio. As opções incluem:
+Sociedade de responsabilidade limitada
+Empresa individual
+Parceria
+Companhia pública
+Empresa privada
+De outros
+Observação : Se você selecionar 'Parceria' ou 'Outro' como seu tipo de empresa, será perguntado se sua empresa está registrada de acordo com as leis aplicáveis ​​(Sim ou Não). Assumimos que sua Empresa está registrada de acordo com a lei aplicável para todas as outras opções.
+
+Endereço Comercial : Insira o endereço do seu Negócio. Este deve ser o mesmo endereço compartilhado em seu perfil comercial.
+Informações de atendimento ao cliente : Insira as informações de contato do indivíduo que responderá e resolverá as dúvidas de seus clientes, como devoluções ou reembolsos. É necessário fornecer um endereço de e-mail e pelo menos um número de telefone fixo ou celular.
+Informações do Oficial de Reclamações : Insira as informações de contato do indivíduo que responderá e resolverá quaisquer reclamações de seus clientes. É necessário fornecer o nome do oficial de reclamações e pelo menos um método de contato, como e-mail, número de telefone fixo ou número de celular.
+Use a caixa de texto livre na seção Descrição da empresa do perfil para inserir qualquer outra informação que você precise fornecer de acordo com a(s) lei(s) aplicável(eis).
+Se solicitado, toque em Avançar > Adicionar novo item . Seu catálogo está criado.
+Você pode editar seus dados comerciais a qualquer momento.
+
+Navegue até a guia Bate -papos.
+No Android, toque em Mais opções . No iPhone, toque em Configurações .
+Em seguida, toque em Ferramentas comerciais > Perfil comercial .
+Na seção Detalhes da empresa , toque em Editar.
+Forneça informações do produto em seu catálogo
+Abra o aplicativo WhatsApp Business.
+No Android, toque em Mais opções . No iPhone, toque em Configurações .
+Toque em Catálogo .
+Toque no produto que você deseja editar. Em seguida, toque em Editarou Mais opções > Editar .
+Toque em País de origem .
+Selecione o país de origem do item do produto > Confirmar .
+Se o país de origem for a Índia, a Índia será automaticamente adicionada ao campo País de origem .
+Se o país de origem não for a Índia, o país selecionado será adicionado automaticamente ao campo País de origem . Toque em Informações do importador e preencha estes campos adicionais:
+Nome do importador : Insira o nome da entidade legal do importador.
+Endereço do importador : Insira o endereço operacional do importador.
+Observação : se o item for um bem não físico vendido na Índia, como um serviço, selecione Não aplicável no campo País de origem .
+
+Toque em CONCLUÍDO .
+Use a caixa de texto livre na seção Descrição da empresa do perfil para inserir qualquer outra informação que você precise fornecer de acordo com a(s) lei(s) aplicável(eis).
+Toque em SALVAR .
+As informações do seu item de produto serão analisadas. Se for aprovado, seus clientes o verão em seu perfil.
+
+Se um usuário solicitar que o WhatsApp forneça informações adicionais sobre você após uma compra, o WhatsApp poderá entrar em contato com você para obter informações comerciais adicionais, incluindo:
+
+o endereço geográfico principal de sua sede e todas as filiais
+o nome e os detalhes do seu site
+Seu endereço de email
+qualquer outra informação que possa ser necessária para a comunicação do usuário com você
+
+______________________________________________________________________________________________
+Sobre divulgações obrigatórias a serem feitas pelas Empresas
+Se você for uma Empresa no WhatsApp, você é responsável por fazer todas as divulgações exigidas pela lei aplicável, incluindo divulgações exigidas para bens ou serviços que você oferece para venda no WhatsApp. Você garantirá que todas as informações e imagens que forneceu ou fornecerá em relação às suas listagens são precisas e correspondem à aparência e outros recursos dos produtos ou serviços contidos na lista. Você também atualizará seu perfil comercial e listagens conforme e quando ocorrer qualquer alteração nessas informações.
+
+______________________________________________________________________________________________
+Sobre reclamações levantadas por usuários do WhatsApp em relação a bens ou serviços vendidos por Empresas
+Se um usuário do WhatsApp apresentar uma reclamação sobre uma conta comercial, suas listagens de catálogo ou qualquer compra dessa empresa, o WhatsApp solicitará que o usuário do WhatsApp entre em contato com o oficial de reclamações dessa empresa. A Empresa é a única responsável por responder e resolver todas essas reclamações. A Empresa deve acusar o recebimento de qualquer reclamação de usuário do WhatsApp dentro de 48 horas e resolver tais reclamações dentro de 1 mês a partir da data de recebimento da reclamação, conforme exigido pelas leis aplicáveis.
+
+______________________________________________________________________________________________
+Sobre a cobrança pelo uso de dados em roaming
+O WhatsApp usa a mesma conexão que seu celular utiliza quando você navega na internet e acessa seu e-mail. Se você usar o WhatsApp enquanto seu celular estiver em roaming, sua operadora poderá cobrar pelo uso de dados. Entre em contato com sua operadora de celular para obter mais informações sobre o roaming em outros países.
+
+Se você não tem um plano de dados internacional, recomendamos que você desative:
+
+Os dados móveis e o roaming de dados para evitar a cobrança pelo uso dos dados em roaming. Acesse a página de suporte da sua operadora de celular para saber mais.
+O download automático de arquivos de mídia utilizando dados móveis e em roaming para evitar cobranças extras.
+
+
+______________________________________________________________________________________________
+Sobre seu perfil comercial
+Seu perfil comercial é uma das ferramentas específicas para empresas no app WhatsApp Business que ajuda sua empresa a estabelecer uma presença profissional no WhatsApp.
+
+https://www.youtube.com/watch?v=KukGRXoQ9Lw
+
+O perfil comercial facilita o acesso dos seus clientes a informações importantes sobre sua empresa, como nome comercial, endereço, categoria e descrição. Você também pode incluir um catálogo com seus produtos e serviços, seu e-mail comercial e links para o site e as redes sociais da sua empresa.
+
+Os recursos exclusivos do perfil comercial ajudam você a usar melhor seu tempo para focar no que realmente importa: interagir com seus clientes e fazer sua empresa crescer.
+
+
+______________________________________________________________________________________________
+Sobre o código QR do WhatsApp para empresas
+Permita que as pessoas encontrem sua empresa facilmente. Seus clientes (novos e atuais) podem escanear o código QR da sua conta comercial para enviar uma mensagem para você no WhatsApp. Seu código QR exclusivo não expira a menos que você o redefina ou apague sua conta do WhatsApp Business. Além disso, você pode personalizar a mensagem predefinida que seus clientes utilizarão para entrar em contato com você quando escanearem seu código QR.
+
+Ver seu código QR do WhatsApp
+Android
+Abra o WhatsApp Business e toque em Mais opções.
+Toque em Ferramentas comerciais e, em seguida, em Link curto.
+Toque em Ver código QR para visualizar seu código QR.
+iPhone
+Abra o WhatsApp Business e toque em Configurações.
+Em Configurações, toque em Ferramentas comerciais > Link curto.
+Toque em Código QR para ver seu código.
+
+______________________________________________________________________________________________
+Sobre conectar o WhatsApp Business ao Facebook e Instagram
+Você pode conectar sua conta do WhatsApp Business a uma Página do Facebook e/ou um perfil do Instagram para oferecer aos seus clientes mais opções para entrar em contato com sua empresa. Ao conectar sua Página do Facebook ou seu perfil do Instagram à sua conta do WhatsApp Business, seu número aparecerá como uma opção de contato na Página ou perfil conectados. Quando seus clientes tocarem ou clicarem nessa opção de contato, eles poderão enviar uma mensagem para você diretamente no WhatsApp.
+
+Se você conectou uma Página do Facebook à sua conta do WhatsApp Business, você também pode sincronizar as informações comerciais dessa Página com sua conta do WhatsApp Business. Essa ação atualizará automaticamente seu perfil do WhatsApp Business com as informações da Página do Facebook.
+
+______________________________________________________________________________________________
+Como conectar uma conta do WhatsApp Business a uma conta do Instagram
+Ao conectar sua conta do Instagram à sua conta do WhatsApp Business, você poderá ativar o botão Clique para o WhatsApp no seu perfil do Instagram. Com o botão Clique para o WhatsApp você poderá aumentar o engajamento dos seus clientes, que poderão se conectar com sua empresa facilmente.
+
+Para conectar as contas do Instagram e do WhatsApp Business, você precisa ter:
+
+Uma conta comercial para sua empresa no Instagram.
+Uma conta do WhatsApp Business.
+As versões mais recentes dos dois aplicativos.
+Conectar sua conta do Instagram ao app WhatsApp Business
+Você pode conectar suas contas do Instagram e do WhatsApp Business diretamente no app WhatsApp Business.
+
+Abra o app WhatsApp Business.
+No Android, toque em Mais opções. No iPhone, toque em Configurações.
+Toque em Ferramentas comerciais > Facebook e Instagram.
+Toque em Instagram > Continuar. Essa ação abrirá a página de login do Instagram.
+Insira os dados de login da sua conta do Instagram e, em seguida, toque em Entrar. Se preferir, toque em Entrar com o Facebook para entrar usando sua conta do Facebook.
+Se você já tem uma conta comercial no Instagram, continue para o próximo passo. Caso contrário, você precisará mudar o tipo de conta de pessoal para comercial.
+Toque em Avançar.
+Selecione Empresa ou Criador de conteúdo. Em seguida, toque em Avançar > Avançar > Avançar.
+Confirme os dados da sua conta. Toque em Adicionar > Voltar para o WhatsApp.
+Após voltar ao app WhatsApp Business, você verá a conta do Instagram conectada na tela Facebook e Instagram.
+
+Desconectar uma conta do Instagram do app WhatsApp Business
+Se você usa o app WhatsApp Business, é possível desconectar suas contas do Instagram e do WhatsApp no próprio app.
+
+Abra o app WhatsApp Business.
+No Android, toque em Mais opções. No iPhone, toque em Configurações.
+Toque em Ferramentas comerciais > Facebook e Instagram.
+Toque na conta do Instagram e, em seguida, em Remover a conta do WhatsApp > REMOVER.
+Assim que você remover a conta, ela não aparecerá mais na tela Facebook e Instagram.
+
+Observações:
+Nem todas as categorias de empresa do Instagram são compatíveis com o app WhatsApp Business. Ao ver o erro “A categoria da sua empresa do Instagram não é compatível com o WhatsApp.”, você precisará mudar a categoria da sua empresa no Instagram e adequá-la à Política Comercial do WhatsApp para poder conectar as contas.
+Para poder conectar suas contas do Instagram e do WhatsApp Business, o WhatsApp compartilha as seguintes informações com o Facebook:
+A categoria da sua empresa no WhatsApp: para definir a categoria da sua empresa no Instagram, caso você não tenha uma conta comercial no Instagram. Se você já tem uma conta comercial no Instagram, a categoria da sua empresa no WhatsApp Business não é compartilhada.
+Seu número de telefone no WhatsApp Business: para permitir que seus clientes entrem em contato com você pelo WhatsApp a partir do seu perfil do Instagram.
+
+______________________________________________________________________________________________
+Sobre o botão comprar
+
+
+O botão comprar ( no Android ou no iPhone) permite que usuários do WhatsApp acessem o catálogo da sua empresa – criado no app WhatsApp Business – diretamente da tela de conversa e explorem seus produtos e serviços enquanto conversam com você.
+
+
+https://www.youtube.com/watch?v=atI5yE_JGqs
+Você precisa ter uma conta registrada no WhatsApp Business e criar um catálogo para que o botão comprar seja exibido automaticamente para seus clientes nas conversas com sua empresa.
+
+______________________________________________________________________________________________
+Sobre a integração das Lojas do Facebook com o app WhatsApp Business
+
+https://www.youtube.com/watch?v=2JRVLXBPUzA
+Observação: esse recurso pode não estar disponível para você no momento.
+
+Com a ferramenta Lojas do Facebook, as empresas podem criar experiências de compras personalizadas e integrar facilmente suas contas com a família de aplicativos do Facebook. Em suas lojas, as empresas podem exibir seus produtos e serviços e interagir com potenciais clientes. Essa é uma ferramenta muito importante para facilitar o crescimento de qualquer empresa.
+
+Observação: somente números de telefone registrados no app WhatsApp Business podem ser conectados às Lojas do Facebook.
+
+______________________________________________________________________________________________
+Como conectar sua conta do WhatsApp Business a uma Loja do Facebook
+Observação: esse recurso pode não estar disponível para você no momento.
+
+Conectar sua conta do WhatsApp Business à sua loja do Facebook permitirá que os clientes que visitam sua loja entrem em contato com você pelo app WhatsApp Business.
+
+Para conectar suas contas, você precisa:
+
+Ter uma conta do WhatsApp Business.
+Ser o administrador da sua conta do Gerenciador de Negócios do Facebook.
+Conectar seu catálogo e sua Página do Facebook na mesma conta do Gerenciador de Negócios.
+Ter as permissões para Gerenciar Página para a Página do Facebook e Gerenciar catálogo para o catálogo no Gerenciador de Negócios.
+Conectar sua conta do WhatsApp Business à sua loja do Facebook
+Crie uma loja no Gerenciador de Comércio do Facebook. Saiba mais sobre esse processo neste artigo.
+
+Em seguida, adicione seu número de telefone do WhatsApp Business à sua loja e defina o WhatsApp como a forma de contato principal. Saiba mais sobre cada uma dessas etapas neste artigo.
+
+______________________________________________________________________________________________
+Como compartilhar o link da sua Loja do Facebook no WhatsApp
+Observação: esse recurso pode não estar disponível para você no momento.
+
+Compartilhar o link da página de um produto no WhatsApp
+Abra a página do produto na sua loja do Facebook. Em seguida, toque em  > Mais opções.
+Toque no ícone do WhatsApp.
+Selecione uma conversa individual ou em grupo para compartilhar a página do produto.
+Toque no botão de enviar ou em Avançar.
+Insira sua mensagem. Observação: o link da página do produto será anexado à sua mensagem.
+Toque em  ou .
+
+______________________________________________________________________________________________
+Sobre o recurso carrinho
+Se você usa o app WhatsApp Business, já pode ajudar seus clientes a fazer pedidos facilmente usando o recurso carrinho. O carrinho é uma nova maneira para fazer pedidos diretamente com sua empresa. Com esse recurso, seus clientes não precisarão mais enviar mensagens individuais sobre cada item do seu catálogo.
+
+Os clientes que usam o app WhatsApp Messenger visualizarão o botão comprar ao lado do nome comercial da sua empresa em uma conversa ou ao abrirem seu perfil comercial. Ao tocar no botão comprar, os clientes podem navegar em seu catálogo e adicionar itens diretamente ao carrinho.
+
+Também é possível editar a quantidade de cada item adicionado a um carrinho. Assim que todos os itens forem adicionados ao carrinho, os clientes poderão enviá-lo diretamente à sua empresa por uma mensagem no WhatsApp.
+
+Com esse recurso, seus clientes poderão:
+
+https://www.youtube.com/watch?v=smXqcU_ysLk
+Fazer pedidos rapidamente.
+Fazer perguntas sobre vários itens ao mesmo tempo.
+Fazer um pedido com diversos itens de uma só vez.
+Para mais informações sobre como adicionar itens ao seu carrinho, baixe este infográfico.
+
+______________________________________________________________________________________________
+Como usar o carrinho no WhatsApp Business
+Como usuário do WhatsApp Business, o recurso carrinho estará automaticamente disponível para você. Para usar esse recurso, certifique-se de que você e seus clientes têm a versão mais recente do WhatsApp.
+
+Esse recurso foi desenvolvido para deixar o processamento de pedidos mais fácil e eficiente.
+
+Ativar e desativar o carrinho
+Para ativar ou desativar o recurso carrinho, abra o app WhatsApp Business e siga estes passos:
+
+Android
+Toque em Mais opções > Ferramentas comerciais > Catálogo.
+Toque em Mais opções > Configurações.
+Ative a opção Adicionar ao carrinho para exibir o carrinho aos seus clientes. Desative a opção Adicionar ao carrinho para desativar o recurso.
+iPhone
+Toque em Configurações > Ferramentas comerciais > Catálogo.
+Toque em Mais > Configurações.
+Ative a opção Adicionar ao carrinho para exibir o carrinho aos seus clientes. Desative a opção Adicionar ao carrinho para desativar o recurso.
+Web/Computador
+Clique em Mais opções| na parte superior da sua lista de conversas e, em seguida, em Catálogo.
+Clique em Mais opções| > Configurações.
+Na seção Adicionar ao carrinho clique em Ativado para exibir o carrinho aos seus clientes. Clique em Desativado para desativar o recurso.
+Observações:
+
+Os clientes não poderão finalizar a compra dos produtos adicionados ao carrinho por conta própria.
+Pode levar até 24 horas para que as mudanças nas configurações do carrinho sejam refletidas. Desse modo, você ainda poderá receber carrinhos de clientes nesse período de 24 horas após desativar o recurso.
+
+______________________________________________________________________________________________
+Por que o WhatsApp apaga contas inativas
+Para manter a segurança, limitar a retenção de dados e proteger a privacidade dos nossos usuários, o WhatsApp geralmente apaga contas que permanecem inativas por mais de 120 dias. Isso acontece quando o usuário não se conecta ao WhatsApp por esse período.
+
+Para que a conta permaneça ativa, deve haver conexão à internet. Se o usuário abrir o WhatsApp em seu aparelho, mas não tiver conexão à internet, sua conta permanecerá inativa.
+
+O conteúdo armazenado no aparelho do usuário antes de a conta ser apagada será mantido até que o usuário apague o WhatsApp de seu aparelho. Se o usuário registrar-se novamente no WhatsApp com o mesmo aparelho, o conteúdo armazenado no aparelho voltará a ficar disponível.
+
+______________________________________________________________________________________________
+Sobre sincronizar uma Página do Facebook com o WhatsApp Business
+As empresas podem conectar uma Página do Facebook ao WhatsApp Business. Elas também podem sincronizar as informações comerciais de suas Páginas do Facebook com a conta do WhatsApp Business.
+
+Para conectar uma Página do Facebook ao WhatsApp Business, é necessário ter:
+
+Uma página da empresa no Facebook
+Uma conta do WhatsApp Business
+As versões mais recentes dos dois aplicativos
+Após a sincronização, as seções do perfil comercial serão preenchidas automaticamente no app WhatsApp Business com as seguintes informações da Página do Facebook conectada:
+
+Horário de atendimento
+Endereço
+Descrição
+Categoria
+URL da Página do Facebook
+Site
+Endereço de e-mail
+
+______________________________________________________________________________________________
+Como conectar uma conta do WhatsApp Business a uma Página do Facebook
+Ao usar o app WhatsApp Business, você poderá conectar sua Página do Facebook à sua conta do WhatsApp Business.
+
+Para conectar as contas e ativar a sincronização, você precisa ter:
+
+Uma Página do Facebook para sua empresa
+Uma conta do WhatsApp Business
+As versões mais recentes dos dois aplicativos
+Conectar uma conta do WhatsApp Business a uma Página do Facebook
+Você pode conectar suas contas do Facebook e do WhatsApp Business diretamente no app WhatsApp Business.
+
+Abra o app WhatsApp Business.
+No Android, toque em Mais opções. No iPhone, toque em Configurações.
+Toque em Ferramentas comerciais > Facebook e Instagram.
+Toque em Facebook > CONTINUAR. Essa ação abrirá a página de login do Facebook.
+Insira os dados de login da sua conta do Facebook e, em seguida, toque em Entrar.
+Selecione a Página do Facebook que você deseja conectar à sua conta do WhatsApp Business e, em seguida, toque em Adicionar > OK.
+Se você ainda não tem uma Página do Facebook, terá a opção de criá-la.
+Após seguir os passos acima, você verá o botão Enviar mensagem pelo WhatsApp na sua Página do Facebook.
+
+Após voltar ao app WhatsApp Business, você verá a Página conectada na tela Facebook e Instagram.
+
+Sincronizar as informações comerciais do Facebook e do WhatsApp Business
+Você pode sincronizar suas contas do Facebook e do WhatsApp Business para que as mudanças feitas nas informações comerciais da sua Página do Facebook sejam automaticamente atualizadas no perfil comercial do WhatsApp Business.
+
+Abra o app WhatsApp Business.
+No Android, toque em Mais opções. No iPhone, toque em Configurações.
+Toque em Ferramentas comerciais > Facebook e Instagram.
+Toque na conta do Facebook que você deseja sincronizar com o app WhatsApp Business.
+Toque em Sincronizar perfil com Página > Ativar.
+Lembre-se de que a sincronização reflete somente as mudanças feitas à Página do Facebook no app WhatsApp Business. Por exemplo, ao tentar mudar o horário de atendimento no app WhatsApp Business, você receberá um aviso informando que essa ação interromperá a sincronização. Se você interromper a sincronização e mudar o horário de atendimento, o novo horário de atendimento aparecerá na conta do WhatsApp Business, mas não será atualizado na Página do Facebook.
+
+Observação: após ativada, a sincronização funcionará no navegador da internet e no aplicativo.
+
+Desconectar uma conta do Facebook do app WhatsApp Business
+Se você usa o app WhatsApp Business, é possível desconectar suas contas do Instagram e do WhatsApp no próprio app.
+
+Abra o app WhatsApp Business.
+No Android, toque em Mais opções. No iPhone, toque em Configurações.
+Toque em Ferramentas comerciais > Facebook e Instagram.
+Toque na conta do Facebook que deseja remover e, em seguida, em Remover a conta do WhatsApp > REMOVER.
+Assim que você remover a conta, ela não aparecerá mais na tela Facebook e Instagram.
+
+______________________________________________________________________________________________
+Sobre o guia de negócios do WhatsApp
+Observação: esse recurso pode não estar disponível para você no momento.
+
+O guia de negócios do WhatsApp é uma maneira rápida, segura e conveniente para potenciais clientes encontrarem lojas, restaurantes e empresas locais sem sair do WhatsApp. O guia é gratuito e ajuda as empresas a compartilhar suas informações comerciais, ampliar seu alcance e conectar-se com novos clientes.
+
+Há requisitos específicos para incluir uma empresa no guia de negócios. Saiba mais sobre esses requisitos neste artigo.
+
+______________________________________________________________________________________________
+Por que não reconheço o número de um contato?
+Quando alguém troca de número de telefone, você precisa apagar o número de telefone antigo dessa pessoa da agenda do seu celular. Como as operadoras de celular reutilizam números, pode ser que você identifique incorretamente uma conta no WhatsApp como a conta de alguém conhecido, mas essa conta já pertence ao novo dono do número de telefone.
+
+O WhatsApp utiliza somente números de telefone para identificar as contas e exibe os nomes que você salvou para esses contatos na agenda do seu celular.
+
+______________________________________________________________________________________________
+Sobre mudar de número de telefone
+Com o recurso mudar número, você pode mudar o número de telefone associado com sua conta do WhatsApp. Quando você muda de número no WhatsApp:
+
+Os dados da sua conta (como foto de perfil, nome, recado e suas conversas individuais e em grupo) e as configurações são migrados do seu número de telefone antigo para o número de telefone novo.
+A conta associada ao seu número de telefone antigo é apagada e seus contatos não visualizarão mais seu número de telefone antigo nas listas de contatos do WhatsApp deles.
+Você pode escolher notificar seus contatos sobre sua mudança de número de telefone. Seus grupos serão notificados quando você mudar de número de telefone, mesmo se você não ativar a opção para notificar seus contatos. Para manter-se conectado aos seus contatos, recomendamos que você os informe sobre seu novo número de telefone antes de mudar de número e peça que eles atualizem as agendas de seus celulares.
+
+Observação: se você mudar de número e continuar usando o mesmo aparelho, seu histórico de conversas continuará disponível no seu aparelho.
+
+______________________________________________________________________________________________
+Sobre mudar de aparelho
+Você pode transferir sua conta do WhatsApp para um mesmo tipo de aparelho (por exemplo, de um Android para outro Android) ou para outro tipo de aparelho (por exemplo, de um iPhone para um Android).
+
+Transferir para o mesmo tipo de aparelho
+Ao transferir sua conta para o mesmo tipo de aparelho, você também poderá transferir seu histórico de conversas. Saiba mais sobre como transferir seu histórico de conversas no Android ou no iPhone.
+
+Transferir para outro tipo de aparelho
+Ao transferir sua conta para outro tipo de aparelho:
+
+Você manterá os dados da sua conta, incluindo a foto do perfil, o recado, as conversas, os grupos e as configurações.
+No momento, só é possível transferir seu histórico de conversas entre plataformas diferentes ao mudar de um iPhone para um aparelho Samsung com sistema operacional Android. Essa opção será disponibilizada para usuários de ambos os sistemas operacionais, Android e iOS, nos próximos meses. Saiba mais sobre como fazer isso neste neste artigo.
+Manter seu número de telefone
+Baixe o WhatsApp no seu aparelho novo e confirme seu número de telefone.
+
+Mudar para um novo número de telefone
+Baixe o WhatsApp no seu aparelho novo e confirme seu número de telefone novo.
+Apague a conta do WhatsApp associada ao seu número de telefone antigo.
+Se você não apagou a conta associada ao seu número de telefone antigo e não tem acesso ao seu aparelho antigo, todos os dados da conta relacionados a esse número de telefone serão apagados se o novo proprietário do seu número antigo ativar o WhatsApp em um novo aparelho após 45 dias.
+
+Observação: se você doar ou devolver seu aparelho antigo para a operadora, certifique-se de apagar todos seus dados antes, incluindo o cartão SD. Isso garante que ninguém tenha acesso aos seus dados pessoais, como seu histórico de conversas do WhatsApp.
+
+______________________________________________________________________________________________
+Como mudar o idioma do WhatsApp
+O WhatsApp está disponível em mais de 40 idiomas no iPhone e em até 60 no Android, e sempre é exibido no idioma do seu aparelho. Por exemplo, se você alterar o idioma do seu aparelho para espanhol, automaticamente o WhatsApp ficará em espanhol.
+
+Alterar o idioma do seu aparelho
+Android: abra as Configurações do seu celular e toque em Sistema > Idiomas e entrada > Idiomas. Toque e segure o idioma desejado para movê-lo para o topo da lista ou toque em Adicionar um idioma.
+iPhone: abra os Ajustes do seu celular e toque em Geral > Idioma e Região > Idioma do iPhone. Selecione um idioma e, em seguida, toque em Mudar para {idioma}.
+KaiOS: pressione Configurações no menu de aplicativos. Em seguida, role para o lado para selecionar Personalização. Desça e pressione Idioma, pressione Idioma, selecione o idioma que você deseja usar e pressione OK ou SELECIONAR.
+O idioma selecionado em seu celular também é utilizado no WhatsApp Web.
+
+Opção disponível somente em alguns países
+Os usuários de Android podem ter a opção de mudar o idioma do WhatsApp no aplicativo. Se você não vir essa opção, talvez ela não esteja disponível em seu país.
+
+Abra o WhatsApp.
+Toque em Mais opções > Configurações > Conversas > Idioma do aplicativo.
+Selecione o idioma que você deseja utilizar.
+
+______________________________________________________________________________________________
+Como pesquisar por empresas no WhatsApp
+Observação: este recurso pode não estar disponível para você no momento.
+
+Você pode usar o guia de negócios do WhatsApp para procurar por empresas na sua vizinhança.
+
+Abra o WhatsApp.
+Toque em  > Encontrar empresas próximas.
+Selecione suas preferências de compartilhamento de localização.
+Para usar sua localização para encontrar empresas na sua vizinhança, toque em PERMITIR O USO DA LOCALIZAÇÃO > PERMITIR > Durante o uso do app ou Apenas uma vez.
+Para selecionar uma localização manualmente ou usar seu número de telefone para ver empresas na sua região, toque em CONTINUAR SEM A LOCALIZAÇÃO > DEFINIR LOCALIZAÇÃO. Em seguida, selecione um bairro na lista.
+Toque na categoria de empresa que você gostaria de encontrar.
+Para filtrar sua pesquisa ainda mais, toque em uma subcategoria na seção REFINAR RESULTADOS da lista.
+Toque no X ao lado da subcategoria para remover esse filtro dos resultados.
+Toque em uma empresa para ver a descrição comercial.
+Toque em CONVERSAR para abrir uma conversa com a empresa, ou em VER PERFIL para ver o perfil comercial da empresa.
+
+______________________________________________________________________________________________
+Por que não consigo salvar uma resposta rápida?
+Caso não consiga salvar uma resposta rápida, confira se ela está de acordo com todas as regras de formatação.
+
+Você pode salvar no máximo 50 respostas rápidas.
+Cada atalho de resposta rápida pode ter até 25 caracteres.
+Atalhos não podem incluir espaços.
+Todos os atalhos devem começar com uma barra (/).
+Você pode configurar no máximo três palavras-chave para cada resposta rápida.
+Palavras-chave não podem incluir espaços e podem conter apenas letras e números.
+Cada palavra-chave pode ter até 15 caracteres.
+
+______________________________________________________________________________________________
+Como usar filtros nas conversas
+Com os filtros, você pode encontrar rapidamente mensagens específicas em conversas com seus clientes. Os filtros facilitam principalmente a pesquisa de mensagens contendo fotos, GIFs, links e documentos.
+
+Aplicar um filtro a conversas
+Abra o app WhatsApp Business e toque em Pesquisar.
+Observação: se você estiver usando um iPhone, pode ser necessário deslizar a aba Conversas para baixo para ver o campo de pesquisa.
+Selecione o filtro que você deseja aplicar na lista suspensa exibida.
+Observação: não é possível apagar nem alterar os filtros.
+
+Dica: você pode receber fotos de seus clientes usando seus produtos. Para encontrar essas fotos facilmente, use o filtro Fotos.

@@ -1,31 +1,21 @@
 /*contadores*/
 window.document.getElementById('lista0').style.transform="translateY(-150%)"
 
-function artigoselecionado(art) {
-    console.log(art)
-            
-             
-                    if (art==1) {
-                        window.document.getElementById('i31').style.fontWeight="600"
-                        apagar('i31') 
-                            
-                        
-                    }
-                    if (art==2) {
-                        console.log('2')
-                        window.document.getElementById('i32').style.fontWeight="600"
-                        apagar('i32') 
-                    }
-                
-                function apagar(a) {
 
-                    window.document.getElementById('i31').style.fontWeight="normal"
-                    window.document.getElementById('i32').style.fontWeight="normal"
 
-                    window.document.getElementById(a).style.fontWeight="600"
+/*
 
-                }
-                }
+function hoveremnegrito(a) {
+    console.log('entrou!')
+    document.getElementById(a).style.fontWeight="bold"
+
+    
+}
+function hoversemnegrito(b) {
+    document.getElementById(b).style.fontWeight="normal"
+}            
+             */
+               
 
 function lista0animacao(a) {
     
@@ -106,6 +96,7 @@ function lista21() {
     }
     else{
         window.document.getElementById('lista2-1').style.display="none"
+        window.document.getElementById('i21').style.fontWeight="normal"
         window.document.getElementById('i21').style.fontWeight="normal"
     }
 }
