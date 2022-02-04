@@ -1,6 +1,9 @@
 
 
-                                            /*Fundamentais*/
+ /*Fundamentais*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -27,7 +30,7 @@ body{
    display: flex;
    justify-content: center; 
    background-color: rgb(218, 218, 218);
-   background-image: linear-gradient(to right,#2c2c2c,silver,#2c2c2c);
+   background-image: linear-gradient(to right,#080808,rgb(122, 122, 122),#080808);
    
 }
 
@@ -108,10 +111,13 @@ footer{
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    display: flex;
    color: rgb(8, 8, 8);
+   
+   
 }
 .logo::after{
     content: 'Web Manual';
-    color: rgb(8, 8, 8);
+    
+    
 }
 .logo:hover{
     text-decoration: underline;
@@ -164,8 +170,9 @@ footer{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.5em;
-    color: black;
+    color: rgb(241, 241, 241);
     font-weight: bold;
+    margin-top: 20px;
 }
 
 
@@ -366,7 +373,8 @@ display: flex;
    width: unset;
      font-size: 18px;
      list-style-type: circle;
-     
+     letter-spacing: normal;
+     margin: 10px;
      
  }
  .link:hover{
@@ -385,7 +393,7 @@ display: flex;
     padding: 20px;
     border-radius: 20px;
    
-    width: 270px;
+    
     border-top: 40px solid rgba(49, 49, 49, 0.781);
     
   
@@ -459,14 +467,56 @@ display: flex;
 .artigos h2{
     text-align: center;
     font-size: 1.3em;
+    color: rgb(43, 43, 43);
+}
+
+.artigos h3{
+    margin-top: 1em;
+   margin-left: 1em;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    color: #313131;
+}
+.artigos h4{
+    
+  
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #161616;
 }
 .artigos p{
     text-align: start;
     word-spacing: 0.1em;
     font-size: 19px;
-    margin: 1em 0em;
+    margin: 0em;
     letter-spacing: 1px;
-
+    color: rgb(14, 14, 14);
+    
+    margin:0em 0em 0em 0em;
+    word-wrap: break-word;
+}
+.artigos ol{
+    margin-top: 1em;
+    margin: 1em 4em 1em 4em;
+}
+.artigos li{
+    font-size: 17px;
+    list-style-type: decimal;
+    margin: 0px 0em 1em 0em;
+    letter-spacing: 0.5px;
+    font-family: "Roboto Slab";
+}
+.artigos li img{
+    height: 18px;
+    
+}
+.artigos a{
+    letter-spacing: 2px;
+    padding: 0;
+    
+}
+.artigos span{
+    letter-spacing: 2px;
     
 }
 #creditos{
@@ -478,16 +528,16 @@ display: flex;
 #fotoautor{
     margin: 10px;
     border-radius: 100px;
-    width: 50px;
-    height: 50px;
-    background-image: url(1fab805dc3dd2aab386b855e4ef9748c.jpg);
+    width: 70px;
+    height: 70px;
+    background-image: url(http://1.bp.blogspot.com/-eW5YwoQHN2s/UwXhiZ-CuQI/AAAAAAAAEhw/pg8JkD-Y3CU/s1600/1505309_544080092350393_1423345136_n.jpg);
     background-size: contain;
-    filter: grayscale(50%);
+    filter: grayscale(70%);
 }
 #nomeautor{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
 }
 #nomeautor h1{
     all: unset;
@@ -496,34 +546,72 @@ display: flex;
 }
 #nomeautor h2{
     all: unset;
-    font-family: Arial, Helvetica, sans-serif;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 }
 @media(max-width:830px){
+    .artigosrelacionados{
+        
+    }
     .artigos{
         margin: 5px 5px 0px 5px;
-        padding: 15px;
+        padding: 8px;
     }
     .artigos h1{
-        font-size: 1.2em;
+        font-size: 1.3em;
+        margin-top: 5px;
         
         
     }
     .artigos h2{
+        font-size: 17px;
+        font-weight: normal;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .artigos h3{
+        margin: 15px 0px 0px 0px;
+        letter-spacing: 3px;
+        font-size: 18px;
+        color: #313131;
+    }
+    .artigos h4{
+        letter-spacing: 3px;
         font-size: 1em;
+        color: #161616;
+        margin: 15px 0px 0px 0px;
     }
     .artigos p{
         font-size: 1em;
         
+    }
+    .artigos li,.artigos ol{
+        margin: 0px 0px 20px 20px;
     }
     #nomeautor h1{
         all: unset;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
     }
+    .artigos ol{
+        margin-top: 20px;
+    }
     #nomeautor h2{
         all: unset;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 16px;
+    }
+    .link:hover{
+       
+        text-decoration: none;
+   
+   
+    }
+    .link{
+        text-decoration: underline;
+    }
+    .link:active{
+        font-weight: bold;
+        text-decoration: underline;
     }
 }
