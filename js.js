@@ -1,6 +1,7 @@
 /*contadores*/
-window.document.getElementById('lista0').style.transform="translateY(-150%)"
-
+window.document.getElementById('lista0').style.transform="translateY(-120%)"
+       window.document.getElementById('lista1').style.display="none"
+window.document.getElementById('lista2-1').style.display="none"
 
 
 
@@ -8,19 +9,12 @@ window.document.getElementById('lista0').style.transform="translateY(-150%)"
 
 function lista0animacao(a) {
     
-    if (window.document.getElementById('lista0').style.transform=="translateY(-150%)") 
+    if (window.document.getElementById('lista0').style.transform=="translateY(-120%)") 
     {
-        if (a!='artigo') {
-            window.document.getElementById('lista1').style.display="none"
-window.document.getElementById('lista2-1').style.display="none"
-        }
-        else{
-            window.document.getElementById('lista1').style.display="flex"
-        window.document.getElementById('lista2-1').style.display="flex"
-        }
+     
         
-       
-    
+        console.log('abriu!')
+        /*window.document.getElementById('contlist').style.width="unset"*/
         window.document.getElementById('lista0').style.transform="translateY(0%)"
         console.log('abriu!')
         window.document.getElementById('l1').style.transform="rotate(45deg) translateY(10px) "
@@ -29,7 +23,8 @@ window.document.getElementById('lista2-1').style.display="none"
     }
     else{
         console.log('fechou!')
-        window.document.getElementById('lista0').style.transform="translateY(-150%)"
+        /*window.document.getElementById('contlist').style.width="0"*/
+        window.document.getElementById('lista0').style.transform="translateY(-120%)"
         window.document.getElementById('l1').style.transform="rotate(0deg) translateY(0px)"
         window.document.getElementById('l3').style.transform="rotate(0deg) translateY(0px)"
         window.document.getElementById('l2').style.opacity="100%"

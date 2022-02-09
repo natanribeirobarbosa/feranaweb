@@ -11,12 +11,7 @@
 }
 
 :root{
-    --degrade2:rgba(255, 0, 0, 0.85);
-
-    --degrade4:rgba(255, 0, 255, 0.781);
-    --degrade1:rgba(0, 255, 255, 0.95);
-    --degrade3:rgba(0, 255, 85, 0.85);
-
+  
     
 
     
@@ -30,7 +25,7 @@ body{
    display: flex;
    justify-content: center; 
    background-color: rgb(218, 218, 218);
-   background-image: linear-gradient(to right,#080808,rgb(122, 122, 122),#080808);
+   background-image: linear-gradient(to right,#000000,rgb(51, 51, 51),#000000);
    
 }
 
@@ -94,11 +89,12 @@ footer{
     width: 100%;
     height: 100px;
     justify-content: space-between;
-    background-image: linear-gradient(to bottom,rgb(34, 34, 34), white);
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.774);
+    background-image: linear-gradient(to bottom,rgb(34, 34, 34), rgb(223, 223, 223));
+    z-index: 3;
     border-radius:  0em 0em 1em 1em;
    
 }
+
 
 /*logo FERA NA WEB, item 1 do cabeçalho*/
 .logo{
@@ -161,18 +157,45 @@ footer{
     transition: 400ms;
 }
 
+/*-------------------------------------SUMARIO--------------------------------------------*/
+div.sumario{
+   
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+div.sumario .paginadosumario{
+    margin: 10px;
+    max-width: 80px;
+   
+}
+@media(max-width:400px){
+    div.sumario .paginadosumario{
+        margin: 0;
+       font-size: 15px;
+      
+    }
+}
 
+/*---------------------------------------ARTIGOS-------------------------------------------*/
 
-
-                                /*ARTIGOS*/
-
-.artigosrelacionados{
+.artigosrelacionados {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 1.5em;
-    color: rgb(241, 241, 241);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 20px;
+    
 }
 
 
@@ -201,25 +224,24 @@ footer{
 #artigos-p article{
     margin: 0.4em;
    border-radius: 05px;
-   background-color: rgb(253, 253, 253);
-   box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.404);
-   background-image: linear-gradient(to top, rgb(0, 0, 0) , transparent 50%),url(1fab805dc3dd2aab386b855e4ef9748c.jpg);
+   
+   box-shadow: 0px 0px 0px 0px rgb(235, 235, 235);
+   background-image: linear-gradient(to top, rgb(0, 0, 0) , transparent 80%),url(https://t.ctcdn.com.br/2eihlKp3rXAEyvUmaT70qDVhnqc=/512x288/smart/i9992.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   transition: 300ms;
    display: flex;
    justify-content: center;
    align-items: flex-end;
    padding: 1.5em;
-   filter: grayscale(50%);
+   filter: saturate(50%);
    
  
 }
 #artigos-p article:hover{
-    
-  text-decoration: underline;
-  color: white;
+    transition: 50ms;
+    text-decoration: underline;
+    color: white;
   
 }
 #artigos-p article h1{
@@ -249,21 +271,29 @@ footer{
     
     margin: auto;
     margin-bottom: 1em;
-    box-shadow: 0px 0px 15px 0.5px rgba(0, 0, 0, 0.404);
+   
     min-height: 250px;
     border-radius: 5.5px;
     display: flex;
     
     align-items: center;
     justify-content: space-between;  
-    filter: grayscale(50%);
+    filter: grayscale(65%) contrast(100%);
+    
+    
+}
+
+#artigos-c article:hover{
+    transition: 200ms;
+    background-color: rgb(189, 189, 189);
 }
 /*imagens dos artigos comuns*/
 #artigos-c article .img{
     height: 100%;
     width: 45%;
     height: 100%;
-    background-image: url(1fab805dc3dd2aab386b855e4ef9748c.jpg);
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.521) , transparent 30%),url(https://t.ctcdn.com.br/2eihlKp3rXAEyvUmaT70qDVhnqc=/512x288/smart/i9992.jpeg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size:  cover;
     border-radius: 5.5px;
@@ -328,17 +358,18 @@ display: flex;
 
 
 
-
 /*---------------------------------------------LISTAS------------------------------------*/
 
-
-.contlist{
+/*container do container das listas*/
+#contlist{
     
-    
+    transition: 500ms;
     position: absolute;
     left: 0;
     z-index: 1;
-
+    overflow: hidden;
+    
+   
 }
 #list{
     overflow: hidden;
@@ -350,7 +381,7 @@ display: flex;
 }
 
 .itensdomenu/*(links)*/{
-    margin: 3px;
+    margin: 0px;
      justify-content: left;
     color: rgb(0, 0, 0);
     display: flex;
@@ -361,25 +392,27 @@ display: flex;
     width: 100%;
     
     
+    
   
     
  }
 
  .itensdomenu:hover{
-    font-weight: bold;
+    letter-spacing: 4px;
     
 }
  .link{
    width: unset;
      font-size: 18px;
      list-style-type: circle;
-     letter-spacing: normal;
-     margin: 10px;
+     letter-spacing: 1px;
+     margin: 0px;
+     text-decoration: underline;
      
  }
  .link:hover{
      font-weight: normal;
-     text-decoration: underline;
+     
 
 
  }
@@ -387,24 +420,32 @@ display: flex;
 #lista0/*,#lista1,#lista1-2,#lista2*/{
     display: flex;
     flex-direction: column;
-    
-    
-    
+    width: max-content;
+    z-index: 2;
+    position: absolute;
     padding: 20px;
     border-radius: 20px;
    
-    
-    border-top: 40px solid rgba(49, 49, 49, 0.781);
-    
-  
+    border: 1px solid rgba(31, 31, 31, 0.568);
+    border-top: 40px solid rgba(31, 31, 31, 0.356);
     margin: 10px;
-    transform: translateY(-150%);
+    min-width: 250px;
+    max-width: 100%;
+    
+    
     
   
-    background-image: linear-gradient(to top,rgb(184, 184, 184),rgb(221, 221, 221));
-    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.836);
-  transition: 1500ms;
-  text-indent: 0em;
+    background-image: linear-gradient(to top,rgb(138, 138, 138),rgb(255, 255, 255));
+ 
+  transition: 200ms ease-in-out;
+ 
+}
+@media (max-width:500px){
+    #lista0{
+        max-width: 80%;
+        min-width: 10px;
+        margin: 0;
+    }
 }
 
 
@@ -440,42 +481,67 @@ display: flex;
 
 
 
-
+.logodoartigo{
+    display: inline-block;
+    background-image: url(imagens/WhatsApp.svg.png);
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+  height: 55px;
+  width: 55px;
+  filter: grayscale(60%);
+}
 
 .artigos{
-    
-    border-radius: 1em;
+    position: relative;
+    border-radius: 20px;
     padding: 2.5em;
     max-width: 750px;
     
     margin: 1em auto 24px auto;
     
-    background-image: linear-gradient(to top, rgb(240, 240, 240) 5%,rgb(255, 255, 255));
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:linear-gradient(to bottom, rgb(255 255 255) 1%,rgb(213 213 213));
+   
     line-height: 1.5em;
     
 }
+._30yMe{
+    filter: grayscale(50%) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.507));
+    padding: 5px;
+    
+}
 .artigos h1{
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    margin-bottom:10px;
+
     line-height: 1em;
     
 }
 
 .artigos h2{
     text-align: center;
-    font-size: 1.3em;
+    font-size: 18px;
     color: rgb(43, 43, 43);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1em;
 }
 
 .artigos h3{
-    margin-top: 1em;
-   margin-left: 1em;
+    margin: 0px 0px 0em 0px;
+  
     letter-spacing: 3px;
-    font-size: 1.5em;
-    color: #313131;
+    font-size: 2em;
+    color: #120d13;
+ 
+    
 }
 .artigos h4{
     
@@ -483,6 +549,7 @@ display: flex;
     letter-spacing: 3px;
     font-size: 1em;
     color: #161616;
+    margin-top: 20px;
 }
 .artigos p{
     text-align: start;
@@ -490,22 +557,44 @@ display: flex;
     font-size: 19px;
     margin: 0em;
     letter-spacing: 1px;
-    color: rgb(14, 14, 14);
+    color: rgb(0, 0, 0);
     
     margin:0em 0em 0em 0em;
     word-wrap: break-word;
 }
+.artigos a{
+    text-decoration: underline;
+}
+.artigos a:hover{
+    text-decoration: none;
+}
 .artigos ol{
-    margin-top: 1em;
-    margin: 1em 4em 1em 4em;
+    
+    margin: 0em 0em 3em 4em;
 }
-.artigos li{
-    font-size: 17px;
+.artigos ul{
+    
+    margin: 0em 0em 5em 4em;
+}
+.artigos ol li{
+    font-size: 18px;
     list-style-type: decimal;
-    margin: 0px 0em 1em 0em;
-    letter-spacing: 0.5px;
-    font-family: "Roboto Slab";
+    margin: 2em 0em 0em 0em;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Slab" Arial, Helvetica, sans-serif;
 }
+
+.artigos ul li{
+    font-size: 18px;
+    list-style-type: disc;
+    margin: 1em 0em 0em 0em;
+    letter-spacing: 1.5px;
+    font-family: "Roboto Slab" Arial, Helvetica, sans-serif;
+}
+
+
+
+
 .artigos li img{
     height: 18px;
     
@@ -516,9 +605,71 @@ display: flex;
     
 }
 .artigos span{
-    letter-spacing: 2px;
+    font-family: monospace;
     
 }
+.artigos:nth-of-type(1)
+{
+ 
+    padding: 10px;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.959), rgb(255, 255, 255));
+    border-radius: 20px;
+}
+h1:nth-of-type(1){
+    justify-content: left;
+}
+#indice{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   
+   
+    
+    
+}
+h1.titulo{
+    margin: auto;
+    font-size: 3em;
+}
+#indice ul{
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 1em;
+   display: flex;
+
+}
+#indice li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+ol.ajuda {
+    margin-bottom: 0px;
+}
+ol.ajuda li{
+    margin: 10px;
+}
+
+
+.em {
+    display: inline-block;
+    font-size: 17px;
+    font-family: arial "Roboto Slab";
+    letter-spacing: 1px;
+    color: #3a4b49;
+    text-align: end;
+    /*margin: 0.5em 0px 0em 0px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: right;
+    letter-spacing: 3px;
+    font-style: normal;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 5px 2px #a0a0a0;*/
+}
+
 #creditos{
     display: flex;
     justify-content: end;
@@ -551,9 +702,7 @@ display: flex;
     font-size: 20px;
 }
 @media(max-width:830px){
-    .artigosrelacionados{
-        
-    }
+    
     .artigos{
         margin: 5px 5px 0px 5px;
         padding: 8px;
@@ -565,21 +714,21 @@ display: flex;
         
     }
     .artigos h2{
-        font-size: 17px;
+        font-size: 20px;
         font-weight: normal;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .artigos h3{
         margin: 15px 0px 0px 0px;
         letter-spacing: 3px;
-        font-size: 18px;
-        color: #313131;
+        
+        
     }
     .artigos h4{
         letter-spacing: 3px;
         font-size: 1em;
         color: #161616;
-        margin: 15px 0px 0px 0px;
+        margin: 25px 0px 0px 0px;
     }
     .artigos p{
         font-size: 1em;
@@ -594,7 +743,7 @@ display: flex;
         font-size: 18px;
     }
     .artigos ol{
-        margin-top: 20px;
+        margin-top: 25px;
     }
     #nomeautor h2{
         all: unset;
