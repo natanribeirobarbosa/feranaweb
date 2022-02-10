@@ -166,24 +166,39 @@ div.sumario{
     font-size: 1.1em;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-   
+    box-sizing: border-box;
+    text-align: left;
     
 }
 div.sumario .paginadosumario{
-    margin: 10px;
+    
+  
     max-width: 80px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
    
 }
+div.sumario .paginadosumario:hover{
+    opacity: 70%;
+}
 @media(max-width:400px){
-    div.sumario .paginadosumario{
-        margin: 0;
-       font-size: 15px;
-      
+    div.sumario{
+       display: grid;
+       grid-template-columns: 7fr 1fr;
+       gap: 20px;
+       padding: 2px;
+       margin: 10px;
+       
+
+        
+        
+        
     }
+   
 }
 
 /*---------------------------------------ARTIGOS-------------------------------------------*/
@@ -253,7 +268,7 @@ div.sumario .paginadosumario{
 
 /*Container que hospeda os artigos comuns*/
 #artigos-c{
-    width:80%;
+    width:100%;
     max-width: 750px;
     background-color: none;
     display: flex;
@@ -313,31 +328,32 @@ display: flex;
 }
 @media (max-width:830px){
     /*artigos comuns agora com altura mínima de 240px*/
+    #artigos-c{
+        margin: 010px;
+    }
     #artigos-c article{
         
         
         flex-direction: column;
-        
-        min-height: 470px;
+        width: 100%;
+        min-height: 370px;
         
     }
     /*configuração das imagens dos arquivos comuns*/
     #artigos-c article .img{
         width: 100%;
-        height: 65%;
+        height: 75%;
     }
 /*configuração dos títulos dos arquivos comuns*/
     #artigos-c article .titulos{
        padding: 10px;
         width:90%;
-        height:35%;
+        height:25%;
         margin-bottom:1em;
         
     }
-    /*anuncios na esquerda e direita agora ficam escondidos*/
-    .anunciosl,.anunciosr{
-        display: none;
-    }
+    /*artigos principais agora ficam escondidos*/
+ 
     #artigos-p {
         display: none;
     }
@@ -502,7 +518,7 @@ display: flex;
     padding: 2.5em;
     max-width: 750px;
     
-    margin: 1em auto 24px auto;
+    margin: 0em auto 24px auto;
     
     background-image:linear-gradient(to bottom, rgb(255 255 255) 1%,rgb(213 213 213));
    
@@ -616,15 +632,15 @@ display: flex;
     border-radius: 20px;
 }
 h1:nth-of-type(1){
-    justify-content: left;
+    justify-content: center;
 }
-#indice{
+#indice ul{
    margin: auto;
    display: flex;
    justify-content: center;
    align-items: flex-start;
-   flex-direction: column;
    
+   flex-wrap: wrap;
    
     
     
@@ -652,6 +668,10 @@ ol.ajuda li{
     margin: 10px;
 }
 
+hr{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
 
 .em {
     display: inline-block;
@@ -704,7 +724,7 @@ ol.ajuda li{
 @media(max-width:830px){
     
     .artigos{
-        margin: 5px 5px 0px 5px;
+        margin: 0px 5px 0px 5px;
         padding: 8px;
     }
     .artigos h1{
