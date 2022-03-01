@@ -15,9 +15,8 @@ body/*todo o conteúdo do site*/{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center; 
-    background-color: rgb(14, 14, 14);
-    
-    
+    background-color: rgb(218, 218, 218);
+    background-image: linear-gradient(to right,#000000,rgb(19, 19, 19),#000000);
 }
 
 #corpo/*conteúdo do site, (que fica no meio)*/{
@@ -25,7 +24,6 @@ body/*todo o conteúdo do site*/{
    position: relative;
    width: 100%;
    max-width: 1000px;
-   
 }
 
 a/*todos os links*/{
@@ -107,7 +105,6 @@ footer{
     display: flex;
     align-items: center;
     padding: 0em;
-    user-select: none;
 }
 
 #menu-mobile section div /*os três traços do hamburguer*/{
@@ -166,7 +163,7 @@ footer{
 }
 
 #artigos-p .artigo-p:hover h1{
-    text-decoration: underline;
+    display: none;
 }
 
 
@@ -188,20 +185,15 @@ footer{
 
 #artigos-c article/*artigos comuns*/{
     justify-self: center;
-    background-image: linear-gradient(150deg,rgb(226, 226, 226),rgb(136, 136, 136));
+    background-image: linear-gradient(150deg,rgb(226, 226, 226),rgb(92, 92, 92));
     max-width: 700px;
     margin: 10px auto;
     display: flex;
     border-radius: 1em;
-    
 }
-#artigos-c article:hover .titulos h1/*animação dos artigos comuns*/{
-  text-decoration: underline;
-  transition: 300ms;
+#artigos-c #imagem{
     
-}
-#artigos-c #imagem/*imagem dos artigos comuns*/{
-    background-image: url(imagens/1fab805dc3dd2aab386b855e4ef9748c.jpg);
+    background-image: url(https://exame.com/wp-content/uploads/2021/08/whatsapp.jpg);
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,11 +202,10 @@ footer{
    width: 50%;
    border-radius: 0em 1em 1em 0em;
    transition: 200ms;
-   filter:  grayscale(30%) saturate(60%) contrast(120%);
-   
-
     
 }
+
+
 
 #artigos-c article .titulos/*títulos dos artigos comuns*/{
     padding: 20px;
@@ -320,19 +311,19 @@ footer{
     width: max-content;
     
     position: absolute;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
    
-   
-    border-top: 40px solid rgba(0, 0, 0, 0.774) ;
+  
+    border-top: 40px solid rgba(31, 31, 31, 0.562);
     margin: 10px;
     
    transition: 500ms;
- z-index: 1;
+ 
     
     
   
-    background-image: linear-gradient(to top,rgb(138, 138, 138),rgba(255, 255, 255, 0.993));
+    background-image: linear-gradient(to top,rgb(138, 138, 138),rgb(255, 255, 255));
 
 
  
@@ -388,30 +379,32 @@ footer{
   filter: grayscale(60%);
 }
 
-.artigos/*Todos os artigos completos,contando com o bloco "ajuda"*/{
-    
+.artigos{
     position: relative;
     border-radius: 20px;
-    padding: 2em;
+    padding: 1em;
     max-width: 750px;
-    box-sizing: border-box;
+    
     margin: 0em auto 24px auto;
     
-    background-image:linear-gradient(to bottom, rgb(255 255 255) 1%,rgb(236, 236, 236));
-   color: #333333;
+    background-image:linear-gradient(to bottom, rgb(255 255 255) 1%,rgb(213 213 213));
+   
     line-height: 1.5em;
     
+}
+._30yMe{
+    filter: grayscale(50%) drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.507));
+    padding: 5px;
     
 }
-
 .artigos h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
+    font-size: 24px;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: black;
+
     line-height: 1em;
     
 }
@@ -426,16 +419,15 @@ footer{
 
 .artigos h3{
     margin: 0px 0px 0em 0px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- 
+  
     letter-spacing: 3px;
-    font-size: 3em;
+    font-size: 2em;
     color: #120d13;
  
     
 }
 .artigos h4{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
   
     letter-spacing: 3px;
     font-size: 1em;
@@ -448,41 +440,24 @@ footer{
     font-size: 19px;
     margin: 0em;
     letter-spacing: 1px;
-   
+    color: rgb(0, 0, 0);
     
     margin:0em 0em 0em 0em;
     word-wrap: break-word;
 }
 .artigos a{
-    text-shadow: 1px 1px 2px rgb(102, 102, 102);
-    
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.artigos a:hover{
+    color: rgb(59, 59, 59);
+    animation: links 2s infinite;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.568);
     text-decoration: underline;
-   
 }
-h1.titulo{
-    font-size: 3em;
-    display: block;
-}
-h1.titulo span/*icone ao lado do título*/{
-    filter: grayscale(100%) drop-shadow(0px 0px 2px rgba(0, 0, 0, 1)) ;
-    padding: 15px;
-    display: inline-block; 
-}
-@media (max-width:450px){
-    h1.titulo span{
-        display: none;
-    }
-    h1.titulo{
-        font-size: 2em;
-        margin-top: 5px;
-      
+@keyframes links{
+    /*0%,100%{
         
     }
-
+   /* 50%{
+        text-shadow: 0px 0px 0px rgb(255, 255, 255);
+    }*/
 }
 
 /*-------------------------------------SUMARIO(Para os artigos)----------------------------*/
@@ -508,19 +483,24 @@ div.sumario .paginadosumario{
     max-width: 80px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0;
    
 }
-div.sumario li::after{
-    content: ">>";
-    margin: 10px;
-    
-}
-div.sumario li:last-of-type::after{
-    content: "";
-}
 
+@media(max-width:400px){
+    div.sumario{
+       display: grid;
+       grid-template-columns: 7fr 1fr;
+       gap: 20px;
+       padding: 2px;
+       margin: 10px;
+       
 
+        
+        
+        
+    }
+   
+}
 
 .artigosrelacionados {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -532,7 +512,9 @@ div.sumario li:last-of-type::after{
     
 }
 
-
+.artigos a:hover{
+    text-decoration: none;
+}
 .artigos ol{
     
     margin: 0em 0em 3em 4em;
@@ -564,7 +546,11 @@ div.sumario li:last-of-type::after{
     height: 18px;
     
 }
-
+.artigos a{
+    letter-spacing: 2px;
+    padding: 0;
+    
+}
 .artigos span{
     font-family: monospace;
     
@@ -584,15 +570,14 @@ h1:nth-of-type(1){
     
     
 }
-#indice div{
-    display: flex;
-    justify-content: center;
+h1.titulo{
+    margin: auto;
+    font-size: 3em;
 }
-
 #indice ul{
     list-style-type: none;
     margin: auto;
-    margin: 0.5em;
+    margin-bottom: 1em;
    display: flex;
 
 }
@@ -600,13 +585,7 @@ h1:nth-of-type(1){
     margin: 10px;
     list-style-type: none;
 }
-#indice li::after{
-    content: "-";
-    
-}
-#indice li:last-of-type::after{
-    content: "";
-}
+
 ol.ajuda {
     margin-bottom: 0px;
 }
@@ -617,7 +596,6 @@ ol.ajuda li{
 hr{
     margin-top: 0;
     margin-bottom: 1em;
-    color: black;
 }
 
 .em {
@@ -637,27 +615,57 @@ hr{
     box-shadow: 0px 0px 5px 2px #a0a0a0;*/
 }
 
-
-@media(max-width:758px){
+#creditos{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    align-items: center;
+}
+#fotoautor{
+    margin: 10px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    background-image: url(http://1.bp.blogspot.com/-eW5YwoQHN2s/UwXhiZ-CuQI/AAAAAAAAEhw/pg8JkD-Y3CU/s1600/1505309_544080092350393_1423345136_n.jpg);
+    background-size: contain;
+    filter: grayscale(70%);
+}
+#nomeautor{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#nomeautor h1{
+    all: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+#nomeautor h2{
+    all: unset;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+@media(max-width:830px){
     
     .artigos{
-        margin-right:  5px;
-        margin-left: 5px;
+        margin: 0px 5px 0px 5px;
         padding: 8px;
     }
-   
+    .artigos h1{
+        font-size: 1.3em;
+        margin-top: 5px;
+        
+        
+    }
     .artigos h2{
-        font-size: 1em;
+        font-size: 20px;
         font-weight: normal;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color: red;
     }
     .artigos h3{
         margin: 15px 0px 0px 0px;
         letter-spacing: 3px;
-        font-size: 2.2em;
-
-        
         
         
     }
@@ -671,15 +679,22 @@ hr{
         font-size: 1em;
         
     }
-    .artigos ul,.artigos ol{
-        margin-left: 2em;
-        margin-right: 0;
+    .artigos li,.artigos ol{
+        margin: 0px 0px 20px 20px;
     }
-    #indice li{
-        margin: 0;
+    #nomeautor h1{
+        all: unset;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
     }
-    
-  
+    .artigos ol{
+        margin-top: 25px;
+    }
+    #nomeautor h2{
+        all: unset;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+    }
     .link:hover{
        
         text-decoration: none;
@@ -692,8 +707,5 @@ hr{
     .link:active{
         font-weight: bold;
         text-decoration: underline;
-    }
-    .sumario li{
-        margin-bottom: 5px;
     }
 }

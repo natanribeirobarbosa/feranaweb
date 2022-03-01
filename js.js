@@ -1,21 +1,20 @@
 /*contadores*/
-window.document.getElementById('lista0').style.transform="translateY(-120%)"
+window.document.getElementById('lista0').style.display="none"
        window.document.getElementById('lista1').style.display="none"
 window.document.getElementById('lista2-1').style.display="none"
 
 
 
-               
 
 function lista0animacao(a) {
-    
-    if (window.document.getElementById('lista0').style.transform=="translateY(-120%)") 
+    console.log('lista 0')
+    if (window.document.getElementById('lista0').style.display=="none") 
     {
      
         
         console.log('abriu!')
         /*window.document.getElementById('contlist').style.width="unset"*/
-        window.document.getElementById('lista0').style.transform="translateY(0%)"
+        window.document.getElementById('lista0').style.display="flex"
         console.log('abriu!')
         window.document.getElementById('l1').style.transform="rotate(45deg) translateY(10px) "
         window.document.getElementById('l3').style.transform="rotate(-45deg) translateY(-10px)"
@@ -24,7 +23,7 @@ function lista0animacao(a) {
     else{
         console.log('fechou!')
         /*window.document.getElementById('contlist').style.width="0"*/
-        window.document.getElementById('lista0').style.transform="translateY(-120%)"
+        window.document.getElementById('lista0').style.display="none"
         window.document.getElementById('l1').style.transform="rotate(0deg) translateY(0px)"
         window.document.getElementById('l3').style.transform="rotate(0deg) translateY(0px)"
         window.document.getElementById('l2').style.opacity="100%"
@@ -36,12 +35,29 @@ function lista1() {
     if (window.document.getElementById('lista1').style.display=="none") {
         console.log('lista1 abriu')
         window.document.getElementById('lista1').style.display="flex"
+        window.document.getElementById('lista1-2').style.display="flex"
         
     }
     else{
         console.log('lista1 fechou')
         window.document.getElementById('lista1').style.display="none"
-        window.document.getElementById('lista2-1').style.display="none"
+        window.document.getElementById('lista1-2').style.display="none"
+        
+        
+    }
+ 
+}
+function lista12() {
+    if (window.document.getElementById('lista2-2').style.display=="none") {
+        console.log('referencias e ajuda')
+        window.document.getElementById('lista2-2').style.display="flex"
+       
+        
+    }
+    else{
+        console.log('lista1 fechou')
+        window.document.getElementById('lista2-2').style.display="none"
+      
         
         
     }
