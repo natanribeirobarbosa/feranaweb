@@ -398,10 +398,47 @@ footer{
     margin: 0em auto 24px auto;
     
     background-image:linear-gradient(to bottom, rgb(255 255 255) 1%,rgb(236, 236, 236));
-   color: #333333;
+   color: #000000eb;
     line-height: 1.5em;
     
     
+}
+#indice{
+    margin-bottom: 1em;
+}
+
+#indice ul{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+    
+     
+     
+}
+
+
+#indice ul{
+    list-style-type: none;
+    margin:auto;
+    margin-bottom: 2em;
+   
+
+
+}
+#indice li{
+    margin: 0px;
+    list-style-type: none;
+}
+#indice li::after{
+    content: "-";
+    margin: 10px;
+    
+}
+#indice li:last-of-type::after{
+    content: "";
 }
 
 .artigos h1{
@@ -417,23 +454,15 @@ footer{
 }
 
 .artigos h2{
-    text-align: center;
-    font-size: 18px;
-    color: rgb(43, 43, 43);
+    margin: 1em 0px 1em 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 1em;
+   
+      letter-spacing: 3px;
+      font-size: 3em;
+      color: #120d13;
 }
 
-.artigos h3{
-    margin: 0px 0px 0em 0px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- 
-    letter-spacing: 3px;
-    font-size: 3em;
-    color: #120d13;
- 
-    
-}
+
 .artigos h4{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
@@ -455,7 +484,7 @@ footer{
 }
 .artigos a{
     text-shadow: 1px 1px 2px rgb(102, 102, 102);
-    
+    color: rgb(0, 0, 0);
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -562,6 +591,7 @@ div.sumario li:last-of-type::after{
 
 .artigos li img{
     height: 18px;
+    filter: grayscale(90%) contrast(200%) drop-shadow(0px 0px 2px black);
     
 }
 
@@ -573,40 +603,7 @@ div.sumario li:last-of-type::after{
 h1:nth-of-type(1){
     justify-content: center;
 }
-#indice ul{
-   margin: auto;
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
-   
-   flex-wrap: wrap;
-   
-    
-    
-}
-#indice div{
-    display: flex;
-    justify-content: center;
-}
 
-#indice ul{
-    list-style-type: none;
-    margin: auto;
-    margin: 0.5em;
-   display: flex;
-
-}
-#indice li{
-    margin: 10px;
-    list-style-type: none;
-}
-#indice li::after{
-    content: "-";
-    
-}
-#indice li:last-of-type::after{
-    content: "";
-}
 ol.ajuda {
     margin-bottom: 0px;
 }
@@ -636,6 +633,19 @@ hr{
     background-color: #f0f0f0;
     box-shadow: 0px 0px 5px 2px #a0a0a0;*/
 }
+.em::before{
+    content: "*";
+}
+.artigos:nth-of-type(2){
+    padding: 10px;
+    padding-left: 32px;
+}
+.artigos:nth-of-type(2) h2{
+    margin: 24px 0px;
+}
+.artigos:nth-of-type(2) ol{
+    margin: 0em 0em 24px 4em;
+}
 
 
 @media(max-width:758px){
@@ -645,17 +655,25 @@ hr{
         margin-left: 5px;
         padding: 8px;
     }
-   
-    .artigos h2{
-        font-size: 1em;
-        font-weight: normal;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color: red;
+    #indice ul{
+       flex-direction: column;
+       align-items: center;
+        margin: 1em 0em 1em 0em;
     }
-    .artigos h3{
+    #indice ul li::after{
+        content: "";
+        
+    }
+    .artigos h2{
         margin: 15px 0px 0px 0px;
         letter-spacing: 3px;
         font-size: 2.2em;
+       
+    }
+    .artigos h1{
+        
+        letter-spacing: 3px;
+        font-size: 1.5em;
 
         
         

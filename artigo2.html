@@ -73,6 +73,7 @@
    
     <li><a href="#" class="paginadosumario" id="pg3"></a></li>
    
+    
    
 
 
@@ -88,15 +89,17 @@
             <h1 class="titulo">Como instalar o Whatsaap</h1>
             
             <ul>
-            <li><a href="#instalação">Instalação</a></li>
-            <li><a href="#t2">Desinstalação</a></li>
-            <li><a href="#t3">Atualização</a></li>
-            <li><a href="#ajuda">Ajuda</a></li></ul>
+            <li><a href="#instalação"></a></li>
+            <li><a href="#t2"></a></li>
+            <li><a href="#t3"></a></li>
+            <li><a href="#ajuda"></a></li>
+            
+            <em class="em">Foto e nome de perfil podem ser definidas logo no inicio do app, e em configurações você edita-las e adicionar recado.   </em>
             </div>
     <hr>
     
 
-    <h3 id="instalação">Foto de perfil</h3>
+<h2 id="instalação">Foto de perfil</h2>
     <ol>
         <li>Em seu celular, abra a sua loja de aplicativos,
         <a href="https://play.google.com/store?hl=pt_BR&gl=US">Google-play</a><img src="imagens/google-play.png" alt="logo da Play-store"> ou <a href="https://www.apple.com/app-store/">App Store</a> <img src="imagens/app-store.png" alt="logo da App-store">, e clique no botão <span>instalar</span> ou <span>obter</span>.
@@ -122,7 +125,7 @@
         <li>Insira o seu nome ou como quer ser chamado, para que os outros contatos do whatsaap saibam quem é você.</li>
     </ol>
 <hr>
-    <h3 id="t2">Recado</h3>
+<h2 id="t2">Nome de perfil</h2>
     <ul>
        
         
@@ -134,14 +137,17 @@
     </ul>
     </p>
 <hr>
-    <h3 id="t3">Atualização</h3>
+    <h2 id="t3">Recado</h2>
     <ul>
         <li>Se a atualização automatica não estiver ativada na sua loja de aplicativos, voçê deve fazer isso manualmente, a cada atualização o botão <span>atualizar</span> fica ativo no <a href="https://play.google.com/store?hl=pt_BR&gl=US"> Google-play</a> <img src="imagens/google-play.png" alt="logo da Play-store"> e na <a href="https://www.apple.com/app-store/">App Store</a> <img src="imagens/app-store.png" alt="">.</li>
     </ul>
+
+
     </article>
 
-    <article class="artigos"><h1 id="ajuda">Ajuda</h1>
-        <ol class="ajuda">
+    <article class="artigos">
+        <h2 class="ajuda" id="ajuda">Ajuda</h2>
+        <ol>
             
             <li><a>Um breve resumo sobre os seus direitos e deveres como úsuario do whatsaap.
             </a></li>
@@ -222,13 +228,21 @@
         window.document.getElementById('pg2').innerHTML=item2_1
         window.document.getElementById('pg3').innerHTML=item3_2
        
+        if (!!document.querySelector('#indice ul li:nth-of-type(1) a')) {
+            window.document.querySelector('#indice ul li:nth-of-type(1) a').innerHTML=document.querySelector('.artigos h2:nth-of-type(1)').innerHTML
+        }
+        
 
-        window.document.querySelector('#indice ul li:nth-of-type(1) a').innerHTML=document.querySelector('.artigos h3:nth-of-type(1)').innerHTML
+        window.document.querySelector('#indice ul li:nth-of-type(2) a').innerHTML=document.querySelector('.artigos h2:nth-of-type(2)').innerHTML
 
-        window.document.querySelector('#indice ul li:nth-of-type(2) a').innerHTML=document.querySelector('.artigos h3:nth-of-type(2)').innerHTML
+        window.document.querySelector('#indice ul li:nth-of-type(3) a').innerHTML=document.querySelector('.artigos h2:nth-of-type(3)').innerHTML
 
-        window.document.querySelector('#indice ul li:nth-of-type(3) a').innerHTML=document.querySelector('.artigos h3:nth-of-type(3)').innerHTML
+        window.document.querySelector('#indice ul li:last-of-type a').innerHTML=document.querySelector('h2.ajuda').innerHTML
 
+           
+      
+
+        
 
 
 
