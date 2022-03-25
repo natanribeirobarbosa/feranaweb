@@ -1,0 +1,463 @@
+--------------------------------------------------------------------------------------------------------
+Como restaurar seu histórico de conversas
+
+
+Para garantir que o backup das suas conversas está salvo antes de restaurá-lo em um novo aparelho Android:
+
+Abra o WhatsApp e toque em Mais opções > Configurações > Conversas > Backup de conversas.
+Selecione a Conta do Google em que deseja salvar o backup das suas conversas. Também é possível criar um backup local no seu aparelho.
+Toque em FAZER BACKUP.
+Após salvar o backup, você pode remover o WhatsApp do aparelho antigo e instalar o app no seu novo aparelho Android.
+Restaurar um backup do Google Drive
+Para manter uma cópia do seu histórico de conversas no Google Drive, ative o recurso de backup automático das suas conversas e defina a frequência de backup como diariamente, semanalmente ou mensalmente. Para restaurar um backup do Google Drive, você precisará usar o mesmo número de telefone e a mesma Conta do Google usados na criação do backup.
+
+Para restaurar o backup:
+
+Verifique se a Conta do Google em que o backup está salvo está conectada no novo aparelho Android.
+Instale e abra o WhatsApp e, em seguida, confirme seu número de telefone.
+Quando solicitado, toque em RESTAURAR para restaurar suas conversas e seus arquivos de mídia do Google Drive.
+Ao final do processo de restauração, toque em AVANÇAR. Suas conversas serão exibidas quando a inicialização for concluída.
+Após restaurar suas conversas, o WhatsApp continuará restaurando seus arquivos de mídia.
+Se você instalar o WhatsApp sem ter feito backup no Google Drive, o WhatsApp restaurará o backup local automaticamente.
+
+Restaurar um backup local
+Para usar um backup local, você precisará transferir os arquivos para o aparelho usando um computador, um gerenciador de arquivos ou um cartão SD.
+
+Para restaurar o backup:
+
+Baixe um app gerenciador de arquivos.
+No app gerenciador de arquivos, acesse a pasta de armazenamento local ou cartão SD e, em seguida, toque em WhatsApp > Databases. Caso seus dados não estejam armazenados no cartão SD, você verá a opção de armazenamento interno ou armazenamento principal. Copie o arquivo de backup mais recente e cole-o na pasta Databases na área de armazenamento local do seu novo aparelho.
+Instale e abra o WhatsApp e, em seguida, confirme seu número de telefone.
+Quando solicitado, toque em RESTAURAR para restaurar suas conversas e seus arquivos de mídia do backup local.
+Observações:
+
+Seu aparelho armazenará backups locais dos últimos sete dias.
+Os backups locais serão criados automaticamente todos os dias às 2:00 da manhã e salvos como um arquivo no seu aparelho.
+Caso seus dados não estejam armazenados na pasta /sdcard/WhatsApp/, você verá a pasta de armazenamento interno ou armazenamento principal.
+Restaurar um backup local mais antigo
+Para restaurar um backup local que não seja o mais recente, siga estas etapas:
+
+Baixe um app gerenciador de arquivos.
+No app gerenciador de arquivos, abra sua pasta de armazenamento local ou cartão SD e, em seguida, toque em WhatsApp > Databases. Caso seus dados não estejam armazenados no cartão SD, você verá a opção de armazenamento interno ou armazenamento principal.
+Renomeie o arquivo de backup que você deseja restaurar de msgstore-AAAA-MM-DD.1.db.crypt12 para msgstore.db.crypt12. O backup mais antigo pode ter sido criado com um protocolo diferente, como crypt9 ou crypt10. Não mude o número da extensão crypt do arquivo.
+Desinstale e reinstale o WhatsApp.
+Toque em RESTAURAR quando solicitado.
+
+-----------------------------------------------------------------------------------------------------------------
+Utilizando emoji
+Para usar emojis, simplesmente toque no ícone  para abrir o menu de seleção de emoji. Para voltar ao seu teclado, toque no ícone .
+
+Alguns emojis estão disponíveis em tons de pele diferentes. Se você quiser utilizar um emoji em um tom de pele diferente, toque e segure no emoji que deseja usar e selecione a cor desejada.
+
+Nota: Se você selecionar uma cor de emoji diferente, ela se tornará a sua cor padrão.
+
+-----------------------------------------------------------------------------------------------------------------
+Como configurar os sons de uma conversa
+Os sons da conversa são os toques reproduzidos quando você envia e recebe uma mensagem. Por padrão, os sons da conversa estão ativados. O volume dos sons da conversa é controlado pelo volume de notificações do seu celular.
+
+Para ativar e desativar esses sons:
+
+Abra o WhatsApp.
+Toque em Mais opções > Configurações > Notificações e ative ou desative Sons da conversa.
+Lembre-se que ao configurar os sons da conversa, você configurará os sons das mensagens recebidas e enviadas.
+
+-----------------------------------------------------------------------------------------------------------------
+Como pesquisar no WhatsApp
+Ao usar o recurso de pesquisa do WhatsApp você pode encontrar facilmente mensagens, fotos, vídeos, links, GIFs, áudios e documentos enviados nas suas conversas.
+
+Pesquisar em conversas com uma palavra-chave
+O recurso de pesquisa possibilita que você pesquise em suas conversas usando uma palavra-chave.
+
+Abra o WhatsApp.
+Toque em Pesquisar.
+Insira uma palavra ou frase no campo Pesquisar.
+Toque no resultado para abrir a mensagem diretamente na conversa.
+Pesquisar por arquivos de mídia usando os filtros
+Você também pode pesquisar por arquivos de mídia, como fotos, vídeos, links, GIFs, áudios e documentos, usando os filtros do recurso de pesquisa.
+
+Abra o WhatsApp.
+Toque em Pesquisar.
+Insira uma palavra ou frase no campo Pesquisar.
+Selecione o tipo de arquivo de mídia que deseja procurar.
+Toque no resultado para abrir a mensagem diretamente na conversa.
+Filtrar arquivos de mídia por tipo de conteúdo
+Você pode visualizar todos os arquivos de mídia de fotos, vídeos, links, GIFs, áudios e documentos enviados no seu WhatsApp.
+
+Abra o WhatsApp.
+Toque em Pesquisar.
+Toque em Fotos, Vídeos, Links, GIFs, Áudio ou Documentos para visualizar todos os arquivos de mídia de cada categoria.
+
+--------------------------------------------------------------------------------------------------------
+Como ativar e desativar as mensagens temporárias
+Você pode ativar as mensagens temporárias e enviar mensagens que desaparecem no WhatsApp. É possível definir se as mensagens da conversa desaparecerão após 24 horas, 7 dias ou 90 dias. Após a ativação desse recurso, as mensagens enviadas na conversa desaparecerão depois do período selecionado. A configuração mais recente afeta as novas mensagens de uma conversa, mas as mensagens enviadas ou recebidas antes da ativação das mensagens temporárias não serão afetadas.
+
+Para começar, abra o WhatsApp.
+
+
+
+Ativar as mensagens temporárias
+Em uma conversa individual, ambos os usuários podem ativar as mensagens temporárias. Após a ativação desse recurso, as mensagens enviadas na conversa desaparecerão após o período selecionado.
+
+Abra uma conversa no WhatsApp.
+Toque no nome do contato.
+Toque em Mensagens temporárias.
+Se solicitado, toque em CONTINUAR.
+Selecione um período de 24 horas, 7 dias ou 90 dias.
+Desativar as mensagens temporárias
+Em uma conversa individual, ambos os usuários podem desativar as mensagens temporárias. Após a desativação desse recurso, as mensagens enviadas na conversa deixarão de desaparecer.
+
+Abra uma conversa no WhatsApp.
+Toque no nome do contato.
+Toque em Mensagens temporárias.
+Se solicitado, toque em CONTINUAR.
+Toque em Desativadas.
+
+------------------------------------------------------------------------------------------------------------------
+Como ativar e desativar as mensagens temporárias em um grupo
+Você pode ativar as mensagens temporárias e enviar mensagens que desaparecem no WhatsApp. É possível definir se as mensagens da conversa desaparecerão após 24 horas, 7 dias ou 90 dias. Após a ativação desse recurso, as mensagens enviadas na conversa desaparecerão depois do período selecionado. As mensagens enviadas ou recebidas antes não serão afetadas.
+
+
+
+Ativar as mensagens temporárias
+Em conversas em grupo, qualquer participante pode ativar esse recurso, mas os admins do grupo podem mudar as configurações para permitir que somente admins possam ativar as mensagens temporárias. Saiba como mudar as configurações de admin do grupo neste artigo.
+
+Abra a conversa em grupo no WhatsApp.
+Toque no nome do grupo.
+Toque em Mensagens temporárias.
+Se solicitado, toque em CONTINUAR.
+Selecione um período de 24 horas, 7 dias ou 90 dias.
+Você também pode ativar as mensagens temporárias ao criar um novo grupo.
+
+Desativar as mensagens temporárias
+Qualquer participante do grupo pode desativar as mensagens temporárias a qualquer momento, a menos que um admin do grupo tenha limitado essa permissão somente para admins.
+
+Abra a conversa em grupo no WhatsApp.
+Toque no nome do grupo.
+Toque em Mensagens temporárias.
+Se solicitado, toque em CONTINUAR.
+Toque em Desativadas.
+
+------------------------------------------------------------------------------------------------------------------
+Como enviar e abrir arquivos de mídia de visualização única
+Você pode enviar fotos e vídeos que desaparecerem da conversa no WhatsApp depois que o destinatário abre o arquivo de mídia uma vez e fecha o visualizador de mídia. Assim que o destinatário fechar o visualizador de arquivos de mídia, a foto ou o vídeo desaparecerá da conversa e não será possível ver o arquivo novamente. As fotos e os vídeos de visualização única não ficam salvos nas Fotos nem na Galeria do destinatário. Além disso, não é possível encaminhar esses arquivos de mídia.
+
+
+
+Enviar arquivos de mídia de visualização única
+Abra uma conversa individual ou em grupo.
+Toque em Anexar e, em seguida, em:
+Câmera para tirar uma foto ou gravar um vídeo com sua câmera. Os vídeos gravados no WhatsApp podem ter, no máximo, 16 MB.
+Galeria para selecionar uma foto ou um vídeo no seu celular.
+Toque no ícone de número 1.
+Toque em Enviar.
+Você verá a confirmação Mensagem aberta na conversa depois que o destinatário visualizar a foto ou o vídeo.
+
+Abrir arquivos de mídia de visualização única
+Toque na mensagem com o ícone de número 1.
+Visualize a foto ou o vídeo.
+Deslize a foto para cima ou toque em Voltar para sair do visualizador de mídia.
+Você verá a confirmação Mensagem aberta na conversa no lugar da foto ou do vídeo. Após sair do visualizador de mídia, você não poderá ver o arquivo de mídia novamente nem denunciá-lo ao WhatsApp. Além disso, a foto ou o vídeo não será salvo no rolo da câmera.
+
+------------------------------------------------------------------------------------------------------------------
+Como enviar arquivos de mídia
+Enviar arquivos de mídia, documentos, localização ou contatos
+Abra uma conversa individual ou em grupo.
+Toque no ícone de anexar. Em seguida, toque em:
+Documento para selecionar um documento do seu celular.
+Câmera para tirar uma foto com a câmera do seu celular.
+Galeria para selecionar uma foto ou um vídeo existente no seu celular. Toque e segure para selecionar várias imagens.
+Áudio para enviar um arquivo de áudio do seu celular.
+Localização para enviar sua localização ou locais próximos.
+Contato para enviar os dados de um contato que esteja salvo na agenda do seu celular.
+Você pode adicionar legendas em fotos e vídeos. Deslize entre as fotos para adicionar uma legenda a cada imagem.
+Toque no ícone de enviar.
+Observação: o tamanho máximo permitido para documentos é 100 MB. Se você deseja enviar um documento no WhatsApp, você precisa salvá-lo no seu celular. Você também pode selecionar o WhatsApp no menu de compartilhamento de aplicativos para documentos. Ao baixar um documento, ele é automaticamente salvo na pasta do WhatsApp WhatsApp/Media/WhatsApp Documents, que pode ser acessada com um app de gerenciamento de arquivos.
+
+Encaminhar arquivos de mídia, documentos, localização ou contatos
+Abra uma conversa individual ou em grupo.
+Toque e segure a mensagem que você deseja encaminhar. Você pode selecionar mais de uma mensagem.
+Toque no ícone de encaminhar.
+Escolha a conversa para a qual você deseja encaminhar a mensagem.
+Toque no ícone de enviar.
+Ao encaminhar arquivos de mídia, documentos, localização ou contatos, você não precisará enviá-los novamente. Todas as mensagens encaminhadas que não foram criadas por você exibirão a etiqueta Encaminhada.
+
+Observação: as legendas não são encaminhadas com os arquivos de mídia. Não é possível encaminhar mensagens para listas de transmissão.
+
+------------------------------------------------------------------------------------------------------------------
+Como enviar GIFs
+Envie GIFs em conversas individuais ou em grupo:
+
+Abra o WhatsApp.
+Toque em uma conversa individual ou em grupo.
+Toque no ícone de Emoji e, em seguida, em GIF.
+Toque no ícone de Pesquisar para encontrar um GIF específico.
+Toque no GIF que você deseja enviar.
+Toque em Enviar.
+
+------------------------------------------------------------------------------------------------------------------
+Como mudar seu papel de parede
+Você pode personalizar suas conversas no WhatsApp ao mudar seu papel de parede em todas as conversas ou somente em uma conversa específica. Você também pode escolher papéis de parede para os temas claro ou escuro, e ajustar a luminosidade do seu papel de parede no tema escuro.
+
+Mudar o papel de parede de todas as conversas
+Toque em Mais opções > Configurações > Conversas > Papel de parede.
+Se preferir, abra uma conversa e toque em Mais opções > Papel de parede.
+Se está usando o tema escuro, você pode usar a barra deslizante para ajustar a luminosidade do seu papel de parede atual.
+Toque em MUDAR.
+Em seguida, selecione uma categoria e toque na imagem que você deseja usar como papel de parede.
+Se preferir, toque em Papel de parede padrão para restaurar o papel de parede padrão do WhatsApp.
+Toque em DEFINIR.
+Mudar o papel de parede de uma conversa específica
+Abra a conversa na qual você deseja mudar o papel de parede.
+Toque em Mais opções > Papel de parede.
+Se está usando o tema escuro, você pode usar a barra deslizante para ajustar a luminosidade do seu papel de parede atual.
+Em seguida, selecione uma categoria e toque na imagem que você deseja usar como papel de parede.
+Se preferir, toque em Papel de parede padrão para restaurar o papel de parede padrão do WhatsApp.
+Toque em DEFINIR.
+
+------------------------------------------------------------------------------------------------------------------
+Como usar a lista de transmissão
+Com o recurso Lista de transmissão, você pode enviar uma mensagem para diversos contatos de uma só vez. As listas de transmissão são listas de contatos salvas para as quais você pode enviar mensagens mais de uma vez, sem precisar selecionar os mesmos contatos a cada envio.
+
+Criar uma lista de transmissão
+Abra o WhatsApp > Mais opções > Nova transmissão.
+Busque ou selecione os contatos que você deseja adicionar à lista.
+Toque na marca de confirmação.
+Esses passos criarão uma nova lista de transmissão. Ao enviar uma mensagem para sua lista de transmissão, ela só será entregue aos destinatários que têm seu número salvo em seus celulares. Os destinatários receberão sua mensagem como uma mensagem individual. Quando essa mensagem for respondida, você receberá uma mensagem individual de cada contato na aba CONVERSAS. As respostas enviadas pelos destinatários da sua lista de transmissão só serão entregues para você.
+
+Observação: apenas os contatos com seu número de telefone salvo em suas agendas de telefone receberão sua mensagem de transmissão. Se seu contato não recebeu sua transmissão, peça que ele verifique se seu número está salvo. Com as listas de transmissão, você pode enviar mensagens para vários contatos de uma só vez. Se você quiser que todos os destinatários participem da conversa, você pode criar uma conversa em grupo.
+
+Editar uma lista de transmissão
+Abra sua lista de transmissão.
+Toque em Mais opções > Dados da lista de transmissão.
+Nos dados da lista de transmissão você poderá:
+Mudar o nome da sua lista ao tocar em Editar.
+Adicionar destinatários à lista ao tocar em Adicionar destinatário....
+Remover destinatários ao tocar em Editar destinatários e em "x" próximo ao nome do contato e, em seguida, na marca de confirmação.
+Apagar uma lista de transmissão
+Toque e segure a lista de transmissão que você deseja apagar.
+Toque em Apagar lista de transmissão > APAGAR. Você pode escolher se deseja apagar todos os arquivos de mídia ou não.
+Se preferir, abra a lista de transmissão que deseja apagar, toque no nome da lista ou dos destinatários e, em seguida, em Apagar lista de transmissão > APAGAR.
+
+------------------------------------------------------------------------------------------------------------------
+Como configurar o download automático
+Por padrão, as configurações do WhatsApp estão definidas para baixar imagens automaticamente utilizando sua conexão de dados móveis para que você tenha acesso às suas fotos rapidamente.
+
+
+
+Para configurar o download automático de fotos, vídeos ou arquivos de áudio, abra o WhatsApp e, em seguida, toque em Mais opções > Configurações > Armazenamento e dados > Download automático de mídia.
+
+Nesse menu, você pode escolher quando quer que o WhatsApp baixe os arquivos de mídia automaticamente.
+
+Observação: o WhatsApp, assim como outras empresas, está trabalhando para evitar o possível congestionamento da internet durante a pandemia do novo coronavírus (COVID-19). Para ajudar a resolver os problemas com a capacidade de redes móveis, desabilitamos o download automático de documentos, vídeos e mensagens de áudio em algumas regiões.
+
+Ao utilizar a rede de dados
+Os arquivos de mídia selecionados serão baixados automaticamente quando seu aparelho estiver conectado a uma rede de dados móveis.
+
+Ao utilizar o Wi-Fi
+Os arquivos de mídia selecionados serão baixados automaticamente quando seu aparelho estiver conectado a uma rede Wi-Fi.
+
+Em roaming
+Os arquivos selecionados serão baixados automaticamente quando seu aparelho estiver utilizando o roaming.
+
+Observação: ativar a opção de download automático ao utilizar o roaming pode causar aumento nas tarifas da sua operadora de celular. As tarifas de uso da rede de dados móveis são, geralmente, altas.
+
+Os arquivos baixados automaticamente serão exibidos na sua galeria. Para parar de visualizar os arquivos de mídia do WhatsApp na sua galeria, recomendamos que você crie um arquivo ou pasta .nomedia dentro das suas pastas de imagens, áudio e vídeo do WhatsApp. Você pode fazer isso utilizando um gerenciador de arquivos, que pode ser baixado na Google Play Store. Se você quiser visualizar os arquivos de mídia do WhatsApp na sua galeria novamente, apague o arquivo .nomedia.
+
+------------------------------------------------------------------------------------------------------------------
+Como enviar mensagens de voz
+As mensagens de voz permitem que você fale instantaneamente com contatos e grupos. Você pode usá-las para enviar informações importantes e urgentes. Por esse motivo, todas as mensagens de voz são baixadas automaticamente.
+
+
+
+
+Enviar mensagens de voz
+Abra uma conversa individual ou em grupo.
+Toque e segure o microfone e comece a falar.
+Assim que terminar, solte o microfone. A mensagem de voz será enviada automaticamente.
+Ao gravar uma mensagem de voz, você poderá deslizar para a esquerda para cancelar.
+
+Enviar uma mensagem de voz longa
+Abra uma conversa individual ou em grupo.
+Toque e segure o microfone e comece a falar.
+Em seguida, deslize o ícone para cima para ativar a gravação com as mãos livres.
+Você também pode tocar no botão pausar vermelho  para pausar a gravação e ouvir a mensagem de voz antes de enviá-la. Toque no microfone vermelho  para continuar gravando a mesma mensagem de voz.
+
+Ao enviar mensagens de voz, você verá:
+
+Um microfone cinza  nas mensagens de voz que foram reproduzidas somente por algumas pessoas que receberam essa mensagem de voz.
+Um microfone azul  nas mensagens de voz que foram reproduzidas por todas as pessoas que receberam essa mensagem.
+Observação: caso o começo das suas mensagens de voz não seja gravado, aguarde um segundo para começar a falar.
+
+------------------------------------------------------------------------------------------------------------------
+Como ouvir uma mensagem de voz antes de enviá-la
+Você pode reproduzir a mensagem de voz que gravou antes de enviá-la para conferir se a gravação está de acordo com o que você deseja.
+
+Reproduzir uma mensagem de voz antes de enviá-la
+Para reproduzir sua mensagem de voz antes de enviá-la:
+
+Abra uma conversa individual ou em grupo.
+Toque e segure o ícone de microfone e, em seguida, deslize-o para cima para ativar a gravação com as mãos livres.
+Comece a falar.
+Assim que terminar, toque no ícone de parar.
+Toque no ícone de reproduzir para ouvir sua gravação. Você também pode tocar em qualquer parte da gravação para reproduzir a partir daquele ponto.
+Toque no ícone de lixeira para apagar a mensagem de voz ou no ícone de enviar para enviá-la.
+
+------------------------------------------------------------------------------------------------------------------
+Como apagar conversas
+Apagar uma conversa individual
+Na aba CONVERSAS, pressione a conversa individual que você deseja apagar.
+Toque em Apagar > APAGAR.
+Apagar uma conversa em grupo
+Para apagar uma conversa em grupo, você precisará primeiro sair do grupo.
+
+Na aba CONVERSAS, pressione a conversa em grupo que você deseja apagar.
+Toque em Mais opções > Sair do grupo > SAIR.
+Em seguida, pressione a conversa em grupo mais uma vez e toque em Apagar > APAGAR.
+Apagar todas as conversas de uma vez
+Na aba CONVERSAS, toque em Mais opções > Configurações > Conversas > Histórico de conversas.
+Toque em Apagar todas as conversas.
+As conversas individuais e atualizações de status serão apagadas da sua aba CONVERSAS. No entanto, as conversas em grupo ainda ficarão visíveis na aba CONVERSAS e você continuará como participante desses grupos até sair deles.
+
+------------------------------------------------------------------------------------------------------------------
+Como salvar seu histórico de conversas
+Suas conversas do WhatsApp são salvas automaticamente em um backup no seu celular todos os dias. De acordo com suas configurações, você também pode fazer backup das suas conversas do WhatsApp no Google Drive. Se você deseja desinstalar o WhatsApp do seu celular, mas não quer perder suas mensagens, lembre-se de fazer um backup manual das suas conversas antes de desinstalar.
+
+Fazer backup de conversas
+Abra o WhatsApp e toque em Mais opções > Configurações > Conversas > Backup de conversas > FAZER BACKUP.
+
+Exportar histórico de conversas
+Você pode usar esse recurso para exportar uma cópia do histórico de conversas individuais ou em grupo.
+
+Abra uma conversa individual ou em grupo.
+Toque em Mais opções > Mais > Exportar conversa.
+Escolha se você deseja incluir ou não os arquivos de mídia na conversa exportada.
+O histórico da sua conversa será enviado em formato de documento .txt e anexado a um e-mail.
+
+Observações:
+
+Se você está na Alemanha, pode ser necessário atualizar o WhatsApp antes de usar o recurso de exportar histórico de conversas.
+Se você escolher anexar os arquivos de mídia, apenas os arquivos mais recentes serão adicionados.
+Você pode exportar até 10 mil mensagens mais recentes com arquivos de mídia e 40 mil mensagens sem arquivos de mídia. Estes limites existem devido ao tamanho máximo permitido para mensagens de e-mail.
+
+------------------------------------------------------------------------------------------------------------------
+Como gerenciar suas notificações
+Você pode gerenciar suas preferências de notificação facilmente nas configurações do WhatsApp.
+
+
+
+
+Mudar configurações de notificações do WhatsApp
+Abra o WhatsApp e toque em Mais opções > Configurações > Notificações.
+
+Nessa seção, você poderá configurar as notificações de mensagens, grupos e chamadas. Você terá as seguintes opções:
+
+Ativar ou desativar os sons de mensagens recebidas e enviadas.
+Definir um toque ou som de notificação.
+Determinar a duração da vibração.
+Configurar a exibição de notificações pop-up no Android 9 ou anterior. Esse recurso permite que as notificações sejam exibidas em uma janela no centro da tela.
+Definir a cor da luz de notificação em aparelhos que têm esse recurso disponível.
+Optar pelo uso de notificações de alta prioridade no Android 5 ou posterior. Esse recurso permite pré-visualizar as notificações na parte superior da tela e pode ser utilizado para desativar as prévias de mensagens.
+Observação: ao desativar as notificações de alta prioridade, as notificações do WhatsApp serão enviadas para o fim da barra de notificações na sua tela.
+
+Para redefinir suas configurações de notificações, abra as Configurações do seu aparelho e toque em Notificações > Mais opções > Redefinir configurações de notificações > REDEFINIR.
+
+Personalizar notificações
+Você pode personalizar suas notificações escolhendo diferentes opções de toque, vibração, notificação pop-up e luz:
+
+Abra uma conversa individual ou em grupo.
+Toque no nome do contato ou grupo.
+Toque em Notificações personalizadas e marque Usar notificações personalizadas.
+Observação: o toque de chamadas em grupo será sempre o padrão e não pode ser personalizado.
+
+Silenciar notificações
+Abra uma conversa individual ou em grupo.
+Toque no nome do contato ou grupo.
+Toque em Silenciar notificações.
+Selecione por quanto tempo as notificações devem permanecer silenciadas e toque OK.
+Se preferir, desmarque Exibir notificações para interromper a exibição das notificações.
+
+------------------------------------------------------------------------------------------------------------------
+Como editar fotos e vídeos
+O WhatsApp permite que você personalize suas fotos e seus vídeos adicionando emojis, texto ou desenhos à mão livre.
+
+Editar fotos e vídeos
+Toque no ícone de Câmera no campo de texto de uma conversa.
+Tire uma foto, grave um vídeo ou selecione uma foto ou um vídeo no seu celular.
+Escolha como você deseja personalizar sua foto ou seu vídeo.
+Adicionar figurinhas ou emojis
+Toque no ícone de Figurinha e, em seguida, toque no ícone de Figurinha ou Emoji.
+Toque no item que você deseja usar.
+Para mover o item, toque e segure o item e arraste-o.
+Para redimensionar o item, faça um movimento de pinça abrindo e fechando os dedos para aumentá-lo ou diminui-lo.
+Para girar o item, faça o movimento de pinça e gire no sentido desejado.
+Adicionar texto
+Toque no ícone de Texto no topo da tela.
+Digite o texto no campo de texto.
+Para selecionar uma cor, deslize seu dedo para cima e para baixo no seletor de cores.
+Para selecionar um tipo de fonte, toque no ícone de Texto diversas vezes. Toque na tela ao encontrar o tipo de fonte que você deseja usar.
+Para redimensionar o texto, faça o movimento de pinça abrindo e fechando os dedos para aumentá-lo ou diminui-lo.
+Para girar o texto, faça o movimento de pinça e gire o texto.
+Desenhar
+Toque no ícone de Desenho no topo da tela.
+Use seu dedo para fazer desenhos à mão livre.
+Para selecionar uma cor, deslize seu dedo para cima e para baixo no seletor de cores. Você pode selecionar uma cor para cada linha que você desenhar.
+Aplicar filtros
+Em uma foto ou vídeo, deslize para cima.
+Selecione um filtro.
+Silenciar vídeo
+Toque no ícone de Silenciar para silenciar o áudio do seu vídeo.
+
+------------------------------------------------------------------------------------------------------------------
+Como usar a localização em tempo real
+O recurso localização em tempo real permite que você compartilhe sua localização atual durante um período específico com um contato ou grupo. Você decide se e por quanto tempo deseja compartilhar sua localização em tempo real. Além disso, é possível interromper o compartilhamento a qualquer momento. Assim que o compartilhamento for interrompido ou terminar, sua localização em tempo real não será mais compartilhada. Os contatos com os quais você compartilhou sua localização em tempo real continuarão a visualizar sua localização como uma imagem estática e poderão tocar na imagem para visualizar sua última localização atualizada.
+
+Esse recurso é protegido pela criptografia de ponta a ponta e ninguém, além das pessoas que você selecionou, pode ver sua localização em tempo real. Para mais informações sobre sua segurança no WhatsApp, acesse Segurança do WhatsApp. Leia nossa Política de Privacidade para mais informações sobre as práticas de privacidade do WhatsApp.
+
+Compartilhar sua localização em tempo real
+Ative o serviço de localização para o WhatsApp no seu celular. Toque em Configurações > Apps e notificações > Avançado > Gerenciar permissões > Local e ative WhatsApp. Se você abriu recentemente o WhatsApp, toque nas Configurações do seu celular e, em seguida, em Apps e notificações > WhatsApp > Permissões e ative Local.
+Abra uma conversa individual ou em grupo.
+Toque em Anexar > Localização > Localização em tempo real.
+Selecione por quanto tempo você deseja compartilhar sua localização em tempo real. O compartilhamento da sua localização em tempo real será interrompido após o período selecionado.
+Você também pode adicionar uma legenda.
+Toque em Enviar.
+Parar de compartilhar sua localização em tempo real
+Para parar de compartilhar sua localização em tempo real em uma conversa ou um grupo específicos
+Abra a conversa individual ou em grupo.
+Toque em Encerrar > ENCERRAR.
+Para parar de compartilhar sua localização em tempo real em todas as conversas
+Toque em Mais opções > Configurações > Conta > Privacidade > Localização em tempo real.
+Toque em ENCERRAR > ENCERRAR.
+Observações:
+
+Você pode desativar o serviço de localização para o WhatsApp a qualquer momento. No seu celular, toque em Configurações > Apps e notificações > Avançado > Gerenciar permissões > Local e desative WhatsApp.
+Se você abriu recentemente o WhatsApp no seu celular, toque em Configurações > Apps e notificações > WhatsApp > Permissões e desative Local.
+Referências relacionadas
+Como usar a localização em tempo real no iPhone
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
