@@ -168,9 +168,9 @@ footer/*rodapé*/{
     text-decoration: underline;
 }
 
-/*----------------------------------ARTIGOS COMUNS----------------------------------------*/
+/*----------------------------------TUTORIAIS----------------------------------------*/
 #artigos-c/*Container que hospeda os artigos comuns e recomendados*/{
-    width: 80%;
+    max-width: 720px;
     background-color: none;
     justify-items: center;
     flex-direction: column;
@@ -179,50 +179,45 @@ footer/*rodapé*/{
     display: grid;
     min-height: 200px;
     margin: auto;
-    margin-bottom: 24px;
     gap: 15px;
   }
 
-#artigos-c article/*os artigos comuns*/{
-    background-image: linear-gradient( rgb(255, 255, 255),rgb(160, 160, 160));
+#artigos-c a/*os artigos comuns ou tutoriais*/{
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(191 191 191) 50%);
     padding: 1em;
     border-radius: 1em;
-   
-    height: 116px;
-    max-width: 500px;
+    max-width: 320px;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 12px 2px black;
 }
+
 div.conteudo{
     display: flex;
     flex-direction: row;
+    font-size: 12px;
 }
-div.imagem{
-    background-image: url(imagens/app-store.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 270px;
-}
+
 /*-------------------------------------Títulos no meio da página----------------------------*/
 
-p.artigosrelacionados{
-  
-    
-}
+
 div.artigosrelacionados{
     width: 100%;
     margin: 20px auto;
 }
-.artigosrelacionados {
+.artigosrelacionados{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     font-size: 2em;
     color: rgb(204, 204, 204);
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 10px;
     list-style-type: disc;
 
 }
-
 
 .artigosrelacionados button{
     padding: 5px;
@@ -230,17 +225,40 @@ div.artigosrelacionados{
     color: rgb(12, 12, 12);
     font-size: 16px;
     background-color: rgb(233, 233, 233);
+    font-family: unset;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.692);
     
+}
+.artigosrelacionados button:hover{
+    background-color: rgb(197, 197, 197);
 }
 
 ul.artigosrelacionados{
-    width: 100%;
+    max-width: 600px;
     margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-wrap: wrap;
+    
     justify-content: center;
-    flex-direction: row;
+    gap: 05px;
+
+}
+
+.bloco{
+    background-image: radial-gradient(rgba(177, 177, 177, 0.493), transparent 50%);
+    margin-bottom: 20px;
+}
+
+.bloco p.vermais{
+   display: flex;
+   justify-content: end;
+   
+}
+
+.bloco p.vermais a{
+    color: #dddddd;
+    margin: auto;
 }
 
 @media /**/(max-width:900px){
@@ -250,16 +268,17 @@ ul.artigosrelacionados{
        }
 }
 
-
-
 @media /*responsividade*/(max-width:650px){
     .containerdocabeçalho2{
         height: 77px;
 
     }
     #menu-mobile section div /*os três traços do menu hamburguer*/{
-    height: 3px;
-    width: 20px;}
+        height: 2px;
+        width: 20px;
+        margin: 5px;
+
+}
 
     .logo/*logo FERA NA WEB, item 1 do cabeçalho*/{
         display: inline;
@@ -272,14 +291,18 @@ ul.artigosrelacionados{
        color: rgb(8, 8, 8);
     }
 
-    #artigos-c article{
+    #artigos-c a{
         flex-direction: column-reverse;
         height: auto;
         align-items: center;
         justify-content: end;
     }
-    #artigos-c article  h1{
-        font-size: 23px;
+
+    #artigos-c a{
+        padding: 10px;
+    }
+    #artigos-c a h1{
+        font-size: 18px;
     }
    
     .bloco{
@@ -298,17 +321,18 @@ ul.artigosrelacionados{
     }
     .artigosrelacionados button{
         width: 150px;
+
     }
     ul.artigosrelacionados{
         display: flex;
-        grid-template-columns: 1fr 1fr 1fr;
+        flex-wrap: wrap;
     }
 
 }
-#artigos-c article .titulos h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#artigos-c a .titulos h1{
+    font-family: "Roboto Slab";
 }
-#artigos-c article .titulos h2{
+#artigos-c a .titulos h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
@@ -320,47 +344,36 @@ ul.artigosrelacionados{
 
 
 
-.itensdomenu/*(links)*/{
+.itensdomenu/*(links) da lista disposta no menu*/{
     margin: 0px;
-     justify-content: left;
+    justify-content: left;
     color: rgb(0, 0, 0);
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     text-align: left;
     width: 100%;
-    
-    
-    
-  
-    
- }
-
- .itensdomenu:hover{
-    letter-spacing: 4px;
-    
-    
 }
- .link{
-     
-   width: unset;
-     font-size: 18px;
-     list-style-type: circle;
-     letter-spacing: 6px;
-     margin: 0px;
-     
-     margin-left: 1em;
- }
- .link:hover{
-     font-weight: normal;
-     letter-spacing: 5px;
-     
+.itensdomenu:hover{
+    letter-spacing: 4px;
+}
 
+.link/*links que levam a uma nova página*/{
+    width: unset;
+    font-size: 18px;
+    list-style-type: circle;
+    letter-spacing: 6px;
+    margin: 0px;
+    margin-left: 1em;
+}
+.link:hover{
+    font-weight: normal;
+    letter-spacing: 8px;
+}
 
- }
-
-#lista0/*,#lista1,#lista1-2,#lista2*/{
+#lista0/*,Container de todas as listas*/{
+    box-shadow: 0px 0px 9px 2px black;
     display: flex;
     flex-direction: column;
     width: max-content;
@@ -392,6 +405,16 @@ ul.artigosrelacionados{
     .link{margin: 5px 0px;
     margin-left: 1em;
     }
+
+    .itensdomenu/*(links) da lista disposta no menu*/{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .itensdomenu:hover{
+        letter-spacing: 2px;
+    }
+
+
 }
 
 
@@ -461,7 +484,7 @@ h1.titulo span/*icone ao lado do título*/{
     box-sizing: border-box;
     margin: 0em auto 24px auto;
     
-    background-image: linear-gradient(to bottom, rgb(255 255 255) ,rgb(255 255 255 / 74%));
+    background-image: linear-gradient(to bottom, rgb(255 255 255) ,rgb(226, 226, 226));
    color: #000000;
     line-height: 1.5em;
     
