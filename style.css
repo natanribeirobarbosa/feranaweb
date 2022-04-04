@@ -484,7 +484,7 @@ h1.titulo span/*icone ao lado do título*/{
     box-sizing: border-box;
     margin: 0em auto 24px auto;
     
-    background-image: linear-gradient(to bottom, rgb(255 255 255) ,rgb(226, 226, 226));
+    background-image:linear-gradient(to right,rgb(243 243 243), rgb(248, 248, 248),rgb(243, 243, 243));
    color: #000000;
     line-height: 1.5em;
     
@@ -511,12 +511,10 @@ h1.titulo span/*icone ao lado do título*/{
     list-style-type: none;
     margin:auto;
     margin-bottom: 2em;
-   
-
-
 }
 #indice li{
-    margin: 0px;
+ 
+    margin: 10px 0px;
     list-style-type: none;
 }
 #indice li::after{
@@ -577,16 +575,29 @@ h1.titulo span/*icone ao lado do título*/{
     
 }
 .artigos a{
-    text-shadow: 1px 1px 2px rgb(102, 102, 102);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
     color: rgb(0, 0, 0);
-    
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
+.artigos a.icone{
+    padding: 0px 3px;
 }
 .artigos a:hover{
-    text-decoration: underline;
+    text-decoration: none;
    
 }
-
+.artigos em{
+    display: block;
+   text-align: end;
+    padding-left: 30%;
+  color: #0f0f0f;
+}
+.em::before{
+    content: "*";
+}
 
 h1.titulo{
     font-size: 3em;
@@ -719,23 +730,21 @@ div.sumario li:last-of-type::after{
     margin: 0em 0em 3em 4em;
 }
 .artigos ul{
-    
     margin: 0em 0em 5em 4em;
 }
-.artigos ol li{
+
+
+
+.artigos ol li,.artigos ul li{
     font-size: 18px;
     list-style-type: decimal;
-    margin: 1.5em 0em 0em 0em;
+    margin: 3em 0em 0em 0em;
     
-    font-family: "Roboto Slab" Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .artigos ul li{
-    font-size: 18px;
     list-style-type: disc;
-    margin: 1em 0em 0em 0em;
-    
-    font-family: "Roboto Slab" Arial, Helvetica, sans-serif;
 }
 
 .artigos li{
@@ -745,7 +754,7 @@ div.sumario li:last-of-type::after{
 
 .artigos li img{
     height: 18px;
-    filter: grayscale(90%) contrast(200%) drop-shadow(0px 0px 2px black);
+    filter: grayscale(70%) contrast(200%) drop-shadow(0px 0px 2px black);
     
 }
 .artigos p img{
@@ -759,11 +768,20 @@ h1:nth-of-type(1){
     justify-content: center;
 }
 
-ol.ajuda {
-    margin-bottom: 0px;
+ol.ajuda,ol.ajuda{
+    margin-bottom: 40px;
 }
+
 ol.ajuda li{
-    margin: 10px;
+    margin: 40px 0px;
+    letter-spacing: 5px;
+}
+
+ul.ajuda li{
+    
+    margin: 40px 0px;
+    letter-spacing: 5px;
+  
 }
 
 hr{
@@ -772,19 +790,7 @@ hr{
     color: black;
 }
 
-.em {
-    display: inline-block;
-    font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    color: #2a2a2a;
-    text-align: end;
-    font-style: normal;
-   
-}
-.em::before{
-    content: "*";
-}
+
 
 sup a{
     padding: 0;
@@ -793,12 +799,8 @@ sup a{
     padding: 10px;
     padding-left: 32px;
 }
-.artigos:nth-of-type(2) h2{
-    margin: 24px 0px;
-}
-.artigos:nth-of-type(2) ol{
-    margin: 0em 0em 24px 4em;
-}
+
+
 
 
 @media(max-width:758px){

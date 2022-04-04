@@ -116,7 +116,7 @@ var titulos= new Object();
     if (!!document.querySelector('h2:nth-of-type(2)')) {
         window.document.querySelector('#indice ul li:nth-of-type(2) a').innerHTML=document.querySelector('h2:nth-of-type(2)').innerHTML
     }else{
-        titulos.t1.parentNode.removeChild( titulos.t2);
+        titulos.t1.parentNode.removeChild(titulos.t2);
     }
 
     if (!!document.querySelector('h2:nth-of-type(3)')) {
