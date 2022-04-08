@@ -1,0 +1,347 @@
+
+article.artigos/*Tutorial completo*/{
+    position: relative;
+    border-radius: 20px;
+    padding: 2em;
+    max-width: 750px;
+    box-sizing: border-box;
+    margin: 0em auto 24px auto;
+    background-image:linear-gradient(to right,rgb(243 243 243), rgb(248, 248, 248),rgb(243, 243, 243));
+   color: #000000;
+    line-height: 1.5em;
+}
+
+.artigos h1/*títulos nvl1 do tutorial*/{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: black;
+}
+.artigos h1.titulo{
+    line-height: normal;
+}
+
+
+h1.titulo span/*icone ao lado do título*/{
+    filter: grayscale(100%) drop-shadow(0px 0px 2px rgba(0, 0, 0, 1)) ;
+    padding: 15px;
+    display: inline-block; 
+    border-bottom: black;
+   background-color: inherit;
+}
+
+.artigos h2/*títulos nvl2 do tutorial*/{
+    margin: 1em 0px 1em 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.664);
+  
+}
+
+.artigos>li{
+    list-style-type: decimal;
+}
+
+.artigos h3/*títulos nvl3 do tutorial*/{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: 20px 0px 0px 0px;
+}
+
+.artigos span/*indicam botões para o leitor identificar*/{
+    letter-spacing: 4px;
+    margin: 0px 5px;
+    background-color: rgba(186, 186, 186, 0.309);
+    padding: 0px 5px;
+    color: rgb(21, 21, 21);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.125rem 0.25rem;
+   letter-spacing: 1px;
+    width: fit-content;
+    border-radius: 10px;   
+}
+
+.artigos h2.primeirospassos::before/*indicam botões para o leitor identificar*/{
+    content: "1. ";
+}
+
+.artigos p/*parágrafos dos artigos escritos*/{
+    text-align: start;
+    word-spacing: 0.1em;
+   
+    margin: 0em;
+    letter-spacing: 2px;
+   text-indent: 1em;
+    font-size: 18px;
+    margin:2em 0em 0em 2em;
+    
+}
+.artigos a/*links do tutorial*/{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-decoration: underline;
+}
+
+.artigos a.icone/*icones com links que levam a outra página*/{
+    text-decoration: none;
+    padding: 0px 3px;
+}
+
+.artigos em/*observações do tutorial*/{
+    display: block;
+   text-align: end;
+    padding-left: 30%;
+  color: #0f0f0f;
+}
+.em::before/*conteúdo inserido antes de cada observação*/{
+    content: "*";
+}
+
+.artigos button{
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(218, 218, 218);
+    font-size: 17px;
+    background-color: rgba(22, 22, 22, 0.952);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.692); 
+}
+
+#indice ul/*lista dentro do container que contem o título e o sumário*/{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+#indice li/*todos os itens de lista dentro do containerque contem o título e o sumário*/{
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+#indice li::after/*conteúdo inserido após cada item de lista*/{
+    content: "-";
+    margin: 10px;
+}
+#indice li:last-of-type::after/*retirando o conteúdo do ultimo item*/{
+    content: none;
+}
+
+
+
+
+div.botao/*botão para mostrar imagens*/{
+    display: flex;
+    justify-content: center;
+}
+
+ol div.fotos/*Fotos que ilustram o passo a passo*/{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.fotos .img/*spans vazios esperando um background image*/{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+   min-width: 170px;
+    background-image: url(imagens/maisopcoes.jpg);
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0);
+    font-weight: 400;
+    background-size: 100%;
+    background-position: 0px -12px;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    margin: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.fotos .img:nth-of-type(2){
+    background-image: url(imagens/configuracoes.jpg);
+}
+div.fotos .img:nth-of-type(3){
+    background-image: url(imagens/perfil.jpg);
+}
+
+
+
+
+/*---------------------SUMARIO---------------------------*/
+div.sumario{
+   
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+div.sumario .paginadosumario{
+    
+  cursor: unset;
+    max-width: 80px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0;
+   
+}
+div.sumario li::after{
+    content: ">>";
+    margin: 10px;
+    
+}
+div.sumario li:last-of-type::after{
+    content: "";
+}
+
+
+
+
+
+
+.artigos ol{
+    
+    margin: 0em 0em 3em 4em;
+}
+.artigos ul{
+    margin: 0em 0em 5em 4em;
+}
+
+
+
+.artigos ol li,.artigos ul li{
+    font-size: 18px;
+    list-style-type: decimal;
+    margin: 3em 0em 0em 0em;
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.artigos ul li{
+    list-style-type: disc;
+}
+
+.artigos li{
+    letter-spacing: 1px;
+}
+.artigos li.semestilodelista{
+    list-style-type: none;
+    margin: 10px;
+}
+
+
+
+.artigos li img{
+    height: 18px;
+    filter: grayscale(70%) contrast(200%) drop-shadow(0px 0px 2px black);
+    
+}
+.artigos p img{
+    height: 18px;
+    
+}
+
+
+
+h1:nth-of-type(1){
+    justify-content: center;
+}
+
+ol.ajuda,ol.ajuda{
+    margin-bottom: 40px;
+}
+
+ol.ajuda li{
+    margin: 40px 0px;
+    letter-spacing: 5px;
+}
+
+ul.ajuda li{
+    
+    margin: 40px 0px;
+    letter-spacing: 5px;
+  
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: black;
+}
+
+
+
+sup a{
+    padding: 0;
+}
+.artigos:nth-of-type(2){
+    padding: 10px;
+    padding-left: 32px;
+}
+
+
+
+
+@media(max-width:600px){
+    
+    article.artigos{
+        margin-right:  10px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    
+    #indice ul li{
+        margin: 10px 10px;
+    }
+
+    #indice ul li::after{
+        content: none;
+        
+    }
+    .artigos h1{
+        font-size: 2em;
+    }
+    .artigos h2{
+        margin: 10px 0px;
+        font-size: 30px;
+    }
+    .artigos p{
+        font-size: 1em;
+        
+    }
+    .artigos ul,.artigos ol{
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .link:hover{
+        text-decoration: none;
+    }
+   
+    .link:active{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .sumario li{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+

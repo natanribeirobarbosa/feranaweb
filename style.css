@@ -14,8 +14,6 @@ body/*todo o conteúdo do site*/{
     display: flex;
     justify-content: center; 
     background-color: rgb(14, 14, 14);
-   
-    
 }
 
 #corpo/*conteúdo do site, (que fica no meio)*/{
@@ -41,33 +39,43 @@ li/*todos os itens das listas*/{
 }
 
 footer/*rodapé*/{
-    
     background-image: linear-gradient(to top,rgb(34, 34, 34), white);
     width: 100%;
     box-shadow: 0px 0px 15px 01.5px rgba(0, 0, 0, 0.336);
     border-radius:  2em 2em 0em 0em;
     height: 100px;
     position: absolute;
-    
-}   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+}
+
+footer div.redessociais/*container com as redes sociais*/{
+    text-align: center;
+  
+}
+
+footer div.redessociais p/*parágrafos dentro do container de redes sociais*/{
+    margin: 5px;
+}
+
+footer div.redessociais img/*imagens dentro do container de redes sociais*/{
+    filter:  grayscale(100%) contrast(150%) drop-shadow(0 0 3px rgba(0, 0, 0, 0.493));
+    height: 35px;
+}
+
+footer div.mapadosite/*container com as abas do site*/{
+    font-size: 20px;
+}
 
 /*--------------------------------------CABEÇALHO-------------------------------------------*/
 
-.containerdocabeçalho1/*conteiner que hospeda o container que hospeda os itens do cabeçalho*/{   
-    
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    border-radius: 1em;
-    background-color: transparent;
-}
-
-.containerdocabeçalho2/*container que hospeda os itens do cabeçalho*/ {
+.containerdocabeçalho/*container que hospeda os itens do cabeçalho*/ {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100px;
+    height: 65px;
     justify-content: space-between;
     background-image: linear-gradient(to bottom,rgb(34, 34, 34), rgb(223, 223, 223));
     border-radius:  0em 0em 2em 2em;
@@ -76,12 +84,12 @@ footer/*rodapé*/{
 .logo/*logo FERA NA WEB, item 1 do cabeçalho*/{
     display: inline;
     border-radius: 30px;
-    font-size: 1.5em;
-  align-items: center;
-   margin: 10px;
-   font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
-   display: flex;
-   color: rgb(8, 8, 8);
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;
+    font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(8, 8, 8);
 }
 
 .logo .imagemdalogo /*Imagem da logo (planeta)*/{
@@ -89,7 +97,7 @@ footer/*rodapé*/{
     position: relative;
     right: 0px;
     filter: grayscale(100%) contrast(130%);
-    height: 40px;
+    height: 34px;
 }
 
 .logo::after/*texto escrito na logo logo após a imagem*/{
@@ -114,10 +122,10 @@ footer/*rodapé*/{
 }
 
 #menu-mobile section div /*os três traços do menu hamburguer*/{
-    width: 1.5em;
-    height: 4px;
+    width: 23px;
+    height: 3px;
     background-color: rgb(19, 19, 19);
-    margin: 3px;
+    margin: 4px 0px;
     border-radius:100px;
     box-shadow:  0px 0px 3px 0px rgba(0, 0, 0, 0.466);
     transition: 400ms;
@@ -136,7 +144,6 @@ footer/*rodapé*/{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows:  375px;
-    
     margin: auto;
 }
 
@@ -169,7 +176,7 @@ footer/*rodapé*/{
 }
 
 /*----------------------------------TUTORIAIS----------------------------------------*/
-#artigos-c/*Container que hospeda os artigos comuns e recomendados*/{
+.tutoriais/*Container que hospeda os tutoriais na página index*/{
     max-width: 720px;
     background-color: none;
     justify-items: center;
@@ -177,179 +184,144 @@ footer/*rodapé*/{
     box-sizing: border-box;
     grid-template-columns: 1fr 1fr;
     display: grid;
-    min-height: 200px;
     margin: auto;
     gap: 15px;
   }
 
-#artigos-c a/*os artigos comuns ou tutoriais*/{
+.tutoriais a/*os artigos comuns ou tutoriais*/{
     background-image: linear-gradient( rgb(255, 255, 255),rgb(191 191 191) 50%);
-    padding: 1em;
+    padding: 10px;
     border-radius: 1em;
-    max-width: 320px;
-    width: 100%;
     height: 64px;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 12px 2px black;
 }
 
-div.conteudo{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
+.tutoriais h1/*títulos de todos os tutoriais*/{
+font-size: 22px;
 }
 
-/*-------------------------------------Títulos no meio da página----------------------------*/
+/*--------------------------------Títulos no meio da página----------------------*/
 
-
-div.artigosrelacionados{
-    width: 100%;
-    margin: 20px auto;
-}
-.artigosrelacionados{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    font-size: 2em;
-    color: rgb(204, 204, 204);
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    list-style-type: disc;
-
-}
-
-.artigosrelacionados button{
-    padding: 5px;
-    border-radius: 5px;
-    color: rgb(12, 12, 12);
-    font-size: 16px;
-    background-color: rgb(233, 233, 233);
-    font-family: unset;
-    letter-spacing: 2px;
-    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.692);
-    
-}
-.artigosrelacionados button:hover{
-    background-color: rgb(197, 197, 197);
-}
-
-ul.artigosrelacionados{
-    max-width: 600px;
-    margin: 10px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-    justify-content: center;
-    gap: 05px;
-
-}
-
-.bloco{
+.bloco/*container que hospeda a div.artigos relacionados*/{
     background-image: radial-gradient(rgba(177, 177, 177, 0.493), transparent 50%);
     margin-bottom: 20px;
 }
 
-.bloco p.vermais{
+div.filtros/*container que hospeda esses títulos e seus botões*/{
+    width: 100%;
+    margin: 20px auto;
+}
+
+ul.filtros/*container para os butões de filtro*/{
+    max-width: 600px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 05px;
+}
+
+p.filtros/*Títulos no meio da página indicando artgos, tutoriais...*/{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(204, 204, 204);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.filtros button/*todos os botões dentro de qualquer elemento artigos relacionados*/{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(238, 238, 238);
+    font-size: 17px;
+    background-color: rgba(71, 71, 71, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.692);  
+}
+.filtros button:hover/*animação*/{
+    background-color: rgba(197, 197, 197, 0.664);
+}
+@media /*retirando a animação em celulares*/(max-width:1280px) {
+.artigosrelacionados button:hover/*animação*/{
+    background-color: rgb(233, 233, 233);
+}
+}
+
+p.vermais/*botão para ver todos os artigos ou tutoriais*/{
    display: flex;
    justify-content: end;
-   
 }
 
-.bloco p.vermais a{
-    color: #dddddd;
+p.vermais a/*link do botão de ver ver todos*/{
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px rgba(87, 87, 87, 0.692);
+    color: #ffffff;
     margin: auto;
+    font-size: 18px;
 }
 
-@media /**/(max-width:900px){
-    #artigos-c{
-        grid-template-columns: 1fr;
-        
-       }
+@media /*responsividade dos tutoriais, filtros, */(max-width:900px){
+.tutoriais{
+    grid-template-columns: 1fr;
 }
 
-@media /*responsividade*/(max-width:650px){
-    .containerdocabeçalho2{
-        height: 77px;
-
-    }
-    #menu-mobile section div /*os três traços do menu hamburguer*/{
-        height: 2px;
-        width: 20px;
-        margin: 5px;
-
+.tutoriais a{
+    margin: 0px 10px;
 }
-
-    .logo/*logo FERA NA WEB, item 1 do cabeçalho*/{
-        display: inline;
-        border-radius: 30px;
-        font-size: 20px;
-      align-items: center;
-       margin: 10px;
-       font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
-       display: flex;
-       color: rgb(8, 8, 8);
-    }
-
-    #artigos-c a{
-        flex-direction: column-reverse;
-        height: auto;
-        align-items: center;
-        justify-content: end;
-    }
-
-    #artigos-c a{
-        padding: 10px;
-    }
-    #artigos-c a h1{
-        font-size: 18px;
-    }
+ul.filtros{
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 10px;
+}
+ul.filtros button{
+    width: 100%;
    
-    .bloco{
-        background-image: radial-gradient(#dddddd , #00000000 70%);
-    }
-
-
-    /*artigos principais agora ficam escondidos*/
-    #artigos-p {
-        grid-template-columns: 1fr;
-        grid-auto-rows: 230px;
-        width: auto;
-    }
-    .artigosrelacionados{
-        font-size: 25px;
-    }
-    .artigosrelacionados button{
-        width: 150px;
-
-    }
-    ul.artigosrelacionados{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+   
 }
-#artigos-c a .titulos h1{
-    font-family: "Roboto Slab";
-}
-#artigos-c a .titulos h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 500;
-    font-size: 1.2em;
 }
 
+@media /*responsividade do menu hamburguer, logo, artigos principais*/(max-width:650px){
+   
+#menu-mobile section div{
+    height: 2px;
+    width: 20px;
+    margin: 5px;
+}
 
+.logo{
+    display: inline;
+    border-radius: 30px;
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;
+    font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(8, 8, 8);
+}
 
-/*---------------------------------------------LISTAS------------------------------------*/
+#artigos-p {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 230px;
+    width: auto; 
+}
 
+/*melhorando a sombra interna dos filtros*/
+.bloco{
+    background-image: radial-gradient(#dddddd , #00000000 70%);
+}}
 
+/*---------------------------------------LISTAS------------------------------------*/
 
 .itensdomenu/*(links) da lista disposta no menu*/{
     margin: 0px;
     justify-content: left;
     color: rgb(0, 0, 0);
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     letter-spacing: 6px;
     text-align: left;
@@ -367,7 +339,7 @@ ul.artigosrelacionados{
     margin: 0px;
     margin-left: 1em;
 }
-.link:hover{
+.link:hover/*animação*/{
     font-weight: normal;
     letter-spacing: 8px;
 }
@@ -389,512 +361,69 @@ ul.artigosrelacionados{
    transition: 500ms ease-in;
  z-index: 1;
     
-    
-  
-    background-image: linear-gradient(to top,rgb(138, 138, 138),rgba(255, 255, 255, 0.993));
+    background-image: linear-gradient(to top,rgba(138, 138, 138, 0.99),rgba(255, 255, 255, 0.99));
 
 
  
 }
-@media (max-width:700px){
-    #lista0{
+
+@media /*responsividade da lista0 e os itens da lista disposta no menu*/(max-width:770px){
+#lista0{
     max-width: 80%;
     min-width: 10px;
     padding: 20px;
-    }
-    .link{margin: 5px 0px;
-    margin-left: 1em;
-    }
-
-    .itensdomenu/*(links) da lista disposta no menu*/{
-        font-size: 15px;
-        letter-spacing: 2px;
-    }
-    .itensdomenu:hover{
-        letter-spacing: 2px;
-    }
-
-
 }
 
-
-
-#item1,#item2,#item3{
-    transition: 500ms ease-in-out;
-   
-    text-transform: uppercase;
+.itensdomenu{
+    margin: 4px 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.itensdomenu:hover{
+    letter-spacing: 4px;
+}
 }
 
-#lista1,#lista11,#lista111{
-    color: aliceblue;
-    display: none;
+#lista0>ul /*todas as listas depois da lista zero*/{
     margin-left: 20px;
+    display: none;
     transition: 400ms ease-in-out;
     flex-direction: column;
+}
+
+#lista0 ul>ul li{/*Todos os links dentro de todas as listas que estão dentro de outra lista que esta na lista0*/
     border-left: 1px solid black;
-  
+    margin-left: 20px;
 }
 
-#lista2-1,#lista2-2,#lista2-3{
-    flex-direction: column;
-    display: none;
-    
- 
-}
-
-
-.artigos span{
-    letter-spacing: 4px;
-    margin: 0px 5px;
-    background-color: rgba(186, 186, 186, 0.309);
-    padding: 0px 5px;
-    color: rgb(21, 21, 21);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0.125rem 0.25rem;
-   letter-spacing: 1px;
-    width: fit-content;
-    border-radius: 10px;
-    
-}
-/* 
-.artigos span#maisopcoes{
-    padding-right: 25px;
-    background-image: url(https://scontent.whatsapp.net/v/t39.8562-34/118117430_995065920932265_1336446442210986426_n.jpg?stp=cp0_dst-webp_p50x50&ccb=1-5&_nc_sid=8a74b9&_nc_ohc=v3VJEIUTUsUAX8lCRQH&_nc_ht=scontent.whatsapp.net&oh=01_AVw29OAK5IxPcZxJF-hrfZFGPBJ2sZ7UN9jUxay3sbmvOg&oe=6227535F);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-
-}*/
-
-h1.titulo span/*icone ao lado do título*/{
-    filter: grayscale(100%) drop-shadow(0px 0px 2px rgba(0, 0, 0, 1)) ;
-    padding: 15px;
-    display: inline-block; 
-    border-bottom: black;
-   background-color: inherit;
-}
-
-
-.artigos/*Todos os artigos completos,contando com o bloco "ajuda"*/{
-    
-    position: relative;
-    border-radius: 20px;
-    padding: 2em;
-    max-width: 750px;
-    box-sizing: border-box;
-    margin: 0em auto 24px auto;
-    
-    background-image:linear-gradient(to right,rgb(243 243 243), rgb(248, 248, 248),rgb(243, 243, 243));
-   color: #000000;
-    line-height: 1.5em;
-    
-    
-}
-#indice{
-    margin-bottom: 1em;
-}
-
-#indice ul{
-    margin: auto;
+/*---------------------------Voltar ao topo da página----------------------------*/
+div.voltaraotopo/*icone que leva o úsuario ao topo da página*/{  
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    
-    flex-wrap: wrap;
-    
-     
-     
-}
-
-
-#indice ul{
-    list-style-type: none;
-    margin:auto;
-    margin-bottom: 2em;
-}
-#indice li{
- 
-    margin: 10px 0px;
-    list-style-type: none;
-}
-#indice li::after{
-    content: "-";
-    margin: 10px;
-    
-}
-#indice li:last-of-type::after{
-    content: none;
-}
-
-.artigos h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1em;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    color: black;
-    line-height: 1em;
-    
-}
-
-#primeirospassos{
-    line-height: 1em;
-    font-size: 4em;
-}
-
-.artigos h2{
-    margin: 1em 0px 1em 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
-      letter-spacing: 3px;
-      font-size: 3em;
-      color: rgb(0 0 0);
-}
-.artigos h2.primeirospassos{
-    color: rgb(99, 99, 99);
-}
-
-.artigos h4{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-    letter-spacing: 7px;
-    font-size: 1em;
-    color: #000000;
-    margin: 20px 0px 0px 0px;
-}
-.artigos p{
-    text-align: start;
-    word-spacing: 0.1em;
-   
-    margin: 0em;
-    letter-spacing: 2px;
-   text-indent: 1em;
-    font-size: 18px;
-    margin:2em 0em 0em 2em;
-    
-}
-.artigos a{
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
-    color: rgb(0, 0, 0);
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 4px;
-    text-decoration: underline;
-}
-.artigos a.icone{
-    padding: 0px 3px;
-}
-.artigos a:hover{
-    text-decoration: none;
-   
-}
-.artigos em{
-    display: block;
-   text-align: end;
-    padding-left: 30%;
-  color: #0f0f0f;
-}
-.em::before{
-    content: "*";
-}
-
-h1.titulo{
-    font-size: 3em;
-    display: block;
-}
-ol div.fotos:nth-of-type(2)/*Fotos que ilustram o passo a passo*/{
-    
-    
-   /* background-image: url(imagens/WhatsApp1.jpeg),url(imagens/WhatsApp2.1.jpeg);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: 0px -9px,160px -9px;*/
-    
-    display: none;
-  /*  grid-template-columns: repeat(auto-fill,minmax(170px,220px));
-    gap: 5px;
-    grid-auto-rows: minmax(300px,auto);*/
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-div.fotos .img{
-    display: flex;
-    align-items: flex-end;
     justify-content: end;
-   min-width: 170px;
-    background-image: url(imagens/maisopcoes.jpg);
-    box-shadow: 0px 0px 3px 1px rgb(0 0 0);
-    font-weight: 400;
-    background-size: 100%;
-    background-position: 0px -12px;
-    background-repeat: no-repeat;
-    min-height: 250px;
-    margin: 10px;
-    font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-div.fotos .img:nth-of-type(2){
-    background-image: url(imagens/configuracoes.jpg);
-}
-div.fotos .img:nth-of-type(3){
-    background-image: url(imagens/perfil.jpg);
-}
-
-div.botao{
-    display: flex;
-    justify-content: right;
-}
-div.botao span{
-    transition: 200ms;
-    
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-    background-color: unset;
-    color: rgb(76, 76, 76);
-    font-weight: bold;
-  padding: 1em;
-    cursor: pointer;
-  
-}
-
-@media (max-width:450px){
-    h1.titulo span{
-     padding: 0;
-     display: block;
-       top: 0;
-       right: 0;
-       margin: 13px auto;
-     
-        
-    }
-    h1.titulo{
-        font-size: 2em;
-        margin-top: 5px;
-      
-        
-    }
-    #fotos .img{
-        background-position: 0px -20px;
-        max-width: 300px;
-        min-height: 410px;
-        width: 100%;
-    }
-
-}
-
-/*-------------------------------------SUMARIO(Para os artigos)----------------------------*/
-div.sumario{
-   
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 5px;
-    font-size: 1.1em;
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
+    max-width: 900px;
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: left;
-    
-}
-div.sumario .paginadosumario{
-    
-  cursor: unset;
-    max-width: 80px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 0;
-   
-}
-div.sumario li::after{
-    content: ">>";
-    margin: 10px;
-    
-}
-div.sumario li:last-of-type::after{
-    content: "";
 }
 
-
-
-
-
-
-.artigos ol{
-    
-    margin: 0em 0em 3em 4em;
+div.voltaraotopo a/*cubo que compõe a seta*/{ 
+    width: 10px;
+    height: 10px;
+    border: 15px solid rgb(233, 233, 233);
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+    margin: 0px 30px 10px 0px;
 }
-.artigos ul{
-    margin: 0em 0em 5em 4em;
+div.voltaraotopo a:hover/*animação*/{
+    filter: opacity(70%);
+    transition: 200ms;
 }
-
-
-
-.artigos ol li,.artigos ul li{
-    font-size: 18px;
-    list-style-type: decimal;
-    margin: 3em 0em 0em 0em;
-    
-    font-family: Arial, Helvetica, sans-serif
-}
-
-.artigos ul li{
-    list-style-type: disc;
-}
-
-.artigos li{
-    letter-spacing: 2px;
-}
-
-
-.artigos li img{
-    height: 18px;
-    filter: grayscale(70%) contrast(200%) drop-shadow(0px 0px 2px black);
-    
-}
-.artigos p img{
-    height: 18px;
-    
-}
-
-
-
-h1:nth-of-type(1){
-    justify-content: center;
-}
-
-ol.ajuda,ol.ajuda{
-    margin-bottom: 40px;
-}
-
-ol.ajuda li{
-    margin: 40px 0px;
-    letter-spacing: 5px;
-}
-
-ul.ajuda li{
-    
-    margin: 40px 0px;
-    letter-spacing: 5px;
-  
-}
-
-hr{
-    margin-top: 0;
-    margin-bottom: 1em;
-    color: black;
-}
-
-
-
-sup a{
-    padding: 0;
-}
-.artigos:nth-of-type(2){
-    padding: 10px;
-    padding-left: 32px;
-}
-
-
-
-
-@media(max-width:758px){
-    
-    .artigos{
-        margin-right:  5px;
-        margin-left: 5px;
-        padding: 8px;
-    }
-    #indice ul{
-       
-       
-        justify-content: space-around;
-        margin: 1em 0em 1em 0em;
-    }
-
-    #indice ul li::after{
-        content: "";
-        margin: 0;
-        
-    }
-    .artigos h2{
-        margin: 15px 0px 0px 0px;
-        letter-spacing: 3px;
-        font-size: 2.2em;
-       
-    }
-
-    .artigos h4{
-        letter-spacing: 3px;
-        font-size: 1em;
-        color: #161616;
-        margin: 25px 0px 0px 0px;
-    }
-    .artigos p{
-        font-size: 1em;
-        
-    }
-    .artigos ul,.artigos ol{
-        margin-left: 2em;
-        margin-right: 0;
-    }
-   
-    
-  
-    .link:hover{
-       
-        text-decoration: none;
-   
-   
-    }
-   
-    .link:active{
-        font-weight: bold;
-        text-decoration: underline;
-    }
-    .sumario li{
-        margin-bottom: 5px;
+@media(max-width:700px){
+    div.voltaraotopo a:hover/*animação*/{
+        filter: none;
+        transition: 200ms;
     }
 }
 
 
-
-
-/*lixeira*/
-
-
-/*-----------------------------ARTIGOS RECOMENDADOS---------------------------------------*/
-
-#recomendados a/*artigos comuns*/{
-    justify-content: center;
-    background-image: linear-gradient( rgb(255, 255, 255),rgb(160, 160, 160));
-    background-position: right top;
-    max-width: 500px;
-    width: 100%;
-    max-height: 120px;
-    margin: 10px auto;
-    display: flex;
-    border-radius: 1em;
-    align-items: center;
-    transition: 150ms;
-   
-}
-#recomendados a:hover/*animação dos artigos comuns*/{
-    max-width: 520px;
-    transition: 150ms;
-}
-
-#recomendados a article/*conteúdo dos artigos recomendados*/{
-  padding: 1em;
-}
-
-#recomendados article:hover h1/*animação dos títulos dos artigos comuns*/{
-  text-decoration: underline;
-  transition: 300ms;
-    
-}
+/*-----------------artigos escritos------------------------------------*/
