@@ -20,7 +20,7 @@ article.artigos/*Tutorial completo*/{
     text-align: center;
     color: black;
 }
-.artigos h1.titulo{
+.artigos h1#titulo{
     line-height: normal;
 }
 
@@ -93,9 +93,9 @@ h1.titulo span/*icone ao lado do título*/{
 
 .artigos em/*observações do tutorial*/{
     display: block;
-   text-align: end;
-    padding-left: 30%;
-  color: #0f0f0f;
+   text-align: start;
+   margin: 0px;
+  color: #0f0f0fb9;
 }
 .em::before/*conteúdo inserido antes de cada observação*/{
     content: "*";
@@ -207,7 +207,7 @@ div.sumario li::after{
     
 }
 div.sumario li:last-of-type::after{
-    content: "";
+    content:none;
 }
 
 
@@ -215,20 +215,17 @@ div.sumario li:last-of-type::after{
 
 
 
-.artigos ol{
-    
-    margin: 0em 0em 3em 4em;
-}
-.artigos ul{
-    margin: 0em 0em 5em 4em;
+.artigos ol,.artigos ul{
+    margin: 0em 0em 1em 2em;
 }
 
 
 
-.artigos ol li,.artigos ul li{
+
+.artigos li{
     font-size: 18px;
     list-style-type: decimal;
-    margin: 3em 0em 0em 0em;
+    margin-top: 1.5em;
     
     font-family: Arial, Helvetica, sans-serif
 }
@@ -263,21 +260,9 @@ h1:nth-of-type(1){
     justify-content: center;
 }
 
-ol.ajuda,ol.ajuda{
-    margin-bottom: 40px;
-}
 
-ol.ajuda li{
-    margin: 40px 0px;
-    letter-spacing: 5px;
-}
 
-ul.ajuda li{
-    
-    margin: 40px 0px;
-    letter-spacing: 5px;
-  
-}
+
 
 hr{
     margin-top: 0;
@@ -345,3 +330,15 @@ sup a{
 
 
 
+/*tutoriais relacionados*/
+img.iconederedesocial{
+    filter:  grayscale(100%) contrast(200%);
+    height: 25px;
+}
+
+.iconedotutorial{
+    margin: 10px;
+    position: absolute;
+    left: 0;
+  
+}

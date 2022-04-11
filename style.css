@@ -43,12 +43,12 @@ footer/*rodapé*/{
     width: 100%;
     box-shadow: 0px 0px 15px 01.5px rgba(0, 0, 0, 0.336);
     border-radius:  2em 2em 0em 0em;
-    height: 100px;
+    min-height: 100px;
     position: absolute;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 footer div.redessociais/*container com as redes sociais*/{
@@ -58,15 +58,29 @@ footer div.redessociais/*container com as redes sociais*/{
 
 footer div.redessociais p/*parágrafos dentro do container de redes sociais*/{
     margin: 5px;
+    text-shadow: 0px 0px 15px white;
 }
 
 footer div.redessociais img/*imagens dentro do container de redes sociais*/{
     filter:  grayscale(100%) contrast(150%) drop-shadow(0 0 3px rgba(0, 0, 0, 0.493));
     height: 35px;
 }
+@media(max-width:560px){
+    footer div.redessociais img{
+        height: 30px;
+       
+    }
+
+
+}
+
 
 footer div.mapadosite/*container com as abas do site*/{
-    font-size: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 0px 0px 15px white;
 }
 
 /*--------------------------------------CABEÇALHO-------------------------------------------*/
@@ -79,7 +93,10 @@ footer div.mapadosite/*container com as abas do site*/{
     justify-content: space-between;
     background-image: linear-gradient(to bottom,rgb(34, 34, 34), rgb(223, 223, 223));
     border-radius:  0em 0em 2em 2em;
+  
+  
 }
+
 
 .logo/*logo FERA NA WEB, item 1 do cabeçalho*/{
     display: inline;
@@ -90,6 +107,7 @@ footer div.mapadosite/*container com as abas do site*/{
     font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
     display: flex;
     color: rgb(8, 8, 8);
+    filter: drop-shadow(0px 0px 15px white);
 }
 
 .logo .imagemdalogo /*Imagem da logo (planeta)*/{
@@ -119,6 +137,7 @@ footer div.mapadosite/*container com as abas do site*/{
     align-items: center;
     padding: 0em;
     user-select: none;
+    filter: drop-shadow(0px 0px 15px white);
 }
 
 #menu-mobile section div /*os três traços do menu hamburguer*/{
@@ -129,6 +148,7 @@ footer div.mapadosite/*container com as abas do site*/{
     border-radius:100px;
     box-shadow:  0px 0px 3px 0px rgba(0, 0, 0, 0.466);
     transition: 400ms;
+    
 }
 
 #menu-mobile:hover section div/*animação do menu hamburguer*/{
@@ -188,7 +208,7 @@ footer div.mapadosite/*container com as abas do site*/{
     gap: 15px;
   }
 
-.tutoriais a/*os artigos comuns ou tutoriais*/{
+.tutoriais a/*os tutoriais*/{
     background-image: linear-gradient( rgb(255, 255, 255),rgb(191 191 191) 50%);
     padding: 10px;
     border-radius: 1em;
@@ -196,6 +216,9 @@ footer div.mapadosite/*container com as abas do site*/{
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 12px 2px black;
+    position: relative;
+    padding-left: 40px;
+    width: 302px;
 }
 
 .tutoriais h1/*títulos de todos os tutoriais*/{
@@ -242,10 +265,14 @@ p.filtros/*Títulos no meio da página indicando artgos, tutoriais...*/{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.692);  
+
 }
 .filtros button:hover/*animação*/{
     background-color: rgba(197, 197, 197, 0.664);
 }
+
+
+
 @media /*retirando a animação em celulares*/(max-width:1280px) {
 .artigosrelacionados button:hover/*animação*/{
     background-color: rgb(233, 233, 233);
@@ -384,7 +411,7 @@ ul.filtros button{
 }
 }
 
-#lista0>ul /*todas as listas depois da lista zero*/{
+#lista0 ul /*todas as listas depois da lista zero*/{
     margin-left: 20px;
     display: none;
     transition: 400ms ease-in-out;
@@ -406,9 +433,9 @@ div.voltaraotopo/*icone que leva o úsuario ao topo da página*/{
 }
 
 div.voltaraotopo a/*cubo que compõe a seta*/{ 
-    width: 10px;
-    height: 10px;
-    border: 15px solid rgb(233, 233, 233);
+    width: 5px;
+    height: 5px;
+    border: 12px solid rgb(233, 233, 233);
     border-bottom: none;
     border-right: none;
     transform: rotate(45deg);

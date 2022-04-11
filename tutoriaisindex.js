@@ -24,33 +24,15 @@ var whatsaap= {
     link:[link1,link2,link3,link4,link6,link7,link8,link9]
 }
 
-var numerodetutoriaiswhatsaap=whatsaap.nome.length
 
+tutoriaiswhatsaap()
 
-
-
-
-deletetutoriaiswhatsaap(numerodetutoriaiswhatsaap)
-
-function deletetutoriaiswhatsaap(t) {
-   
-    let contador=0
-
-    while (contador<=(24-t)) {
-       let tutorialatual =document.querySelector('div.tutoriais a:last-of-type')
-        tutorialatual.parentNode.removeChild(tutorialatual);
-        contador++
-    } 
-}
-
-tutoriaiswhatsaap(whatsaap.nome.length)
-
-function tutoriaiswhatsaap(t) {
+function tutoriaiswhatsaap() {
     
     let contador=1
-    console.log(t)
+  
     
-    while (contador<=t) {
+    while (contador<=6) {
        let elementoatual=document.querySelector(`.tutoriais a:nth-of-type(${contador}) h1`)
         elementoatual.id=`tutorial${contador}`
         document.getElementById(`tutorial${contador}`).innerHTML=whatsaap.nome[contador-1]
