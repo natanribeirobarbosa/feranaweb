@@ -331,14 +331,3 @@ sup a{
 
 
 /*tutoriais relacionados*/
-img.iconederedesocial{
-    filter:  grayscale(100%) contrast(200%);
-    height: 25px;
-}
-
-.iconedotutorial{
-    margin: 10px;
-    position: absolute;
-    left: 0;
-  
-}

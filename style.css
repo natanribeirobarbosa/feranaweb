@@ -8,12 +8,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 body/*todo o conteúdo do site*/{
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center; 
     background-color: rgb(14, 14, 14);
+   
 }
 
 #corpo/*conteúdo do site, (que fica no meio)*/{
@@ -57,7 +60,7 @@ footer div.redessociais/*container com as redes sociais*/{
 }
 
 footer div.redessociais p/*parágrafos dentro do container de redes sociais*/{
-    margin: 5px;
+    
     text-shadow: 0px 0px 15px white;
 }
 
@@ -78,7 +81,7 @@ footer div.redessociais img/*imagens dentro do container de redes sociais*/{
 footer div.mapadosite/*container com as abas do site*/{
     font-size: 18px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     text-shadow: 0px 0px 15px white;
 }
@@ -197,7 +200,7 @@ footer div.mapadosite/*container com as abas do site*/{
 
 /*----------------------------------TUTORIAIS----------------------------------------*/
 .tutoriais/*Container que hospeda os tutoriais na página index*/{
-    max-width: 720px;
+    max-width: max-content;
     background-color: none;
     justify-items: center;
     flex-direction: column;
@@ -205,24 +208,34 @@ footer div.mapadosite/*container com as abas do site*/{
     grid-template-columns: 1fr 1fr;
     display: grid;
     margin: auto;
-    gap: 15px;
+    gap: 10px;
   }
 
-.tutoriais a/*os tutoriais*/{
+.tutoriais a.tutorial/*os tutoriais*/{
     background-image: linear-gradient( rgb(255, 255, 255),rgb(191 191 191) 50%);
-    padding: 10px;
+    padding: 5px;
     border-radius: 1em;
     height: 64px;
     display: flex;
     align-items: center;
     box-shadow: 0px 0px 12px 2px black;
     position: relative;
-    padding-left: 40px;
+    padding-left: 50px;
     width: 302px;
 }
 
+div.iconedotutorial/*container que hospeda a imagem do tutorial*/{
+    position: absolute;
+    left: 0;
+}
+img.iconederedesocial/*imagem do tutorial*/{
+    height: 30px;
+    margin: 10px;
+}
+
 .tutoriais h1/*títulos de todos os tutoriais*/{
-font-size: 22px;
+font-size: 18px;
+margin: 0px;
 }
 
 /*--------------------------------Títulos no meio da página----------------------*/
@@ -259,7 +272,7 @@ p.filtros/*Títulos no meio da página indicando artgos, tutoriais...*/{
 .filtros button/*todos os botões dentro de qualquer elemento artigos relacionados*/{
     padding: 5px 15px;
     border-radius: 5px;
-    color: rgb(238, 238, 238);
+    color: rgb(255, 255, 255);
     font-size: 17px;
     background-color: rgba(71, 71, 71, 0.685);
     font-family: Arial, Helvetica, sans-serif;
@@ -270,6 +283,8 @@ p.filtros/*Títulos no meio da página indicando artgos, tutoriais...*/{
 .filtros button:hover/*animação*/{
     background-color: rgba(197, 197, 197, 0.664);
 }
+
+
 
 
 
@@ -285,7 +300,7 @@ p.vermais/*botão para ver todos os artigos ou tutoriais*/{
 }
 
 p.vermais a/*link do botão de ver ver todos*/{
-    text-decoration: underline;
+    cursor: pointer;
     text-shadow: 0px 0px 20px rgba(87, 87, 87, 0.692);
     color: #ffffff;
     margin: auto;
@@ -363,7 +378,7 @@ ul.filtros button{
     font-size: 18px;
     list-style-type: circle;
     letter-spacing: 6px;
-    margin: 0px;
+    margin: 7px 0px;
     margin-left: 1em;
 }
 .link:hover/*animação*/{
@@ -376,22 +391,17 @@ ul.filtros button{
     display: none;
     flex-direction: column;
     width: max-content;
+    max-width: 600px;
     
+    overflow: auto;
     position: absolute;
     padding: 30px;
     border-radius: 20px;
-   
-   
     border-top: 40px solid rgba(0, 0, 0, 0.774) ;
     margin: 10px;
-    
-   transition: 500ms ease-in;
- z-index: 1;
-    
+    transition: 500ms ease-in;
+    z-index: 1;
     background-image: linear-gradient(to top,rgba(138, 138, 138, 0.99),rgba(255, 255, 255, 0.99));
-
-
- 
 }
 
 @media /*responsividade da lista0 e os itens da lista disposta no menu*/(max-width:770px){
@@ -413,7 +423,7 @@ ul.filtros button{
 
 #lista0 ul /*todas as listas depois da lista zero*/{
     margin-left: 20px;
-    display: none;
+    display: flex;
     transition: 400ms ease-in-out;
     flex-direction: column;
 }
