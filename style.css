@@ -389,8 +389,9 @@ p.vermais span/*informações acima dos tutoriais*/{
     grid-template-columns: 1fr;
 }
 
-.tutoriais a{
+.tutoriais a.tutoriais{
     margin: 0px 10px;
+
 }
 
 }
@@ -527,4 +528,3 @@ div.voltaraotopo a:hover/*animação*/{
 }
 
 
-/*-----------------artigos escritos------------------------------------*/
