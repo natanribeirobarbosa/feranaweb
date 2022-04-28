@@ -1,8 +1,8 @@
 
 
-window.document.getElementById('lista0').style.display="flex"
-window.document.getElementById('lista1').style.display="flex"
-window.document.getElementById('lista11').style.display="flex"
+window.document.getElementById('lista0').style.display="none"
+window.document.getElementById('lista1').style.display="none"
+window.document.getElementById('lista11').style.display="none"
 /*LISTAS-----------------------------------------------------------------------------------*/
 function lista0animacao() {
  

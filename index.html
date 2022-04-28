@@ -46,34 +46,7 @@
          
 
 <ul id="lista0">    
-    <li><a class="itensdomenu" id="i1" href="#" onclick="lista1()">WhatsApp</a></li>
-    
-    <ul id="lista1">
-        <li><a href="#" class="itensdomenu" id="i11" onclick="lista11()">Tutoriais WhatsApp</a></li>
-
-        <ul id="lista11">
-            
-        </ul></ul>
-    
-    <li><a class="itensdomenu" id="i2" href="#" onclick="lista1()">Facebook</a></li>
-
-    <ul id="lista2">
-        <li><a class="itensdomenu" href="">Ppppppp</a></li>
-        <ul id="lista21">
-            <li><a href="artigo1.html" class="itensdomenu link" id="i111">Como instalar o WhatsApp</a></li>
-                <ul id="lista21">
-                    
-                </ul>
-                            
-        </ul>
-        
-    </ul>
-    <li><a class="itensdomenu" id="i3" href="#" onclick="lista1()">Instagram</a></li>
-    <li><a class="itensdomenu" id="i4" href="#" onclick="lista1()">Twitter</a></li>
-    <li><a class="itensdomenu" id="i5" href="#" onclick="lista1()">Telegram</a></li>
-    <li><a class="itensdomenu" id="i6" href="#" onclick="lista1()">Gmail</a></li>
-    <li><a class="itensdomenu" id="i7" href="#" onclick="lista1()">Discord</a></li>
-    <li><a class="itensdomenu" id="i8" href="#" onclick="lista1()">Canva</a></li>
+  
 
     </ul>
 
@@ -81,14 +54,14 @@
         <div class="bloco">
             <div class="filtros">
                 <p class="filtros">Artigos</p>
-                <ul class="filtros">
+                <ul class="filtros" id="filtroArtigos">
                     <button>Tecnologia</button>
                     <button>Entretenimento</button>
                     <button>Games</button>
                     <button>Educação</button>
                 </ul>
             </div>
-            
+            </div>
                 <div id="artigos-p">
                     <article class="artigo-p">
                         <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
@@ -106,29 +79,34 @@
                     </article>
                 </div>
                 <p class="vermais"><a href="tutoriais.html">ver todos artigos</a></p>     
-        </div>
+        
 
           
             <div class="bloco">
+                <h1 id="tutoriais" class="filtros">Tutoriais</h1>
                 <div class="filtros">
-                    <p class="filtros">Tutoriais</p>
-                    <ul class="filtros">
-                        <button id="whats" onclick="tutoriaiswhatsaap()">Whatsaap</button>
-                        <button>Facebook</button>
-                        <button>Instagram</button>
-                        <button>Twitter</button>
-                        <button>Telegram</button>
-                        <button>Gmail</button>
-                        <button>Discord</button>
-                        <button>Canva</button>
+                    
+                    <ul class="filtros" id="filtro1">
+                    </ul>
+                    
+                    <ul id="filtro2"> 
                     </ul>
                 </div>
-              
-    <div class="tutoriais" id="listadetutoriais"></div>
+                    <div>
+                        
+                        
+                        
+                    </div>
+                </div>
+    <p class="vermais">
+        <label for="pesquisar" id="campopesquisa">perquisar: <input type="text" name="perquisar" id="pesquisa"></label>
+        <span id="resultados"></span><a onclick="tutoriaiswhatsaap()" id="esconder">esconder[x]</a></p> 
+    <div class="tutoriais" id="listadetutoriais">[ERRO] tutoriais não carregados!</div>
+    <div id="vermais"></div>
    
-<p class="vermais"><a onclick="tutoriaiswhatsaap()" id="esconder" >esconder[x]</a><a onclick="vermais()" id="vermais" >mais[v]</a></p>     
+
                      
-</div>
+
         
 <div class="voltaraotopo">
 <a href="#corpo"></a>
@@ -154,10 +132,10 @@
 </footer>
 
 </div>    
-
-</body>
 <script src="js.js"></script>
-<script src="tutoriais.js"></script>
+<script src="index.js"></script>
 <script src="dados.js"></script>
+</body>
+
 
 </html>
